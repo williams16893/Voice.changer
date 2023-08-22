@@ -1,0 +1,10151 @@
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em
+}
+
+.fa-xs {
+    font-size: .75em
+}
+
+.fa-sm {
+    font-size: .875em
+}
+
+.fa-1x {
+    font-size: 1em
+}
+
+.fa-2x {
+    font-size: 2em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+
+.fa-6x {
+    font-size: 6em
+}
+
+.fa-7x {
+    font-size: 7em
+}
+
+.fa-8x {
+    font-size: 8em
+}
+
+.fa-9x {
+    font-size: 9em
+}
+
+.fa-10x {
+    font-size: 10em
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0
+}
+
+.fa-ul>li {
+    position: relative
+}
+
+.fa-li {
+    left: -2em;
+    line-height: inherit;
+    position: absolute;
+    text-align: center;
+    width: 2em
+}
+
+.fa-border {
+    border: .08em solid #eee;
+    border-radius: .1em;
+    padding: .2em .25em .15em
+}
+
+.fa-pull-left {
+    float: left
+}
+
+.fa-pull-right {
+    float: right
+}
+
+.fa.fa-pull-left,
+.fab.fa-pull-left,
+.fal.fa-pull-left,
+.far.fa-pull-left,
+.fas.fa-pull-left {
+    margin-right: .3em
+}
+
+.fa.fa-pull-right,
+.fab.fa-pull-right,
+.fal.fa-pull-right,
+.far.fa-pull-right,
+.fas.fa-pull-right {
+    margin-left: .3em
+}
+
+.fa-spin {
+    animation: fa-spin 2s linear infinite
+}
+
+.fa-pulse {
+    animation: fa-spin 1s steps(8) infinite
+}
+
+@keyframes fa-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.fa-rotate-90 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    transform: rotate(90deg)
+}
+
+.fa-rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    transform: rotate(180deg)
+}
+
+.fa-rotate-270 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    transform: rotate(270deg)
+}
+
+.fa-flip-horizontal {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    transform: scaleX(-1)
+}
+
+.fa-flip-vertical {
+    transform: scaleY(-1)
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical,
+.fa-flip-vertical {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+    transform: scale(-1)
+}
+
+:root .fa-flip-both,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-rotate-90 {
+    filter: none
+}
+
+.fa-stack {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2.5em
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+
+.fa-stack-1x {
+    line-height: inherit
+}
+
+.fa-stack-2x {
+    font-size: 2em
+}
+
+.fa-inverse {
+    color: #fff
+}
+
+.fa-500px:before {
+    content: "\f26e"
+}
+
+.fa-accessible-icon:before {
+    content: "\f368"
+}
+
+.fa-accusoft:before {
+    content: "\f369"
+}
+
+.fa-acquisitions-incorporated:before {
+    content: "\f6af"
+}
+
+.fa-ad:before {
+    content: "\f641"
+}
+
+.fa-address-book:before {
+    content: "\f2b9"
+}
+
+.fa-address-card:before {
+    content: "\f2bb"
+}
+
+.fa-adjust:before {
+    content: "\f042"
+}
+
+.fa-adn:before {
+    content: "\f170"
+}
+
+.fa-adversal:before {
+    content: "\f36a"
+}
+
+.fa-affiliatetheme:before {
+    content: "\f36b"
+}
+
+.fa-air-freshener:before {
+    content: "\f5d0"
+}
+
+.fa-airbnb:before {
+    content: "\f834"
+}
+
+.fa-algolia:before {
+    content: "\f36c"
+}
+
+.fa-align-center:before {
+    content: "\f037"
+}
+
+.fa-align-justify:before {
+    content: "\f039"
+}
+
+.fa-align-left:before {
+    content: "\f036"
+}
+
+.fa-align-right:before {
+    content: "\f038"
+}
+
+.fa-alipay:before {
+    content: "\f642"
+}
+
+.fa-allergies:before {
+    content: "\f461"
+}
+
+.fa-amazon:before {
+    content: "\f270"
+}
+
+.fa-amazon-pay:before {
+    content: "\f42c"
+}
+
+.fa-ambulance:before {
+    content: "\f0f9"
+}
+
+.fa-american-sign-language-interpreting:before {
+    content: "\f2a3"
+}
+
+.fa-amilia:before {
+    content: "\f36d"
+}
+
+.fa-anchor:before {
+    content: "\f13d"
+}
+
+.fa-android:before {
+    content: "\f17b"
+}
+
+.fa-angellist:before {
+    content: "\f209"
+}
+
+.fa-angle-double-down:before {
+    content: "\f103"
+}
+
+.fa-angle-double-left:before {
+    content: "\f100"
+}
+
+.fa-angle-double-right:before {
+    content: "\f101"
+}
+
+.fa-angle-double-up:before {
+    content: "\f102"
+}
+
+.fa-angle-down:before {
+    content: "\f107"
+}
+
+.fa-angle-left:before {
+    content: "\f104"
+}
+
+.fa-angle-right:before {
+    content: "\f105"
+}
+
+.fa-angle-up:before {
+    content: "\f106"
+}
+
+.fa-angry:before {
+    content: "\f556"
+}
+
+.fa-angrycreative:before {
+    content: "\f36e"
+}
+
+.fa-angular:before {
+    content: "\f420"
+}
+
+.fa-ankh:before {
+    content: "\f644"
+}
+
+.fa-app-store:before {
+    content: "\f36f"
+}
+
+.fa-app-store-ios:before {
+    content: "\f370"
+}
+
+.fa-apper:before {
+    content: "\f371"
+}
+
+.fa-apple:before {
+    content: "\f179"
+}
+
+.fa-apple-alt:before {
+    content: "\f5d1"
+}
+
+.fa-apple-pay:before {
+    content: "\f415"
+}
+
+.fa-archive:before {
+    content: "\f187"
+}
+
+.fa-archway:before {
+    content: "\f557"
+}
+
+.fa-arrow-alt-circle-down:before {
+    content: "\f358"
+}
+
+.fa-arrow-alt-circle-left:before {
+    content: "\f359"
+}
+
+.fa-arrow-alt-circle-right:before {
+    content: "\f35a"
+}
+
+.fa-arrow-alt-circle-up:before {
+    content: "\f35b"
+}
+
+.fa-arrow-circle-down:before {
+    content: "\f0ab"
+}
+
+.fa-arrow-circle-left:before {
+    content: "\f0a8"
+}
+
+.fa-arrow-circle-right:before {
+    content: "\f0a9"
+}
+
+.fa-arrow-circle-up:before {
+    content: "\f0aa"
+}
+
+.fa-arrow-down:before {
+    content: "\f063"
+}
+
+.fa-arrow-left:before {
+    content: "\f060"
+}
+
+.fa-arrow-right:before {
+    content: "\f061"
+}
+
+.fa-arrow-up:before {
+    content: "\f062"
+}
+
+.fa-arrows-alt:before {
+    content: "\f0b2"
+}
+
+.fa-arrows-alt-h:before {
+    content: "\f337"
+}
+
+.fa-arrows-alt-v:before {
+    content: "\f338"
+}
+
+.fa-artstation:before {
+    content: "\f77a"
+}
+
+.fa-assistive-listening-systems:before {
+    content: "\f2a2"
+}
+
+.fa-asterisk:before {
+    content: "\f069"
+}
+
+.fa-asymmetrik:before {
+    content: "\f372"
+}
+
+.fa-at:before {
+    content: "\f1fa"
+}
+
+.fa-atlas:before {
+    content: "\f558"
+}
+
+.fa-atlassian:before {
+    content: "\f77b"
+}
+
+.fa-atom:before {
+    content: "\f5d2"
+}
+
+.fa-audible:before {
+    content: "\f373"
+}
+
+.fa-audio-description:before {
+    content: "\f29e"
+}
+
+.fa-autoprefixer:before {
+    content: "\f41c"
+}
+
+.fa-avianex:before {
+    content: "\f374"
+}
+
+.fa-aviato:before {
+    content: "\f421"
+}
+
+.fa-award:before {
+    content: "\f559"
+}
+
+.fa-aws:before {
+    content: "\f375"
+}
+
+.fa-baby:before {
+    content: "\f77c"
+}
+
+.fa-baby-carriage:before {
+    content: "\f77d"
+}
+
+.fa-backspace:before {
+    content: "\f55a"
+}
+
+.fa-backward:before {
+    content: "\f04a"
+}
+
+.fa-bacon:before {
+    content: "\f7e5"
+}
+
+.fa-bacteria:before {
+    content: "\e059"
+}
+
+.fa-bacterium:before {
+    content: "\e05a"
+}
+
+.fa-bahai:before {
+    content: "\f666"
+}
+
+.fa-balance-scale:before {
+    content: "\f24e"
+}
+
+.fa-balance-scale-left:before {
+    content: "\f515"
+}
+
+.fa-balance-scale-right:before {
+    content: "\f516"
+}
+
+.fa-ban:before {
+    content: "\f05e"
+}
+
+.fa-band-aid:before {
+    content: "\f462"
+}
+
+.fa-bandcamp:before {
+    content: "\f2d5"
+}
+
+.fa-barcode:before {
+    content: "\f02a"
+}
+
+.fa-bars:before {
+    content: "\f0c9"
+}
+
+.fa-baseball-ball:before {
+    content: "\f433"
+}
+
+.fa-basketball-ball:before {
+    content: "\f434"
+}
+
+.fa-bath:before {
+    content: "\f2cd"
+}
+
+.fa-battery-empty:before {
+    content: "\f244"
+}
+
+.fa-battery-full:before {
+    content: "\f240"
+}
+
+.fa-battery-half:before {
+    content: "\f242"
+}
+
+.fa-battery-quarter:before {
+    content: "\f243"
+}
+
+.fa-battery-three-quarters:before {
+    content: "\f241"
+}
+
+.fa-battle-net:before {
+    content: "\f835"
+}
+
+.fa-bed:before {
+    content: "\f236"
+}
+
+.fa-beer:before {
+    content: "\f0fc"
+}
+
+.fa-behance:before {
+    content: "\f1b4"
+}
+
+.fa-behance-square:before {
+    content: "\f1b5"
+}
+
+.fa-bell:before {
+    content: "\f0f3"
+}
+
+.fa-bell-slash:before {
+    content: "\f1f6"
+}
+
+.fa-bezier-curve:before {
+    content: "\f55b"
+}
+
+.fa-bible:before {
+    content: "\f647"
+}
+
+.fa-bicycle:before {
+    content: "\f206"
+}
+
+.fa-biking:before {
+    content: "\f84a"
+}
+
+.fa-bimobject:before {
+    content: "\f378"
+}
+
+.fa-binoculars:before {
+    content: "\f1e5"
+}
+
+.fa-biohazard:before {
+    content: "\f780"
+}
+
+.fa-birthday-cake:before {
+    content: "\f1fd"
+}
+
+.fa-bitbucket:before {
+    content: "\f171"
+}
+
+.fa-bitcoin:before {
+    content: "\f379"
+}
+
+.fa-bity:before {
+    content: "\f37a"
+}
+
+.fa-black-tie:before {
+    content: "\f27e"
+}
+
+.fa-blackberry:before {
+    content: "\f37b"
+}
+
+.fa-blender:before {
+    content: "\f517"
+}
+
+.fa-blender-phone:before {
+    content: "\f6b6"
+}
+
+.fa-blind:before {
+    content: "\f29d"
+}
+
+.fa-blog:before {
+    content: "\f781"
+}
+
+.fa-blogger:before {
+    content: "\f37c"
+}
+
+.fa-blogger-b:before {
+    content: "\f37d"
+}
+
+.fa-bluetooth:before {
+    content: "\f293"
+}
+
+.fa-bluetooth-b:before {
+    content: "\f294"
+}
+
+.fa-bold:before {
+    content: "\f032"
+}
+
+.fa-bolt:before {
+    content: "\f0e7"
+}
+
+.fa-bomb:before {
+    content: "\f1e2"
+}
+
+.fa-bone:before {
+    content: "\f5d7"
+}
+
+.fa-bong:before {
+    content: "\f55c"
+}
+
+.fa-book:before {
+    content: "\f02d"
+}
+
+.fa-book-dead:before {
+    content: "\f6b7"
+}
+
+.fa-book-medical:before {
+    content: "\f7e6"
+}
+
+.fa-book-open:before {
+    content: "\f518"
+}
+
+.fa-book-reader:before {
+    content: "\f5da"
+}
+
+.fa-bookmark:before {
+    content: "\f02e"
+}
+
+.fa-bootstrap:before {
+    content: "\f836"
+}
+
+.fa-border-all:before {
+    content: "\f84c"
+}
+
+.fa-border-none:before {
+    content: "\f850"
+}
+
+.fa-border-style:before {
+    content: "\f853"
+}
+
+.fa-bowling-ball:before {
+    content: "\f436"
+}
+
+.fa-box:before {
+    content: "\f466"
+}
+
+.fa-box-open:before {
+    content: "\f49e"
+}
+
+.fa-box-tissue:before {
+    content: "\e05b"
+}
+
+.fa-boxes:before {
+    content: "\f468"
+}
+
+.fa-braille:before {
+    content: "\f2a1"
+}
+
+.fa-brain:before {
+    content: "\f5dc"
+}
+
+.fa-bread-slice:before {
+    content: "\f7ec"
+}
+
+.fa-briefcase:before {
+    content: "\f0b1"
+}
+
+.fa-briefcase-medical:before {
+    content: "\f469"
+}
+
+.fa-broadcast-tower:before {
+    content: "\f519"
+}
+
+.fa-broom:before {
+    content: "\f51a"
+}
+
+.fa-brush:before {
+    content: "\f55d"
+}
+
+.fa-btc:before {
+    content: "\f15a"
+}
+
+.fa-buffer:before {
+    content: "\f837"
+}
+
+.fa-bug:before {
+    content: "\f188"
+}
+
+.fa-building:before {
+    content: "\f1ad"
+}
+
+.fa-bullhorn:before {
+    content: "\f0a1"
+}
+
+.fa-bullseye:before {
+    content: "\f140"
+}
+
+.fa-burn:before {
+    content: "\f46a"
+}
+
+.fa-buromobelexperte:before {
+    content: "\f37f"
+}
+
+.fa-bus:before {
+    content: "\f207"
+}
+
+.fa-bus-alt:before {
+    content: "\f55e"
+}
+
+.fa-business-time:before {
+    content: "\f64a"
+}
+
+.fa-buy-n-large:before {
+    content: "\f8a6"
+}
+
+.fa-buysellads:before {
+    content: "\f20d"
+}
+
+.fa-calculator:before {
+    content: "\f1ec"
+}
+
+.fa-calendar:before {
+    content: "\f133"
+}
+
+.fa-calendar-alt:before {
+    content: "\f073"
+}
+
+.fa-calendar-check:before {
+    content: "\f274"
+}
+
+.fa-calendar-day:before {
+    content: "\f783"
+}
+
+.fa-calendar-minus:before {
+    content: "\f272"
+}
+
+.fa-calendar-plus:before {
+    content: "\f271"
+}
+
+.fa-calendar-times:before {
+    content: "\f273"
+}
+
+.fa-calendar-week:before {
+    content: "\f784"
+}
+
+.fa-camera:before {
+    content: "\f030"
+}
+
+.fa-camera-retro:before {
+    content: "\f083"
+}
+
+.fa-campground:before {
+    content: "\f6bb"
+}
+
+.fa-canadian-maple-leaf:before {
+    content: "\f785"
+}
+
+.fa-candy-cane:before {
+    content: "\f786"
+}
+
+.fa-cannabis:before {
+    content: "\f55f"
+}
+
+.fa-capsules:before {
+    content: "\f46b"
+}
+
+.fa-car:before {
+    content: "\f1b9"
+}
+
+.fa-car-alt:before {
+    content: "\f5de"
+}
+
+.fa-car-battery:before {
+    content: "\f5df"
+}
+
+.fa-car-crash:before {
+    content: "\f5e1"
+}
+
+.fa-car-side:before {
+    content: "\f5e4"
+}
+
+.fa-caravan:before {
+    content: "\f8ff"
+}
+
+.fa-caret-down:before {
+    content: "\f0d7"
+}
+
+.fa-caret-left:before {
+    content: "\f0d9"
+}
+
+.fa-caret-right:before {
+    content: "\f0da"
+}
+
+.fa-caret-square-down:before {
+    content: "\f150"
+}
+
+.fa-caret-square-left:before {
+    content: "\f191"
+}
+
+.fa-caret-square-right:before {
+    content: "\f152"
+}
+
+.fa-caret-square-up:before {
+    content: "\f151"
+}
+
+.fa-caret-up:before {
+    content: "\f0d8"
+}
+
+.fa-carrot:before {
+    content: "\f787"
+}
+
+.fa-cart-arrow-down:before {
+    content: "\f218"
+}
+
+.fa-cart-plus:before {
+    content: "\f217"
+}
+
+.fa-cash-register:before {
+    content: "\f788"
+}
+
+.fa-cat:before {
+    content: "\f6be"
+}
+
+.fa-cc-amazon-pay:before {
+    content: "\f42d"
+}
+
+.fa-cc-amex:before {
+    content: "\f1f3"
+}
+
+.fa-cc-apple-pay:before {
+    content: "\f416"
+}
+
+.fa-cc-diners-club:before {
+    content: "\f24c"
+}
+
+.fa-cc-discover:before {
+    content: "\f1f2"
+}
+
+.fa-cc-jcb:before {
+    content: "\f24b"
+}
+
+.fa-cc-mastercard:before {
+    content: "\f1f1"
+}
+
+.fa-cc-paypal:before {
+    content: "\f1f4"
+}
+
+.fa-cc-stripe:before {
+    content: "\f1f5"
+}
+
+.fa-cc-visa:before {
+    content: "\f1f0"
+}
+
+.fa-centercode:before {
+    content: "\f380"
+}
+
+.fa-centos:before {
+    content: "\f789"
+}
+
+.fa-certificate:before {
+    content: "\f0a3"
+}
+
+.fa-chair:before {
+    content: "\f6c0"
+}
+
+.fa-chalkboard:before {
+    content: "\f51b"
+}
+
+.fa-chalkboard-teacher:before {
+    content: "\f51c"
+}
+
+.fa-charging-station:before {
+    content: "\f5e7"
+}
+
+.fa-chart-area:before {
+    content: "\f1fe"
+}
+
+.fa-chart-bar:before {
+    content: "\f080"
+}
+
+.fa-chart-line:before {
+    content: "\f201"
+}
+
+.fa-chart-pie:before {
+    content: "\f200"
+}
+
+.fa-check:before {
+    content: "\f00c"
+}
+
+.fa-check-circle:before {
+    content: "\f058"
+}
+
+.fa-check-double:before {
+    content: "\f560"
+}
+
+.fa-check-square:before {
+    content: "\f14a"
+}
+
+.fa-cheese:before {
+    content: "\f7ef"
+}
+
+.fa-chess:before {
+    content: "\f439"
+}
+
+.fa-chess-bishop:before {
+    content: "\f43a"
+}
+
+.fa-chess-board:before {
+    content: "\f43c"
+}
+
+.fa-chess-king:before {
+    content: "\f43f"
+}
+
+.fa-chess-knight:before {
+    content: "\f441"
+}
+
+.fa-chess-pawn:before {
+    content: "\f443"
+}
+
+.fa-chess-queen:before {
+    content: "\f445"
+}
+
+.fa-chess-rook:before {
+    content: "\f447"
+}
+
+.fa-chevron-circle-down:before {
+    content: "\f13a"
+}
+
+.fa-chevron-circle-left:before {
+    content: "\f137"
+}
+
+.fa-chevron-circle-right:before {
+    content: "\f138"
+}
+
+.fa-chevron-circle-up:before {
+    content: "\f139"
+}
+
+.fa-chevron-down:before {
+    content: "\f078"
+}
+
+.fa-chevron-left:before {
+    content: "\f053"
+}
+
+.fa-chevron-right:before {
+    content: "\f054"
+}
+
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
+.fa-child:before {
+    content: "\f1ae"
+}
+
+.fa-chrome:before {
+    content: "\f268"
+}
+
+.fa-chromecast:before {
+    content: "\f838"
+}
+
+.fa-church:before {
+    content: "\f51d"
+}
+
+.fa-circle:before {
+    content: "\f111"
+}
+
+.fa-circle-notch:before {
+    content: "\f1ce"
+}
+
+.fa-city:before {
+    content: "\f64f"
+}
+
+.fa-clinic-medical:before {
+    content: "\f7f2"
+}
+
+.fa-clipboard:before {
+    content: "\f328"
+}
+
+.fa-clipboard-check:before {
+    content: "\f46c"
+}
+
+.fa-clipboard-list:before {
+    content: "\f46d"
+}
+
+.fa-clock:before {
+    content: "\f017"
+}
+
+.fa-clone:before {
+    content: "\f24d"
+}
+
+.fa-closed-captioning:before {
+    content: "\f20a"
+}
+
+.fa-cloud:before {
+    content: "\f0c2"
+}
+
+.fa-cloud-download-alt:before {
+    content: "\f381"
+}
+
+.fa-cloud-meatball:before {
+    content: "\f73b"
+}
+
+.fa-cloud-moon:before {
+    content: "\f6c3"
+}
+
+.fa-cloud-moon-rain:before {
+    content: "\f73c"
+}
+
+.fa-cloud-rain:before {
+    content: "\f73d"
+}
+
+.fa-cloud-showers-heavy:before {
+    content: "\f740"
+}
+
+.fa-cloud-sun:before {
+    content: "\f6c4"
+}
+
+.fa-cloud-sun-rain:before {
+    content: "\f743"
+}
+
+.fa-cloud-upload-alt:before {
+    content: "\f382"
+}
+
+.fa-cloudflare:before {
+    content: "\e07d"
+}
+
+.fa-cloudscale:before {
+    content: "\f383"
+}
+
+.fa-cloudsmith:before {
+    content: "\f384"
+}
+
+.fa-cloudversify:before {
+    content: "\f385"
+}
+
+.fa-cocktail:before {
+    content: "\f561"
+}
+
+.fa-code:before {
+    content: "\f121"
+}
+
+.fa-code-branch:before {
+    content: "\f126"
+}
+
+.fa-codepen:before {
+    content: "\f1cb"
+}
+
+.fa-codiepie:before {
+    content: "\f284"
+}
+
+.fa-coffee:before {
+    content: "\f0f4"
+}
+
+.fa-cog:before {
+    content: "\f013"
+}
+
+.fa-cogs:before {
+    content: "\f085"
+}
+
+.fa-coins:before {
+    content: "\f51e"
+}
+
+.fa-columns:before {
+    content: "\f0db"
+}
+
+.fa-comment:before {
+    content: "\f075"
+}
+
+.fa-comment-alt:before {
+    content: "\f27a"
+}
+
+.fa-comment-dollar:before {
+    content: "\f651"
+}
+
+.fa-comment-dots:before {
+    content: "\f4ad"
+}
+
+.fa-comment-medical:before {
+    content: "\f7f5"
+}
+
+.fa-comment-slash:before {
+    content: "\f4b3"
+}
+
+.fa-comments:before {
+    content: "\f086"
+}
+
+.fa-comments-dollar:before {
+    content: "\f653"
+}
+
+.fa-compact-disc:before {
+    content: "\f51f"
+}
+
+.fa-compass:before {
+    content: "\f14e"
+}
+
+.fa-compress:before {
+    content: "\f066"
+}
+
+.fa-compress-alt:before {
+    content: "\f422"
+}
+
+.fa-compress-arrows-alt:before {
+    content: "\f78c"
+}
+
+.fa-concierge-bell:before {
+    content: "\f562"
+}
+
+.fa-confluence:before {
+    content: "\f78d"
+}
+
+.fa-connectdevelop:before {
+    content: "\f20e"
+}
+
+.fa-contao:before {
+    content: "\f26d"
+}
+
+.fa-cookie:before {
+    content: "\f563"
+}
+
+.fa-cookie-bite:before {
+    content: "\f564"
+}
+
+.fa-copy:before {
+    content: "\f0c5"
+}
+
+.fa-copyright:before {
+    content: "\f1f9"
+}
+
+.fa-cotton-bureau:before {
+    content: "\f89e"
+}
+
+.fa-couch:before {
+    content: "\f4b8"
+}
+
+.fa-cpanel:before {
+    content: "\f388"
+}
+
+.fa-creative-commons:before {
+    content: "\f25e"
+}
+
+.fa-creative-commons-by:before {
+    content: "\f4e7"
+}
+
+.fa-creative-commons-nc:before {
+    content: "\f4e8"
+}
+
+.fa-creative-commons-nc-eu:before {
+    content: "\f4e9"
+}
+
+.fa-creative-commons-nc-jp:before {
+    content: "\f4ea"
+}
+
+.fa-creative-commons-nd:before {
+    content: "\f4eb"
+}
+
+.fa-creative-commons-pd:before {
+    content: "\f4ec"
+}
+
+.fa-creative-commons-pd-alt:before {
+    content: "\f4ed"
+}
+
+.fa-creative-commons-remix:before {
+    content: "\f4ee"
+}
+
+.fa-creative-commons-sa:before {
+    content: "\f4ef"
+}
+
+.fa-creative-commons-sampling:before {
+    content: "\f4f0"
+}
+
+.fa-creative-commons-sampling-plus:before {
+    content: "\f4f1"
+}
+
+.fa-creative-commons-share:before {
+    content: "\f4f2"
+}
+
+.fa-creative-commons-zero:before {
+    content: "\f4f3"
+}
+
+.fa-credit-card:before {
+    content: "\f09d"
+}
+
+.fa-critical-role:before {
+    content: "\f6c9"
+}
+
+.fa-crop:before {
+    content: "\f125"
+}
+
+.fa-crop-alt:before {
+    content: "\f565"
+}
+
+.fa-cross:before {
+    content: "\f654"
+}
+
+.fa-crosshairs:before {
+    content: "\f05b"
+}
+
+.fa-crow:before {
+    content: "\f520"
+}
+
+.fa-crown:before {
+    content: "\f521"
+}
+
+.fa-crutch:before {
+    content: "\f7f7"
+}
+
+.fa-css3:before {
+    content: "\f13c"
+}
+
+.fa-css3-alt:before {
+    content: "\f38b"
+}
+
+.fa-cube:before {
+    content: "\f1b2"
+}
+
+.fa-cubes:before {
+    content: "\f1b3"
+}
+
+.fa-cut:before {
+    content: "\f0c4"
+}
+
+.fa-cuttlefish:before {
+    content: "\f38c"
+}
+
+.fa-d-and-d:before {
+    content: "\f38d"
+}
+
+.fa-d-and-d-beyond:before {
+    content: "\f6ca"
+}
+
+.fa-dailymotion:before {
+    content: "\e052"
+}
+
+.fa-dashcube:before {
+    content: "\f210"
+}
+
+.fa-database:before {
+    content: "\f1c0"
+}
+
+.fa-deaf:before {
+    content: "\f2a4"
+}
+
+.fa-deezer:before {
+    content: "\e077"
+}
+
+.fa-delicious:before {
+    content: "\f1a5"
+}
+
+.fa-democrat:before {
+    content: "\f747"
+}
+
+.fa-deploydog:before {
+    content: "\f38e"
+}
+
+.fa-deskpro:before {
+    content: "\f38f"
+}
+
+.fa-desktop:before {
+    content: "\f108"
+}
+
+.fa-dev:before {
+    content: "\f6cc"
+}
+
+.fa-deviantart:before {
+    content: "\f1bd"
+}
+
+.fa-dharmachakra:before {
+    content: "\f655"
+}
+
+.fa-dhl:before {
+    content: "\f790"
+}
+
+.fa-diagnoses:before {
+    content: "\f470"
+}
+
+.fa-diaspora:before {
+    content: "\f791"
+}
+
+.fa-dice:before {
+    content: "\f522"
+}
+
+.fa-dice-d20:before {
+    content: "\f6cf"
+}
+
+.fa-dice-d6:before {
+    content: "\f6d1"
+}
+
+.fa-dice-five:before {
+    content: "\f523"
+}
+
+.fa-dice-four:before {
+    content: "\f524"
+}
+
+.fa-dice-one:before {
+    content: "\f525"
+}
+
+.fa-dice-six:before {
+    content: "\f526"
+}
+
+.fa-dice-three:before {
+    content: "\f527"
+}
+
+.fa-dice-two:before {
+    content: "\f528"
+}
+
+.fa-digg:before {
+    content: "\f1a6"
+}
+
+.fa-digital-ocean:before {
+    content: "\f391"
+}
+
+.fa-digital-tachograph:before {
+    content: "\f566"
+}
+
+.fa-directions:before {
+    content: "\f5eb"
+}
+
+.fa-discord:before {
+    content: "\f392"
+}
+
+.fa-discourse:before {
+    content: "\f393"
+}
+
+.fa-disease:before {
+    content: "\f7fa"
+}
+
+.fa-divide:before {
+    content: "\f529"
+}
+
+.fa-dizzy:before {
+    content: "\f567"
+}
+
+.fa-dna:before {
+    content: "\f471"
+}
+
+.fa-dochub:before {
+    content: "\f394"
+}
+
+.fa-docker:before {
+    content: "\f395"
+}
+
+.fa-dog:before {
+    content: "\f6d3"
+}
+
+.fa-dollar-sign:before {
+    content: "\f155"
+}
+
+.fa-dolly:before {
+    content: "\f472"
+}
+
+.fa-dolly-flatbed:before {
+    content: "\f474"
+}
+
+.fa-donate:before {
+    content: "\f4b9"
+}
+
+.fa-door-closed:before {
+    content: "\f52a"
+}
+
+.fa-door-open:before {
+    content: "\f52b"
+}
+
+.fa-dot-circle:before {
+    content: "\f192"
+}
+
+.fa-dove:before {
+    content: "\f4ba"
+}
+
+.fa-download:before {
+    content: "\f019"
+}
+
+.fa-draft2digital:before {
+    content: "\f396"
+}
+
+.fa-drafting-compass:before {
+    content: "\f568"
+}
+
+.fa-dragon:before {
+    content: "\f6d5"
+}
+
+.fa-draw-polygon:before {
+    content: "\f5ee"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-dribbble-square:before {
+    content: "\f397"
+}
+
+.fa-dropbox:before {
+    content: "\f16b"
+}
+
+.fa-drum:before {
+    content: "\f569"
+}
+
+.fa-drum-steelpan:before {
+    content: "\f56a"
+}
+
+.fa-drumstick-bite:before {
+    content: "\f6d7"
+}
+
+.fa-drupal:before {
+    content: "\f1a9"
+}
+
+.fa-dumbbell:before {
+    content: "\f44b"
+}
+
+.fa-dumpster:before {
+    content: "\f793"
+}
+
+.fa-dumpster-fire:before {
+    content: "\f794"
+}
+
+.fa-dungeon:before {
+    content: "\f6d9"
+}
+
+.fa-dyalog:before {
+    content: "\f399"
+}
+
+.fa-earlybirds:before {
+    content: "\f39a"
+}
+
+.fa-ebay:before {
+    content: "\f4f4"
+}
+
+.fa-edge:before {
+    content: "\f282"
+}
+
+.fa-edge-legacy:before {
+    content: "\e078"
+}
+
+.fa-edit:before {
+    content: "\f044"
+}
+
+.fa-egg:before {
+    content: "\f7fb"
+}
+
+.fa-eject:before {
+    content: "\f052"
+}
+
+.fa-elementor:before {
+    content: "\f430"
+}
+
+.fa-ellipsis-h:before {
+    content: "\f141"
+}
+
+.fa-ellipsis-v:before {
+    content: "\f142"
+}
+
+.fa-ello:before {
+    content: "\f5f1"
+}
+
+.fa-ember:before {
+    content: "\f423"
+}
+
+.fa-empire:before {
+    content: "\f1d1"
+}
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.fa-envelope-open:before {
+    content: "\f2b6"
+}
+
+.fa-envelope-open-text:before {
+    content: "\f658"
+}
+
+.fa-envelope-square:before {
+    content: "\f199"
+}
+
+.fa-envira:before {
+    content: "\f299"
+}
+
+.fa-equals:before {
+    content: "\f52c"
+}
+
+.fa-eraser:before {
+    content: "\f12d"
+}
+
+.fa-erlang:before {
+    content: "\f39d"
+}
+
+.fa-ethereum:before {
+    content: "\f42e"
+}
+
+.fa-ethernet:before {
+    content: "\f796"
+}
+
+.fa-etsy:before {
+    content: "\f2d7"
+}
+
+.fa-euro-sign:before {
+    content: "\f153"
+}
+
+.fa-evernote:before {
+    content: "\f839"
+}
+
+.fa-exchange-alt:before {
+    content: "\f362"
+}
+
+.fa-exclamation:before {
+    content: "\f12a"
+}
+
+.fa-exclamation-circle:before {
+    content: "\f06a"
+}
+
+.fa-exclamation-triangle:before {
+    content: "\f071"
+}
+
+.fa-expand:before {
+    content: "\f065"
+}
+
+.fa-expand-alt:before {
+    content: "\f424"
+}
+
+.fa-expand-arrows-alt:before {
+    content: "\f31e"
+}
+
+.fa-expeditedssl:before {
+    content: "\f23e"
+}
+
+.fa-external-link-alt:before {
+    content: "\f35d"
+}
+
+.fa-external-link-square-alt:before {
+    content: "\f360"
+}
+
+.fa-eye:before {
+    content: "\f06e"
+}
+
+.fa-eye-dropper:before {
+    content: "\f1fb"
+}
+
+.fa-eye-slash:before {
+    content: "\f070"
+}
+
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-facebook-f:before {
+    content: "\f39e"
+}
+
+.fa-facebook-messenger:before {
+    content: "\f39f"
+}
+
+.fa-facebook-square:before {
+    content: "\f082"
+}
+
+.fa-fan:before {
+    content: "\f863"
+}
+
+.fa-fantasy-flight-games:before {
+    content: "\f6dc"
+}
+
+.fa-fast-backward:before {
+    content: "\f049"
+}
+
+.fa-fast-forward:before {
+    content: "\f050"
+}
+
+.fa-faucet:before {
+    content: "\e005"
+}
+
+.fa-fax:before {
+    content: "\f1ac"
+}
+
+.fa-feather:before {
+    content: "\f52d"
+}
+
+.fa-feather-alt:before {
+    content: "\f56b"
+}
+
+.fa-fedex:before {
+    content: "\f797"
+}
+
+.fa-fedora:before {
+    content: "\f798"
+}
+
+.fa-female:before {
+    content: "\f182"
+}
+
+.fa-fighter-jet:before {
+    content: "\f0fb"
+}
+
+.fa-figma:before {
+    content: "\f799"
+}
+
+.fa-file:before {
+    content: "\f15b"
+}
+
+.fa-file-alt:before {
+    content: "\f15c"
+}
+
+.fa-file-archive:before {
+    content: "\f1c6"
+}
+
+.fa-file-audio:before {
+    content: "\f1c7"
+}
+
+.fa-file-code:before {
+    content: "\f1c9"
+}
+
+.fa-file-contract:before {
+    content: "\f56c"
+}
+
+.fa-file-csv:before {
+    content: "\f6dd"
+}
+
+.fa-file-download:before {
+    content: "\f56d"
+}
+
+.fa-file-excel:before {
+    content: "\f1c3"
+}
+
+.fa-file-export:before {
+    content: "\f56e"
+}
+
+.fa-file-image:before {
+    content: "\f1c5"
+}
+
+.fa-file-import:before {
+    content: "\f56f"
+}
+
+.fa-file-invoice:before {
+    content: "\f570"
+}
+
+.fa-file-invoice-dollar:before {
+    content: "\f571"
+}
+
+.fa-file-medical:before {
+    content: "\f477"
+}
+
+.fa-file-medical-alt:before {
+    content: "\f478"
+}
+
+.fa-file-pdf:before {
+    content: "\f1c1"
+}
+
+.fa-file-powerpoint:before {
+    content: "\f1c4"
+}
+
+.fa-file-prescription:before {
+    content: "\f572"
+}
+
+.fa-file-signature:before {
+    content: "\f573"
+}
+
+.fa-file-upload:before {
+    content: "\f574"
+}
+
+.fa-file-video:before {
+    content: "\f1c8"
+}
+
+.fa-file-word:before {
+    content: "\f1c2"
+}
+
+.fa-fill:before {
+    content: "\f575"
+}
+
+.fa-fill-drip:before {
+    content: "\f576"
+}
+
+.fa-film:before {
+    content: "\f008"
+}
+
+.fa-filter:before {
+    content: "\f0b0"
+}
+
+.fa-fingerprint:before {
+    content: "\f577"
+}
+
+.fa-fire:before {
+    content: "\f06d"
+}
+
+.fa-fire-alt:before {
+    content: "\f7e4"
+}
+
+.fa-fire-extinguisher:before {
+    content: "\f134"
+}
+
+.fa-firefox:before {
+    content: "\f269"
+}
+
+.fa-firefox-browser:before {
+    content: "\e007"
+}
+
+.fa-first-aid:before {
+    content: "\f479"
+}
+
+.fa-first-order:before {
+    content: "\f2b0"
+}
+
+.fa-first-order-alt:before {
+    content: "\f50a"
+}
+
+.fa-firstdraft:before {
+    content: "\f3a1"
+}
+
+.fa-fish:before {
+    content: "\f578"
+}
+
+.fa-fist-raised:before {
+    content: "\f6de"
+}
+
+.fa-flag:before {
+    content: "\f024"
+}
+
+.fa-flag-checkered:before {
+    content: "\f11e"
+}
+
+.fa-flag-usa:before {
+    content: "\f74d"
+}
+
+.fa-flask:before {
+    content: "\f0c3"
+}
+
+.fa-flickr:before {
+    content: "\f16e"
+}
+
+.fa-flipboard:before {
+    content: "\f44d"
+}
+
+.fa-flushed:before {
+    content: "\f579"
+}
+
+.fa-fly:before {
+    content: "\f417"
+}
+
+.fa-folder:before {
+    content: "\f07b"
+}
+
+.fa-folder-minus:before {
+    content: "\f65d"
+}
+
+.fa-folder-open:before {
+    content: "\f07c"
+}
+
+.fa-folder-plus:before {
+    content: "\f65e"
+}
+
+.fa-font:before {
+    content: "\f031"
+}
+
+.fa-font-awesome:before {
+    content: "\f2b4"
+}
+
+.fa-font-awesome-alt:before {
+    content: "\f35c"
+}
+
+.fa-font-awesome-flag:before {
+    content: "\f425"
+}
+
+.fa-font-awesome-logo-full:before {
+    content: "\f4e6"
+}
+
+.fa-fonticons:before {
+    content: "\f280"
+}
+
+.fa-fonticons-fi:before {
+    content: "\f3a2"
+}
+
+.fa-football-ball:before {
+    content: "\f44e"
+}
+
+.fa-fort-awesome:before {
+    content: "\f286"
+}
+
+.fa-fort-awesome-alt:before {
+    content: "\f3a3"
+}
+
+.fa-forumbee:before {
+    content: "\f211"
+}
+
+.fa-forward:before {
+    content: "\f04e"
+}
+
+.fa-foursquare:before {
+    content: "\f180"
+}
+
+.fa-free-code-camp:before {
+    content: "\f2c5"
+}
+
+.fa-freebsd:before {
+    content: "\f3a4"
+}
+
+.fa-frog:before {
+    content: "\f52e"
+}
+
+.fa-frown:before {
+    content: "\f119"
+}
+
+.fa-frown-open:before {
+    content: "\f57a"
+}
+
+.fa-fulcrum:before {
+    content: "\f50b"
+}
+
+.fa-funnel-dollar:before {
+    content: "\f662"
+}
+
+.fa-futbol:before {
+    content: "\f1e3"
+}
+
+.fa-galactic-republic:before {
+    content: "\f50c"
+}
+
+.fa-galactic-senate:before {
+    content: "\f50d"
+}
+
+.fa-gamepad:before {
+    content: "\f11b"
+}
+
+.fa-gas-pump:before {
+    content: "\f52f"
+}
+
+.fa-gavel:before {
+    content: "\f0e3"
+}
+
+.fa-gem:before {
+    content: "\f3a5"
+}
+
+.fa-genderless:before {
+    content: "\f22d"
+}
+
+.fa-get-pocket:before {
+    content: "\f265"
+}
+
+.fa-gg:before {
+    content: "\f260"
+}
+
+.fa-gg-circle:before {
+    content: "\f261"
+}
+
+.fa-ghost:before {
+    content: "\f6e2"
+}
+
+.fa-gift:before {
+    content: "\f06b"
+}
+
+.fa-gifts:before {
+    content: "\f79c"
+}
+
+.fa-git:before {
+    content: "\f1d3"
+}
+
+.fa-git-alt:before {
+    content: "\f841"
+}
+
+.fa-git-square:before {
+    content: "\f1d2"
+}
+
+.fa-github:before {
+    content: "\f09b"
+}
+
+.fa-github-alt:before {
+    content: "\f113"
+}
+
+.fa-github-square:before {
+    content: "\f092"
+}
+
+.fa-gitkraken:before {
+    content: "\f3a6"
+}
+
+.fa-gitlab:before {
+    content: "\f296"
+}
+
+.fa-gitter:before {
+    content: "\f426"
+}
+
+.fa-glass-cheers:before {
+    content: "\f79f"
+}
+
+.fa-glass-martini:before {
+    content: "\f000"
+}
+
+.fa-glass-martini-alt:before {
+    content: "\f57b"
+}
+
+.fa-glass-whiskey:before {
+    content: "\f7a0"
+}
+
+.fa-glasses:before {
+    content: "\f530"
+}
+
+.fa-glide:before {
+    content: "\f2a5"
+}
+
+.fa-glide-g:before {
+    content: "\f2a6"
+}
+
+.fa-globe:before {
+    content: "\f0ac"
+}
+
+.fa-globe-africa:before {
+    content: "\f57c"
+}
+
+.fa-globe-americas:before {
+    content: "\f57d"
+}
+
+.fa-globe-asia:before {
+    content: "\f57e"
+}
+
+.fa-globe-europe:before {
+    content: "\f7a2"
+}
+
+.fa-gofore:before {
+    content: "\f3a7"
+}
+
+.fa-golf-ball:before {
+    content: "\f450"
+}
+
+.fa-goodreads:before {
+    content: "\f3a8"
+}
+
+.fa-goodreads-g:before {
+    content: "\f3a9"
+}
+
+.fa-google:before {
+    content: "\f1a0"
+}
+
+.fa-google-drive:before {
+    content: "\f3aa"
+}
+
+.fa-google-pay:before {
+    content: "\e079"
+}
+
+.fa-google-play:before {
+    content: "\f3ab"
+}
+
+.fa-google-plus:before {
+    content: "\f2b3"
+}
+
+.fa-google-plus-g:before {
+    content: "\f0d5"
+}
+
+.fa-google-plus-square:before {
+    content: "\f0d4"
+}
+
+.fa-google-wallet:before {
+    content: "\f1ee"
+}
+
+.fa-gopuram:before {
+    content: "\f664"
+}
+
+.fa-graduation-cap:before {
+    content: "\f19d"
+}
+
+.fa-gratipay:before {
+    content: "\f184"
+}
+
+.fa-grav:before {
+    content: "\f2d6"
+}
+
+.fa-greater-than:before {
+    content: "\f531"
+}
+
+.fa-greater-than-equal:before {
+    content: "\f532"
+}
+
+.fa-grimace:before {
+    content: "\f57f"
+}
+
+.fa-grin:before {
+    content: "\f580"
+}
+
+.fa-grin-alt:before {
+    content: "\f581"
+}
+
+.fa-grin-beam:before {
+    content: "\f582"
+}
+
+.fa-grin-beam-sweat:before {
+    content: "\f583"
+}
+
+.fa-grin-hearts:before {
+    content: "\f584"
+}
+
+.fa-grin-squint:before {
+    content: "\f585"
+}
+
+.fa-grin-squint-tears:before {
+    content: "\f586"
+}
+
+.fa-grin-stars:before {
+    content: "\f587"
+}
+
+.fa-grin-tears:before {
+    content: "\f588"
+}
+
+.fa-grin-tongue:before {
+    content: "\f589"
+}
+
+.fa-grin-tongue-squint:before {
+    content: "\f58a"
+}
+
+.fa-grin-tongue-wink:before {
+    content: "\f58b"
+}
+
+.fa-grin-wink:before {
+    content: "\f58c"
+}
+
+.fa-grip-horizontal:before {
+    content: "\f58d"
+}
+
+.fa-grip-lines:before {
+    content: "\f7a4"
+}
+
+.fa-grip-lines-vertical:before {
+    content: "\f7a5"
+}
+
+.fa-grip-vertical:before {
+    content: "\f58e"
+}
+
+.fa-gripfire:before {
+    content: "\f3ac"
+}
+
+.fa-grunt:before {
+    content: "\f3ad"
+}
+
+.fa-guilded:before {
+    content: "\e07e"
+}
+
+.fa-guitar:before {
+    content: "\f7a6"
+}
+
+.fa-gulp:before {
+    content: "\f3ae"
+}
+
+.fa-h-square:before {
+    content: "\f0fd"
+}
+
+.fa-hacker-news:before {
+    content: "\f1d4"
+}
+
+.fa-hacker-news-square:before {
+    content: "\f3af"
+}
+
+.fa-hackerrank:before {
+    content: "\f5f7"
+}
+
+.fa-hamburger:before {
+    content: "\f805"
+}
+
+.fa-hammer:before {
+    content: "\f6e3"
+}
+
+.fa-hamsa:before {
+    content: "\f665"
+}
+
+.fa-hand-holding:before {
+    content: "\f4bd"
+}
+
+.fa-hand-holding-heart:before {
+    content: "\f4be"
+}
+
+.fa-hand-holding-medical:before {
+    content: "\e05c"
+}
+
+.fa-hand-holding-usd:before {
+    content: "\f4c0"
+}
+
+.fa-hand-holding-water:before {
+    content: "\f4c1"
+}
+
+.fa-hand-lizard:before {
+    content: "\f258"
+}
+
+.fa-hand-middle-finger:before {
+    content: "\f806"
+}
+
+.fa-hand-paper:before {
+    content: "\f256"
+}
+
+.fa-hand-peace:before {
+    content: "\f25b"
+}
+
+.fa-hand-point-down:before {
+    content: "\f0a7"
+}
+
+.fa-hand-point-left:before {
+    content: "\f0a5"
+}
+
+.fa-hand-point-right:before {
+    content: "\f0a4"
+}
+
+.fa-hand-point-up:before {
+    content: "\f0a6"
+}
+
+.fa-hand-pointer:before {
+    content: "\f25a"
+}
+
+.fa-hand-rock:before {
+    content: "\f255"
+}
+
+.fa-hand-scissors:before {
+    content: "\f257"
+}
+
+.fa-hand-sparkles:before {
+    content: "\e05d"
+}
+
+.fa-hand-spock:before {
+    content: "\f259"
+}
+
+.fa-hands:before {
+    content: "\f4c2"
+}
+
+.fa-hands-helping:before {
+    content: "\f4c4"
+}
+
+.fa-hands-wash:before {
+    content: "\e05e"
+}
+
+.fa-handshake:before {
+    content: "\f2b5"
+}
+
+.fa-handshake-alt-slash:before {
+    content: "\e05f"
+}
+
+.fa-handshake-slash:before {
+    content: "\e060"
+}
+
+.fa-hanukiah:before {
+    content: "\f6e6"
+}
+
+.fa-hard-hat:before {
+    content: "\f807"
+}
+
+.fa-hashtag:before {
+    content: "\f292"
+}
+
+.fa-hat-cowboy:before {
+    content: "\f8c0"
+}
+
+.fa-hat-cowboy-side:before {
+    content: "\f8c1"
+}
+
+.fa-hat-wizard:before {
+    content: "\f6e8"
+}
+
+.fa-hdd:before {
+    content: "\f0a0"
+}
+
+.fa-head-side-cough:before {
+    content: "\e061"
+}
+
+.fa-head-side-cough-slash:before {
+    content: "\e062"
+}
+
+.fa-head-side-mask:before {
+    content: "\e063"
+}
+
+.fa-head-side-virus:before {
+    content: "\e064"
+}
+
+.fa-heading:before {
+    content: "\f1dc"
+}
+
+.fa-headphones:before {
+    content: "\f025"
+}
+
+.fa-headphones-alt:before {
+    content: "\f58f"
+}
+
+.fa-headset:before {
+    content: "\f590"
+}
+
+.fa-heart:before {
+    content: "\f004"
+}
+
+.fa-heart-broken:before {
+    content: "\f7a9"
+}
+
+.fa-heartbeat:before {
+    content: "\f21e"
+}
+
+.fa-helicopter:before {
+    content: "\f533"
+}
+
+.fa-highlighter:before {
+    content: "\f591"
+}
+
+.fa-hiking:before {
+    content: "\f6ec"
+}
+
+.fa-hippo:before {
+    content: "\f6ed"
+}
+
+.fa-hips:before {
+    content: "\f452"
+}
+
+.fa-hire-a-helper:before {
+    content: "\f3b0"
+}
+
+.fa-history:before {
+    content: "\f1da"
+}
+
+.fa-hive:before {
+    content: "\e07f"
+}
+
+.fa-hockey-puck:before {
+    content: "\f453"
+}
+
+.fa-holly-berry:before {
+    content: "\f7aa"
+}
+
+.fa-home:before {
+    content: "\f015"
+}
+
+.fa-hooli:before {
+    content: "\f427"
+}
+
+.fa-hornbill:before {
+    content: "\f592"
+}
+
+.fa-horse:before {
+    content: "\f6f0"
+}
+
+.fa-horse-head:before {
+    content: "\f7ab"
+}
+
+.fa-hospital:before {
+    content: "\f0f8"
+}
+
+.fa-hospital-alt:before {
+    content: "\f47d"
+}
+
+.fa-hospital-symbol:before {
+    content: "\f47e"
+}
+
+.fa-hospital-user:before {
+    content: "\f80d"
+}
+
+.fa-hot-tub:before {
+    content: "\f593"
+}
+
+.fa-hotdog:before {
+    content: "\f80f"
+}
+
+.fa-hotel:before {
+    content: "\f594"
+}
+
+.fa-hotjar:before {
+    content: "\f3b1"
+}
+
+.fa-hourglass:before {
+    content: "\f254"
+}
+
+.fa-hourglass-end:before {
+    content: "\f253"
+}
+
+.fa-hourglass-half:before {
+    content: "\f252"
+}
+
+.fa-hourglass-start:before {
+    content: "\f251"
+}
+
+.fa-house-damage:before {
+    content: "\f6f1"
+}
+
+.fa-house-user:before {
+    content: "\e065"
+}
+
+.fa-houzz:before {
+    content: "\f27c"
+}
+
+.fa-hryvnia:before {
+    content: "\f6f2"
+}
+
+.fa-html5:before {
+    content: "\f13b"
+}
+
+.fa-hubspot:before {
+    content: "\f3b2"
+}
+
+.fa-i-cursor:before {
+    content: "\f246"
+}
+
+.fa-ice-cream:before {
+    content: "\f810"
+}
+
+.fa-icicles:before {
+    content: "\f7ad"
+}
+
+.fa-icons:before {
+    content: "\f86d"
+}
+
+.fa-id-badge:before {
+    content: "\f2c1"
+}
+
+.fa-id-card:before {
+    content: "\f2c2"
+}
+
+.fa-id-card-alt:before {
+    content: "\f47f"
+}
+
+.fa-ideal:before {
+    content: "\e013"
+}
+
+.fa-igloo:before {
+    content: "\f7ae"
+}
+
+.fa-image:before {
+    content: "\f03e"
+}
+
+.fa-images:before {
+    content: "\f302"
+}
+
+.fa-imdb:before {
+    content: "\f2d8"
+}
+
+.fa-inbox:before {
+    content: "\f01c"
+}
+
+.fa-indent:before {
+    content: "\f03c"
+}
+
+.fa-industry:before {
+    content: "\f275"
+}
+
+.fa-infinity:before {
+    content: "\f534"
+}
+
+.fa-info:before {
+    content: "\f129"
+}
+
+.fa-info-circle:before {
+    content: "\f05a"
+}
+
+.fa-innosoft:before {
+    content: "\e080"
+}
+
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-instagram-square:before {
+    content: "\e055"
+}
+
+.fa-instalod:before {
+    content: "\e081"
+}
+
+.fa-intercom:before {
+    content: "\f7af"
+}
+
+.fa-internet-explorer:before {
+    content: "\f26b"
+}
+
+.fa-invision:before {
+    content: "\f7b0"
+}
+
+.fa-ioxhost:before {
+    content: "\f208"
+}
+
+.fa-italic:before {
+    content: "\f033"
+}
+
+.fa-itch-io:before {
+    content: "\f83a"
+}
+
+.fa-itunes:before {
+    content: "\f3b4"
+}
+
+.fa-itunes-note:before {
+    content: "\f3b5"
+}
+
+.fa-java:before {
+    content: "\f4e4"
+}
+
+.fa-jedi:before {
+    content: "\f669"
+}
+
+.fa-jedi-order:before {
+    content: "\f50e"
+}
+
+.fa-jenkins:before {
+    content: "\f3b6"
+}
+
+.fa-jira:before {
+    content: "\f7b1"
+}
+
+.fa-joget:before {
+    content: "\f3b7"
+}
+
+.fa-joint:before {
+    content: "\f595"
+}
+
+.fa-joomla:before {
+    content: "\f1aa"
+}
+
+.fa-journal-whills:before {
+    content: "\f66a"
+}
+
+.fa-js:before {
+    content: "\f3b8"
+}
+
+.fa-js-square:before {
+    content: "\f3b9"
+}
+
+.fa-jsfiddle:before {
+    content: "\f1cc"
+}
+
+.fa-kaaba:before {
+    content: "\f66b"
+}
+
+.fa-kaggle:before {
+    content: "\f5fa"
+}
+
+.fa-key:before {
+    content: "\f084"
+}
+
+.fa-keybase:before {
+    content: "\f4f5"
+}
+
+.fa-keyboard:before {
+    content: "\f11c"
+}
+
+.fa-keycdn:before {
+    content: "\f3ba"
+}
+
+.fa-khanda:before {
+    content: "\f66d"
+}
+
+.fa-kickstarter:before {
+    content: "\f3bb"
+}
+
+.fa-kickstarter-k:before {
+    content: "\f3bc"
+}
+
+.fa-kiss:before {
+    content: "\f596"
+}
+
+.fa-kiss-beam:before {
+    content: "\f597"
+}
+
+.fa-kiss-wink-heart:before {
+    content: "\f598"
+}
+
+.fa-kiwi-bird:before {
+    content: "\f535"
+}
+
+.fa-korvue:before {
+    content: "\f42f"
+}
+
+.fa-landmark:before {
+    content: "\f66f"
+}
+
+.fa-language:before {
+    content: "\f1ab"
+}
+
+.fa-laptop:before {
+    content: "\f109"
+}
+
+.fa-laptop-code:before {
+    content: "\f5fc"
+}
+
+.fa-laptop-house:before {
+    content: "\e066"
+}
+
+.fa-laptop-medical:before {
+    content: "\f812"
+}
+
+.fa-laravel:before {
+    content: "\f3bd"
+}
+
+.fa-lastfm:before {
+    content: "\f202"
+}
+
+.fa-lastfm-square:before {
+    content: "\f203"
+}
+
+.fa-laugh:before {
+    content: "\f599"
+}
+
+.fa-laugh-beam:before {
+    content: "\f59a"
+}
+
+.fa-laugh-squint:before {
+    content: "\f59b"
+}
+
+.fa-laugh-wink:before {
+    content: "\f59c"
+}
+
+.fa-layer-group:before {
+    content: "\f5fd"
+}
+
+.fa-leaf:before {
+    content: "\f06c"
+}
+
+.fa-leanpub:before {
+    content: "\f212"
+}
+
+.fa-lemon:before {
+    content: "\f094"
+}
+
+.fa-less:before {
+    content: "\f41d"
+}
+
+.fa-less-than:before {
+    content: "\f536"
+}
+
+.fa-less-than-equal:before {
+    content: "\f537"
+}
+
+.fa-level-down-alt:before {
+    content: "\f3be"
+}
+
+.fa-level-up-alt:before {
+    content: "\f3bf"
+}
+
+.fa-life-ring:before {
+    content: "\f1cd"
+}
+
+.fa-lightbulb:before {
+    content: "\f0eb"
+}
+
+.fa-line:before {
+    content: "\f3c0"
+}
+
+.fa-link:before {
+    content: "\f0c1"
+}
+
+.fa-linkedin:before {
+    content: "\f08c"
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1"
+}
+
+.fa-linode:before {
+    content: "\f2b8"
+}
+
+.fa-linux:before {
+    content: "\f17c"
+}
+
+.fa-lira-sign:before {
+    content: "\f195"
+}
+
+.fa-list:before {
+    content: "\f03a"
+}
+
+.fa-list-alt:before {
+    content: "\f022"
+}
+
+.fa-list-ol:before {
+    content: "\f0cb"
+}
+
+.fa-list-ul:before {
+    content: "\f0ca"
+}
+
+.fa-location-arrow:before {
+    content: "\f124"
+}
+
+.fa-lock:before {
+    content: "\f023"
+}
+
+.fa-lock-open:before {
+    content: "\f3c1"
+}
+
+.fa-long-arrow-alt-down:before {
+    content: "\f309"
+}
+
+.fa-long-arrow-alt-left:before {
+    content: "\f30a"
+}
+
+.fa-long-arrow-alt-right:before {
+    content: "\f30b"
+}
+
+.fa-long-arrow-alt-up:before {
+    content: "\f30c"
+}
+
+.fa-low-vision:before {
+    content: "\f2a8"
+}
+
+.fa-luggage-cart:before {
+    content: "\f59d"
+}
+
+.fa-lungs:before {
+    content: "\f604"
+}
+
+.fa-lungs-virus:before {
+    content: "\e067"
+}
+
+.fa-lyft:before {
+    content: "\f3c3"
+}
+
+.fa-magento:before {
+    content: "\f3c4"
+}
+
+.fa-magic:before {
+    content: "\f0d0"
+}
+
+.fa-magnet:before {
+    content: "\f076"
+}
+
+.fa-mail-bulk:before {
+    content: "\f674"
+}
+
+.fa-mailchimp:before {
+    content: "\f59e"
+}
+
+.fa-male:before {
+    content: "\f183"
+}
+
+.fa-mandalorian:before {
+    content: "\f50f"
+}
+
+.fa-map:before {
+    content: "\f279"
+}
+
+.fa-map-marked:before {
+    content: "\f59f"
+}
+
+.fa-map-marked-alt:before {
+    content: "\f5a0"
+}
+
+.fa-map-marker:before {
+    content: "\f041"
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5"
+}
+
+.fa-map-pin:before {
+    content: "\f276"
+}
+
+.fa-map-signs:before {
+    content: "\f277"
+}
+
+.fa-markdown:before {
+    content: "\f60f"
+}
+
+.fa-marker:before {
+    content: "\f5a1"
+}
+
+.fa-mars:before {
+    content: "\f222"
+}
+
+.fa-mars-double:before {
+    content: "\f227"
+}
+
+.fa-mars-stroke:before {
+    content: "\f229"
+}
+
+.fa-mars-stroke-h:before {
+    content: "\f22b"
+}
+
+.fa-mars-stroke-v:before {
+    content: "\f22a"
+}
+
+.fa-mask:before {
+    content: "\f6fa"
+}
+
+.fa-mastodon:before {
+    content: "\f4f6"
+}
+
+.fa-maxcdn:before {
+    content: "\f136"
+}
+
+.fa-mdb:before {
+    content: "\f8ca"
+}
+
+.fa-medal:before {
+    content: "\f5a2"
+}
+
+.fa-medapps:before {
+    content: "\f3c6"
+}
+
+.fa-medium:before {
+    content: "\f23a"
+}
+
+.fa-medium-m:before {
+    content: "\f3c7"
+}
+
+.fa-medkit:before {
+    content: "\f0fa"
+}
+
+.fa-medrt:before {
+    content: "\f3c8"
+}
+
+.fa-meetup:before {
+    content: "\f2e0"
+}
+
+.fa-megaport:before {
+    content: "\f5a3"
+}
+
+.fa-meh:before {
+    content: "\f11a"
+}
+
+.fa-meh-blank:before {
+    content: "\f5a4"
+}
+
+.fa-meh-rolling-eyes:before {
+    content: "\f5a5"
+}
+
+.fa-memory:before {
+    content: "\f538"
+}
+
+.fa-mendeley:before {
+    content: "\f7b3"
+}
+
+.fa-menorah:before {
+    content: "\f676"
+}
+
+.fa-mercury:before {
+    content: "\f223"
+}
+
+.fa-meteor:before {
+    content: "\f753"
+}
+
+.fa-microblog:before {
+    content: "\e01a"
+}
+
+.fa-microchip:before {
+    content: "\f2db"
+}
+
+.fa-microphone:before {
+    content: "\f130"
+}
+
+.fa-microphone-alt:before {
+    content: "\f3c9"
+}
+
+.fa-microphone-alt-slash:before {
+    content: "\f539"
+}
+
+.fa-microphone-slash:before {
+    content: "\f131"
+}
+
+.fa-microscope:before {
+    content: "\f610"
+}
+
+.fa-microsoft:before {
+    content: "\f3ca"
+}
+
+.fa-minus:before {
+    content: "\f068"
+}
+
+.fa-minus-circle:before {
+    content: "\f056"
+}
+
+.fa-minus-square:before {
+    content: "\f146"
+}
+
+.fa-mitten:before {
+    content: "\f7b5"
+}
+
+.fa-mix:before {
+    content: "\f3cb"
+}
+
+.fa-mixcloud:before {
+    content: "\f289"
+}
+
+.fa-mixer:before {
+    content: "\e056"
+}
+
+.fa-mizuni:before {
+    content: "\f3cc"
+}
+
+.fa-mobile:before {
+    content: "\f10b"
+}
+
+.fa-mobile-alt:before {
+    content: "\f3cd"
+}
+
+.fa-modx:before {
+    content: "\f285"
+}
+
+.fa-monero:before {
+    content: "\f3d0"
+}
+
+.fa-money-bill:before {
+    content: "\f0d6"
+}
+
+.fa-money-bill-alt:before {
+    content: "\f3d1"
+}
+
+.fa-money-bill-wave:before {
+    content: "\f53a"
+}
+
+.fa-money-bill-wave-alt:before {
+    content: "\f53b"
+}
+
+.fa-money-check:before {
+    content: "\f53c"
+}
+
+.fa-money-check-alt:before {
+    content: "\f53d"
+}
+
+.fa-monument:before {
+    content: "\f5a6"
+}
+
+.fa-moon:before {
+    content: "\f186"
+}
+
+.fa-mortar-pestle:before {
+    content: "\f5a7"
+}
+
+.fa-mosque:before {
+    content: "\f678"
+}
+
+.fa-motorcycle:before {
+    content: "\f21c"
+}
+
+.fa-mountain:before {
+    content: "\f6fc"
+}
+
+.fa-mouse:before {
+    content: "\f8cc"
+}
+
+.fa-mouse-pointer:before {
+    content: "\f245"
+}
+
+.fa-mug-hot:before {
+    content: "\f7b6"
+}
+
+.fa-music:before {
+    content: "\f001"
+}
+
+.fa-napster:before {
+    content: "\f3d2"
+}
+
+.fa-neos:before {
+    content: "\f612"
+}
+
+.fa-network-wired:before {
+    content: "\f6ff"
+}
+
+.fa-neuter:before {
+    content: "\f22c"
+}
+
+.fa-newspaper:before {
+    content: "\f1ea"
+}
+
+.fa-nimblr:before {
+    content: "\f5a8"
+}
+
+.fa-node:before {
+    content: "\f419"
+}
+
+.fa-node-js:before {
+    content: "\f3d3"
+}
+
+.fa-not-equal:before {
+    content: "\f53e"
+}
+
+.fa-notes-medical:before {
+    content: "\f481"
+}
+
+.fa-npm:before {
+    content: "\f3d4"
+}
+
+.fa-ns8:before {
+    content: "\f3d5"
+}
+
+.fa-nutritionix:before {
+    content: "\f3d6"
+}
+
+.fa-object-group:before {
+    content: "\f247"
+}
+
+.fa-object-ungroup:before {
+    content: "\f248"
+}
+
+.fa-octopus-deploy:before {
+    content: "\e082"
+}
+
+.fa-odnoklassniki:before {
+    content: "\f263"
+}
+
+.fa-odnoklassniki-square:before {
+    content: "\f264"
+}
+
+.fa-oil-can:before {
+    content: "\f613"
+}
+
+.fa-old-republic:before {
+    content: "\f510"
+}
+
+.fa-om:before {
+    content: "\f679"
+}
+
+.fa-opencart:before {
+    content: "\f23d"
+}
+
+.fa-openid:before {
+    content: "\f19b"
+}
+
+.fa-opera:before {
+    content: "\f26a"
+}
+
+.fa-optin-monster:before {
+    content: "\f23c"
+}
+
+.fa-orcid:before {
+    content: "\f8d2"
+}
+
+.fa-osi:before {
+    content: "\f41a"
+}
+
+.fa-otter:before {
+    content: "\f700"
+}
+
+.fa-outdent:before {
+    content: "\f03b"
+}
+
+.fa-page4:before {
+    content: "\f3d7"
+}
+
+.fa-pagelines:before {
+    content: "\f18c"
+}
+
+.fa-pager:before {
+    content: "\f815"
+}
+
+.fa-paint-brush:before {
+    content: "\f1fc"
+}
+
+.fa-paint-roller:before {
+    content: "\f5aa"
+}
+
+.fa-palette:before {
+    content: "\f53f"
+}
+
+.fa-palfed:before {
+    content: "\f3d8"
+}
+
+.fa-pallet:before {
+    content: "\f482"
+}
+
+.fa-paper-plane:before {
+    content: "\f1d8"
+}
+
+.fa-paperclip:before {
+    content: "\f0c6"
+}
+
+.fa-parachute-box:before {
+    content: "\f4cd"
+}
+
+.fa-paragraph:before {
+    content: "\f1dd"
+}
+
+.fa-parking:before {
+    content: "\f540"
+}
+
+.fa-passport:before {
+    content: "\f5ab"
+}
+
+.fa-pastafarianism:before {
+    content: "\f67b"
+}
+
+.fa-paste:before {
+    content: "\f0ea"
+}
+
+.fa-patreon:before {
+    content: "\f3d9"
+}
+
+.fa-pause:before {
+    content: "\f04c"
+}
+
+.fa-pause-circle:before {
+    content: "\f28b"
+}
+
+.fa-paw:before {
+    content: "\f1b0"
+}
+
+.fa-paypal:before {
+    content: "\f1ed"
+}
+
+.fa-peace:before {
+    content: "\f67c"
+}
+
+.fa-pen:before {
+    content: "\f304"
+}
+
+.fa-pen-alt:before {
+    content: "\f305"
+}
+
+.fa-pen-fancy:before {
+    content: "\f5ac"
+}
+
+.fa-pen-nib:before {
+    content: "\f5ad"
+}
+
+.fa-pen-square:before {
+    content: "\f14b"
+}
+
+.fa-pencil-alt:before {
+    content: "\f303"
+}
+
+.fa-pencil-ruler:before {
+    content: "\f5ae"
+}
+
+.fa-penny-arcade:before {
+    content: "\f704"
+}
+
+.fa-people-arrows:before {
+    content: "\e068"
+}
+
+.fa-people-carry:before {
+    content: "\f4ce"
+}
+
+.fa-pepper-hot:before {
+    content: "\f816"
+}
+
+.fa-perbyte:before {
+    content: "\e083"
+}
+
+.fa-percent:before {
+    content: "\f295"
+}
+
+.fa-percentage:before {
+    content: "\f541"
+}
+
+.fa-periscope:before {
+    content: "\f3da"
+}
+
+.fa-person-booth:before {
+    content: "\f756"
+}
+
+.fa-phabricator:before {
+    content: "\f3db"
+}
+
+.fa-phoenix-framework:before {
+    content: "\f3dc"
+}
+
+.fa-phoenix-squadron:before {
+    content: "\f511"
+}
+
+.fa-phone:before {
+    content: "\f095"
+}
+
+.fa-phone-alt:before {
+    content: "\f879"
+}
+
+.fa-phone-slash:before {
+    content: "\f3dd"
+}
+
+.fa-phone-square:before {
+    content: "\f098"
+}
+
+.fa-phone-square-alt:before {
+    content: "\f87b"
+}
+
+.fa-phone-volume:before {
+    content: "\f2a0"
+}
+
+.fa-photo-video:before {
+    content: "\f87c"
+}
+
+.fa-php:before {
+    content: "\f457"
+}
+
+.fa-pied-piper:before {
+    content: "\f2ae"
+}
+
+.fa-pied-piper-alt:before {
+    content: "\f1a8"
+}
+
+.fa-pied-piper-hat:before {
+    content: "\f4e5"
+}
+
+.fa-pied-piper-pp:before {
+    content: "\f1a7"
+}
+
+.fa-pied-piper-square:before {
+    content: "\e01e"
+}
+
+.fa-piggy-bank:before {
+    content: "\f4d3"
+}
+
+.fa-pills:before {
+    content: "\f484"
+}
+
+.fa-pinterest:before {
+    content: "\f0d2"
+}
+
+.fa-pinterest-p:before {
+    content: "\f231"
+}
+
+.fa-pinterest-square:before {
+    content: "\f0d3"
+}
+
+.fa-pizza-slice:before {
+    content: "\f818"
+}
+
+.fa-place-of-worship:before {
+    content: "\f67f"
+}
+
+.fa-plane:before {
+    content: "\f072"
+}
+
+.fa-plane-arrival:before {
+    content: "\f5af"
+}
+
+.fa-plane-departure:before {
+    content: "\f5b0"
+}
+
+.fa-plane-slash:before {
+    content: "\e069"
+}
+
+.fa-play:before {
+    content: "\f04b"
+}
+
+.fa-play-circle:before {
+    content: "\f144"
+}
+
+.fa-playstation:before {
+    content: "\f3df"
+}
+
+.fa-plug:before {
+    content: "\f1e6"
+}
+
+.fa-plus:before {
+    content: "\f067"
+}
+
+.fa-plus-circle:before {
+    content: "\f055"
+}
+
+.fa-plus-square:before {
+    content: "\f0fe"
+}
+
+.fa-podcast:before {
+    content: "\f2ce"
+}
+
+.fa-poll:before {
+    content: "\f681"
+}
+
+.fa-poll-h:before {
+    content: "\f682"
+}
+
+.fa-poo:before {
+    content: "\f2fe"
+}
+
+.fa-poo-storm:before {
+    content: "\f75a"
+}
+
+.fa-poop:before {
+    content: "\f619"
+}
+
+.fa-portrait:before {
+    content: "\f3e0"
+}
+
+.fa-pound-sign:before {
+    content: "\f154"
+}
+
+.fa-power-off:before {
+    content: "\f011"
+}
+
+.fa-pray:before {
+    content: "\f683"
+}
+
+.fa-praying-hands:before {
+    content: "\f684"
+}
+
+.fa-prescription:before {
+    content: "\f5b1"
+}
+
+.fa-prescription-bottle:before {
+    content: "\f485"
+}
+
+.fa-prescription-bottle-alt:before {
+    content: "\f486"
+}
+
+.fa-print:before {
+    content: "\f02f"
+}
+
+.fa-procedures:before {
+    content: "\f487"
+}
+
+.fa-product-hunt:before {
+    content: "\f288"
+}
+
+.fa-project-diagram:before {
+    content: "\f542"
+}
+
+.fa-pump-medical:before {
+    content: "\e06a"
+}
+
+.fa-pump-soap:before {
+    content: "\e06b"
+}
+
+.fa-pushed:before {
+    content: "\f3e1"
+}
+
+.fa-puzzle-piece:before {
+    content: "\f12e"
+}
+
+.fa-python:before {
+    content: "\f3e2"
+}
+
+.fa-qq:before {
+    content: "\f1d6"
+}
+
+.fa-qrcode:before {
+    content: "\f029"
+}
+
+.fa-question:before {
+    content: "\f128"
+}
+
+.fa-question-circle:before {
+    content: "\f059"
+}
+
+.fa-quidditch:before {
+    content: "\f458"
+}
+
+.fa-quinscape:before {
+    content: "\f459"
+}
+
+.fa-quora:before {
+    content: "\f2c4"
+}
+
+.fa-quote-left:before {
+    content: "\f10d"
+}
+
+.fa-quote-right:before {
+    content: "\f10e"
+}
+
+.fa-quran:before {
+    content: "\f687"
+}
+
+.fa-r-project:before {
+    content: "\f4f7"
+}
+
+.fa-radiation:before {
+    content: "\f7b9"
+}
+
+.fa-radiation-alt:before {
+    content: "\f7ba"
+}
+
+.fa-rainbow:before {
+    content: "\f75b"
+}
+
+.fa-random:before {
+    content: "\f074"
+}
+
+.fa-raspberry-pi:before {
+    content: "\f7bb"
+}
+
+.fa-ravelry:before {
+    content: "\f2d9"
+}
+
+.fa-react:before {
+    content: "\f41b"
+}
+
+.fa-reacteurope:before {
+    content: "\f75d"
+}
+
+.fa-readme:before {
+    content: "\f4d5"
+}
+
+.fa-rebel:before {
+    content: "\f1d0"
+}
+
+.fa-receipt:before {
+    content: "\f543"
+}
+
+.fa-record-vinyl:before {
+    content: "\f8d9"
+}
+
+.fa-recycle:before {
+    content: "\f1b8"
+}
+
+.fa-red-river:before {
+    content: "\f3e3"
+}
+
+.fa-reddit:before {
+    content: "\f1a1"
+}
+
+.fa-reddit-alien:before {
+    content: "\f281"
+}
+
+.fa-reddit-square:before {
+    content: "\f1a2"
+}
+
+.fa-redhat:before {
+    content: "\f7bc"
+}
+
+.fa-redo:before {
+    content: "\f01e"
+}
+
+.fa-redo-alt:before {
+    content: "\f2f9"
+}
+
+.fa-registered:before {
+    content: "\f25d"
+}
+
+.fa-remove-format:before {
+    content: "\f87d"
+}
+
+.fa-renren:before {
+    content: "\f18b"
+}
+
+.fa-reply:before {
+    content: "\f3e5"
+}
+
+.fa-reply-all:before {
+    content: "\f122"
+}
+
+.fa-replyd:before {
+    content: "\f3e6"
+}
+
+.fa-republican:before {
+    content: "\f75e"
+}
+
+.fa-researchgate:before {
+    content: "\f4f8"
+}
+
+.fa-resolving:before {
+    content: "\f3e7"
+}
+
+.fa-restroom:before {
+    content: "\f7bd"
+}
+
+.fa-retweet:before {
+    content: "\f079"
+}
+
+.fa-rev:before {
+    content: "\f5b2"
+}
+
+.fa-ribbon:before {
+    content: "\f4d6"
+}
+
+.fa-ring:before {
+    content: "\f70b"
+}
+
+.fa-road:before {
+    content: "\f018"
+}
+
+.fa-robot:before {
+    content: "\f544"
+}
+
+.fa-rocket:before {
+    content: "\f135"
+}
+
+.fa-rocketchat:before {
+    content: "\f3e8"
+}
+
+.fa-rockrms:before {
+    content: "\f3e9"
+}
+
+.fa-route:before {
+    content: "\f4d7"
+}
+
+.fa-rss:before {
+    content: "\f09e"
+}
+
+.fa-rss-square:before {
+    content: "\f143"
+}
+
+.fa-ruble-sign:before {
+    content: "\f158"
+}
+
+.fa-ruler:before {
+    content: "\f545"
+}
+
+.fa-ruler-combined:before {
+    content: "\f546"
+}
+
+.fa-ruler-horizontal:before {
+    content: "\f547"
+}
+
+.fa-ruler-vertical:before {
+    content: "\f548"
+}
+
+.fa-running:before {
+    content: "\f70c"
+}
+
+.fa-rupee-sign:before {
+    content: "\f156"
+}
+
+.fa-rust:before {
+    content: "\e07a"
+}
+
+.fa-sad-cry:before {
+    content: "\f5b3"
+}
+
+.fa-sad-tear:before {
+    content: "\f5b4"
+}
+
+.fa-safari:before {
+    content: "\f267"
+}
+
+.fa-salesforce:before {
+    content: "\f83b"
+}
+
+.fa-sass:before {
+    content: "\f41e"
+}
+
+.fa-satellite:before {
+    content: "\f7bf"
+}
+
+.fa-satellite-dish:before {
+    content: "\f7c0"
+}
+
+.fa-save:before {
+    content: "\f0c7"
+}
+
+.fa-schlix:before {
+    content: "\f3ea"
+}
+
+.fa-school:before {
+    content: "\f549"
+}
+
+.fa-screwdriver:before {
+    content: "\f54a"
+}
+
+.fa-scribd:before {
+    content: "\f28a"
+}
+
+.fa-scroll:before {
+    content: "\f70e"
+}
+
+.fa-sd-card:before {
+    content: "\f7c2"
+}
+
+.fa-search:before {
+    content: "\f002"
+}
+
+.fa-search-dollar:before {
+    content: "\f688"
+}
+
+.fa-search-location:before {
+    content: "\f689"
+}
+
+.fa-search-minus:before {
+    content: "\f010"
+}
+
+.fa-search-plus:before {
+    content: "\f00e"
+}
+
+.fa-searchengin:before {
+    content: "\f3eb"
+}
+
+.fa-seedling:before {
+    content: "\f4d8"
+}
+
+.fa-sellcast:before {
+    content: "\f2da"
+}
+
+.fa-sellsy:before {
+    content: "\f213"
+}
+
+.fa-server:before {
+    content: "\f233"
+}
+
+.fa-servicestack:before {
+    content: "\f3ec"
+}
+
+.fa-shapes:before {
+    content: "\f61f"
+}
+
+.fa-share:before {
+    content: "\f064"
+}
+
+.fa-share-alt:before {
+    content: "\f1e0"
+}
+
+.fa-share-alt-square:before {
+    content: "\f1e1"
+}
+
+.fa-share-square:before {
+    content: "\f14d"
+}
+
+.fa-shekel-sign:before {
+    content: "\f20b"
+}
+
+.fa-shield-alt:before {
+    content: "\f3ed"
+}
+
+.fa-shield-virus:before {
+    content: "\e06c"
+}
+
+.fa-ship:before {
+    content: "\f21a"
+}
+
+.fa-shipping-fast:before {
+    content: "\f48b"
+}
+
+.fa-shirtsinbulk:before {
+    content: "\f214"
+}
+
+.fa-shoe-prints:before {
+    content: "\f54b"
+}
+
+.fa-shopify:before {
+    content: "\e057"
+}
+
+.fa-shopping-bag:before {
+    content: "\f290"
+}
+
+.fa-shopping-basket:before {
+    content: "\f291"
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a"
+}
+
+.fa-shopware:before {
+    content: "\f5b5"
+}
+
+.fa-shower:before {
+    content: "\f2cc"
+}
+
+.fa-shuttle-van:before {
+    content: "\f5b6"
+}
+
+.fa-sign:before {
+    content: "\f4d9"
+}
+
+.fa-sign-in-alt:before {
+    content: "\f2f6"
+}
+
+.fa-sign-language:before {
+    content: "\f2a7"
+}
+
+.fa-sign-out-alt:before {
+    content: "\f2f5"
+}
+
+.fa-signal:before {
+    content: "\f012"
+}
+
+.fa-signature:before {
+    content: "\f5b7"
+}
+
+.fa-sim-card:before {
+    content: "\f7c4"
+}
+
+.fa-simplybuilt:before {
+    content: "\f215"
+}
+
+.fa-sink:before {
+    content: "\e06d"
+}
+
+.fa-sistrix:before {
+    content: "\f3ee"
+}
+
+.fa-sitemap:before {
+    content: "\f0e8"
+}
+
+.fa-sith:before {
+    content: "\f512"
+}
+
+.fa-skating:before {
+    content: "\f7c5"
+}
+
+.fa-sketch:before {
+    content: "\f7c6"
+}
+
+.fa-skiing:before {
+    content: "\f7c9"
+}
+
+.fa-skiing-nordic:before {
+    content: "\f7ca"
+}
+
+.fa-skull:before {
+    content: "\f54c"
+}
+
+.fa-skull-crossbones:before {
+    content: "\f714"
+}
+
+.fa-skyatlas:before {
+    content: "\f216"
+}
+
+.fa-skype:before {
+    content: "\f17e"
+}
+
+.fa-slack:before {
+    content: "\f198"
+}
+
+.fa-slack-hash:before {
+    content: "\f3ef"
+}
+
+.fa-slash:before {
+    content: "\f715"
+}
+
+.fa-sleigh:before {
+    content: "\f7cc"
+}
+
+.fa-sliders-h:before {
+    content: "\f1de"
+}
+
+.fa-slideshare:before {
+    content: "\f1e7"
+}
+
+.fa-smile:before {
+    content: "\f118"
+}
+
+.fa-smile-beam:before {
+    content: "\f5b8"
+}
+
+.fa-smile-wink:before {
+    content: "\f4da"
+}
+
+.fa-smog:before {
+    content: "\f75f"
+}
+
+.fa-smoking:before {
+    content: "\f48d"
+}
+
+.fa-smoking-ban:before {
+    content: "\f54d"
+}
+
+.fa-sms:before {
+    content: "\f7cd"
+}
+
+.fa-snapchat:before {
+    content: "\f2ab"
+}
+
+.fa-snapchat-ghost:before {
+    content: "\f2ac"
+}
+
+.fa-snapchat-square:before {
+    content: "\f2ad"
+}
+
+.fa-snowboarding:before {
+    content: "\f7ce"
+}
+
+.fa-snowflake:before {
+    content: "\f2dc"
+}
+
+.fa-snowman:before {
+    content: "\f7d0"
+}
+
+.fa-snowplow:before {
+    content: "\f7d2"
+}
+
+.fa-soap:before {
+    content: "\e06e"
+}
+
+.fa-socks:before {
+    content: "\f696"
+}
+
+.fa-solar-panel:before {
+    content: "\f5ba"
+}
+
+.fa-sort:before {
+    content: "\f0dc"
+}
+
+.fa-sort-alpha-down:before {
+    content: "\f15d"
+}
+
+.fa-sort-alpha-down-alt:before {
+    content: "\f881"
+}
+
+.fa-sort-alpha-up:before {
+    content: "\f15e"
+}
+
+.fa-sort-alpha-up-alt:before {
+    content: "\f882"
+}
+
+.fa-sort-amount-down:before {
+    content: "\f160"
+}
+
+.fa-sort-amount-down-alt:before {
+    content: "\f884"
+}
+
+.fa-sort-amount-up:before {
+    content: "\f161"
+}
+
+.fa-sort-amount-up-alt:before {
+    content: "\f885"
+}
+
+.fa-sort-down:before {
+    content: "\f0dd"
+}
+
+.fa-sort-numeric-down:before {
+    content: "\f162"
+}
+
+.fa-sort-numeric-down-alt:before {
+    content: "\f886"
+}
+
+.fa-sort-numeric-up:before {
+    content: "\f163"
+}
+
+.fa-sort-numeric-up-alt:before {
+    content: "\f887"
+}
+
+.fa-sort-up:before {
+    content: "\f0de"
+}
+
+.fa-soundcloud:before {
+    content: "\f1be"
+}
+
+.fa-sourcetree:before {
+    content: "\f7d3"
+}
+
+.fa-spa:before {
+    content: "\f5bb"
+}
+
+.fa-space-shuttle:before {
+    content: "\f197"
+}
+
+.fa-speakap:before {
+    content: "\f3f3"
+}
+
+.fa-speaker-deck:before {
+    content: "\f83c"
+}
+
+.fa-spell-check:before {
+    content: "\f891"
+}
+
+.fa-spider:before {
+    content: "\f717"
+}
+
+.fa-spinner:before {
+    content: "\f110"
+}
+
+.fa-splotch:before {
+    content: "\f5bc"
+}
+
+.fa-spotify:before {
+    content: "\f1bc"
+}
+
+.fa-spray-can:before {
+    content: "\f5bd"
+}
+
+.fa-square:before {
+    content: "\f0c8"
+}
+
+.fa-square-full:before {
+    content: "\f45c"
+}
+
+.fa-square-root-alt:before {
+    content: "\f698"
+}
+
+.fa-squarespace:before {
+    content: "\f5be"
+}
+
+.fa-stack-exchange:before {
+    content: "\f18d"
+}
+
+.fa-stack-overflow:before {
+    content: "\f16c"
+}
+
+.fa-stackpath:before {
+    content: "\f842"
+}
+
+.fa-stamp:before {
+    content: "\f5bf"
+}
+
+.fa-star:before {
+    content: "\f005"
+}
+
+.fa-star-and-crescent:before {
+    content: "\f699"
+}
+
+.fa-star-half:before {
+    content: "\f089"
+}
+
+.fa-star-half-alt:before {
+    content: "\f5c0"
+}
+
+.fa-star-of-david:before {
+    content: "\f69a"
+}
+
+.fa-star-of-life:before {
+    content: "\f621"
+}
+
+.fa-staylinked:before {
+    content: "\f3f5"
+}
+
+.fa-steam:before {
+    content: "\f1b6"
+}
+
+.fa-steam-square:before {
+    content: "\f1b7"
+}
+
+.fa-steam-symbol:before {
+    content: "\f3f6"
+}
+
+.fa-step-backward:before {
+    content: "\f048"
+}
+
+.fa-step-forward:before {
+    content: "\f051"
+}
+
+.fa-stethoscope:before {
+    content: "\f0f1"
+}
+
+.fa-sticker-mule:before {
+    content: "\f3f7"
+}
+
+.fa-sticky-note:before {
+    content: "\f249"
+}
+
+.fa-stop:before {
+    content: "\f04d"
+}
+
+.fa-stop-circle:before {
+    content: "\f28d"
+}
+
+.fa-stopwatch:before {
+    content: "\f2f2"
+}
+
+.fa-stopwatch-20:before {
+    content: "\e06f"
+}
+
+.fa-store:before {
+    content: "\f54e"
+}
+
+.fa-store-alt:before {
+    content: "\f54f"
+}
+
+.fa-store-alt-slash:before {
+    content: "\e070"
+}
+
+.fa-store-slash:before {
+    content: "\e071"
+}
+
+.fa-strava:before {
+    content: "\f428"
+}
+
+.fa-stream:before {
+    content: "\f550"
+}
+
+.fa-street-view:before {
+    content: "\f21d"
+}
+
+.fa-strikethrough:before {
+    content: "\f0cc"
+}
+
+.fa-stripe:before {
+    content: "\f429"
+}
+
+.fa-stripe-s:before {
+    content: "\f42a"
+}
+
+.fa-stroopwafel:before {
+    content: "\f551"
+}
+
+.fa-studiovinari:before {
+    content: "\f3f8"
+}
+
+.fa-stumbleupon:before {
+    content: "\f1a4"
+}
+
+.fa-stumbleupon-circle:before {
+    content: "\f1a3"
+}
+
+.fa-subscript:before {
+    content: "\f12c"
+}
+
+.fa-subway:before {
+    content: "\f239"
+}
+
+.fa-suitcase:before {
+    content: "\f0f2"
+}
+
+.fa-suitcase-rolling:before {
+    content: "\f5c1"
+}
+
+.fa-sun:before {
+    content: "\f185"
+}
+
+.fa-superpowers:before {
+    content: "\f2dd"
+}
+
+.fa-superscript:before {
+    content: "\f12b"
+}
+
+.fa-supple:before {
+    content: "\f3f9"
+}
+
+.fa-surprise:before {
+    content: "\f5c2"
+}
+
+.fa-suse:before {
+    content: "\f7d6"
+}
+
+.fa-swatchbook:before {
+    content: "\f5c3"
+}
+
+.fa-swift:before {
+    content: "\f8e1"
+}
+
+.fa-swimmer:before {
+    content: "\f5c4"
+}
+
+.fa-swimming-pool:before {
+    content: "\f5c5"
+}
+
+.fa-symfony:before {
+    content: "\f83d"
+}
+
+.fa-synagogue:before {
+    content: "\f69b"
+}
+
+.fa-sync:before {
+    content: "\f021"
+}
+
+.fa-sync-alt:before {
+    content: "\f2f1"
+}
+
+.fa-syringe:before {
+    content: "\f48e"
+}
+
+.fa-table:before {
+    content: "\f0ce"
+}
+
+.fa-table-tennis:before {
+    content: "\f45d"
+}
+
+.fa-tablet:before {
+    content: "\f10a"
+}
+
+.fa-tablet-alt:before {
+    content: "\f3fa"
+}
+
+.fa-tablets:before {
+    content: "\f490"
+}
+
+.fa-tachometer-alt:before {
+    content: "\f3fd"
+}
+
+.fa-tag:before {
+    content: "\f02b"
+}
+
+.fa-tags:before {
+    content: "\f02c"
+}
+
+.fa-tape:before {
+    content: "\f4db"
+}
+
+.fa-tasks:before {
+    content: "\f0ae"
+}
+
+.fa-taxi:before {
+    content: "\f1ba"
+}
+
+.fa-teamspeak:before {
+    content: "\f4f9"
+}
+
+.fa-teeth:before {
+    content: "\f62e"
+}
+
+.fa-teeth-open:before {
+    content: "\f62f"
+}
+
+.fa-telegram:before {
+    content: "\f2c6"
+}
+
+.fa-telegram-plane:before {
+    content: "\f3fe"
+}
+
+.fa-temperature-high:before {
+    content: "\f769"
+}
+
+.fa-temperature-low:before {
+    content: "\f76b"
+}
+
+.fa-tencent-weibo:before {
+    content: "\f1d5"
+}
+
+.fa-tenge:before {
+    content: "\f7d7"
+}
+
+.fa-terminal:before {
+    content: "\f120"
+}
+
+.fa-text-height:before {
+    content: "\f034"
+}
+
+.fa-text-width:before {
+    content: "\f035"
+}
+
+.fa-th:before {
+    content: "\f00a"
+}
+
+.fa-th-large:before {
+    content: "\f009"
+}
+
+.fa-th-list:before {
+    content: "\f00b"
+}
+
+.fa-the-red-yeti:before {
+    content: "\f69d"
+}
+
+.fa-theater-masks:before {
+    content: "\f630"
+}
+
+.fa-themeco:before {
+    content: "\f5c6"
+}
+
+.fa-themeisle:before {
+    content: "\f2b2"
+}
+
+.fa-thermometer:before {
+    content: "\f491"
+}
+
+.fa-thermometer-empty:before {
+    content: "\f2cb"
+}
+
+.fa-thermometer-full:before {
+    content: "\f2c7"
+}
+
+.fa-thermometer-half:before {
+    content: "\f2c9"
+}
+
+.fa-thermometer-quarter:before {
+    content: "\f2ca"
+}
+
+.fa-thermometer-three-quarters:before {
+    content: "\f2c8"
+}
+
+.fa-think-peaks:before {
+    content: "\f731"
+}
+
+.fa-thumbs-down:before {
+    content: "\f165"
+}
+
+.fa-thumbs-up:before {
+    content: "\f164"
+}
+
+.fa-thumbtack:before {
+    content: "\f08d"
+}
+
+.fa-ticket-alt:before {
+    content: "\f3ff"
+}
+
+.fa-tiktok:before {
+    content: "\e07b"
+}
+
+.fa-times:before {
+    content: "\f00d"
+}
+
+.fa-times-circle:before {
+    content: "\f057"
+}
+
+.fa-tint:before {
+    content: "\f043"
+}
+
+.fa-tint-slash:before {
+    content: "\f5c7"
+}
+
+.fa-tired:before {
+    content: "\f5c8"
+}
+
+.fa-toggle-off:before {
+    content: "\f204"
+}
+
+.fa-toggle-on:before {
+    content: "\f205"
+}
+
+.fa-toilet:before {
+    content: "\f7d8"
+}
+
+.fa-toilet-paper:before {
+    content: "\f71e"
+}
+
+.fa-toilet-paper-slash:before {
+    content: "\e072"
+}
+
+.fa-toolbox:before {
+    content: "\f552"
+}
+
+.fa-tools:before {
+    content: "\f7d9"
+}
+
+.fa-tooth:before {
+    content: "\f5c9"
+}
+
+.fa-torah:before {
+    content: "\f6a0"
+}
+
+.fa-torii-gate:before {
+    content: "\f6a1"
+}
+
+.fa-tractor:before {
+    content: "\f722"
+}
+
+.fa-trade-federation:before {
+    content: "\f513"
+}
+
+.fa-trademark:before {
+    content: "\f25c"
+}
+
+.fa-traffic-light:before {
+    content: "\f637"
+}
+
+.fa-trailer:before {
+    content: "\e041"
+}
+
+.fa-train:before {
+    content: "\f238"
+}
+
+.fa-tram:before {
+    content: "\f7da"
+}
+
+.fa-transgender:before {
+    content: "\f224"
+}
+
+.fa-transgender-alt:before {
+    content: "\f225"
+}
+
+.fa-trash:before {
+    content: "\f1f8"
+}
+
+.fa-trash-alt:before {
+    content: "\f2ed"
+}
+
+.fa-trash-restore:before {
+    content: "\f829"
+}
+
+.fa-trash-restore-alt:before {
+    content: "\f82a"
+}
+
+.fa-tree:before {
+    content: "\f1bb"
+}
+
+.fa-trello:before {
+    content: "\f181"
+}
+
+.fa-trophy:before {
+    content: "\f091"
+}
+
+.fa-truck:before {
+    content: "\f0d1"
+}
+
+.fa-truck-loading:before {
+    content: "\f4de"
+}
+
+.fa-truck-monster:before {
+    content: "\f63b"
+}
+
+.fa-truck-moving:before {
+    content: "\f4df"
+}
+
+.fa-truck-pickup:before {
+    content: "\f63c"
+}
+
+.fa-tshirt:before {
+    content: "\f553"
+}
+
+.fa-tty:before {
+    content: "\f1e4"
+}
+
+.fa-tumblr:before {
+    content: "\f173"
+}
+
+.fa-tumblr-square:before {
+    content: "\f174"
+}
+
+.fa-tv:before {
+    content: "\f26c"
+}
+
+.fa-twitch:before {
+    content: "\f1e8"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-twitter-square:before {
+    content: "\f081"
+}
+
+.fa-typo3:before {
+    content: "\f42b"
+}
+
+.fa-uber:before {
+    content: "\f402"
+}
+
+.fa-ubuntu:before {
+    content: "\f7df"
+}
+
+.fa-uikit:before {
+    content: "\f403"
+}
+
+.fa-umbraco:before {
+    content: "\f8e8"
+}
+
+.fa-umbrella:before {
+    content: "\f0e9"
+}
+
+.fa-umbrella-beach:before {
+    content: "\f5ca"
+}
+
+.fa-uncharted:before {
+    content: "\e084"
+}
+
+.fa-underline:before {
+    content: "\f0cd"
+}
+
+.fa-undo:before {
+    content: "\f0e2"
+}
+
+.fa-undo-alt:before {
+    content: "\f2ea"
+}
+
+.fa-uniregistry:before {
+    content: "\f404"
+}
+
+.fa-unity:before {
+    content: "\e049"
+}
+
+.fa-universal-access:before {
+    content: "\f29a"
+}
+
+.fa-university:before {
+    content: "\f19c"
+}
+
+.fa-unlink:before {
+    content: "\f127"
+}
+
+.fa-unlock:before {
+    content: "\f09c"
+}
+
+.fa-unlock-alt:before {
+    content: "\f13e"
+}
+
+.fa-unsplash:before {
+    content: "\e07c"
+}
+
+.fa-untappd:before {
+    content: "\f405"
+}
+
+.fa-upload:before {
+    content: "\f093"
+}
+
+.fa-ups:before {
+    content: "\f7e0"
+}
+
+.fa-usb:before {
+    content: "\f287"
+}
+
+.fa-user:before {
+    content: "\f007"
+}
+
+.fa-user-alt:before {
+    content: "\f406"
+}
+
+.fa-user-alt-slash:before {
+    content: "\f4fa"
+}
+
+.fa-user-astronaut:before {
+    content: "\f4fb"
+}
+
+.fa-user-check:before {
+    content: "\f4fc"
+}
+
+.fa-user-circle:before {
+    content: "\f2bd"
+}
+
+.fa-user-clock:before {
+    content: "\f4fd"
+}
+
+.fa-user-cog:before {
+    content: "\f4fe"
+}
+
+.fa-user-edit:before {
+    content: "\f4ff"
+}
+
+.fa-user-friends:before {
+    content: "\f500"
+}
+
+.fa-user-graduate:before {
+    content: "\f501"
+}
+
+.fa-user-injured:before {
+    content: "\f728"
+}
+
+.fa-user-lock:before {
+    content: "\f502"
+}
+
+.fa-user-md:before {
+    content: "\f0f0"
+}
+
+.fa-user-minus:before {
+    content: "\f503"
+}
+
+.fa-user-ninja:before {
+    content: "\f504"
+}
+
+.fa-user-nurse:before {
+    content: "\f82f"
+}
+
+.fa-user-plus:before {
+    content: "\f234"
+}
+
+.fa-user-secret:before {
+    content: "\f21b"
+}
+
+.fa-user-shield:before {
+    content: "\f505"
+}
+
+.fa-user-slash:before {
+    content: "\f506"
+}
+
+.fa-user-tag:before {
+    content: "\f507"
+}
+
+.fa-user-tie:before {
+    content: "\f508"
+}
+
+.fa-user-times:before {
+    content: "\f235"
+}
+
+.fa-users:before {
+    content: "\f0c0"
+}
+
+.fa-users-cog:before {
+    content: "\f509"
+}
+
+.fa-users-slash:before {
+    content: "\e073"
+}
+
+.fa-usps:before {
+    content: "\f7e1"
+}
+
+.fa-ussunnah:before {
+    content: "\f407"
+}
+
+.fa-utensil-spoon:before {
+    content: "\f2e5"
+}
+
+.fa-utensils:before {
+    content: "\f2e7"
+}
+
+.fa-vaadin:before {
+    content: "\f408"
+}
+
+.fa-vector-square:before {
+    content: "\f5cb"
+}
+
+.fa-venus:before {
+    content: "\f221"
+}
+
+.fa-venus-double:before {
+    content: "\f226"
+}
+
+.fa-venus-mars:before {
+    content: "\f228"
+}
+
+.fa-vest:before {
+    content: "\e085"
+}
+
+.fa-vest-patches:before {
+    content: "\e086"
+}
+
+.fa-viacoin:before {
+    content: "\f237"
+}
+
+.fa-viadeo:before {
+    content: "\f2a9"
+}
+
+.fa-viadeo-square:before {
+    content: "\f2aa"
+}
+
+.fa-vial:before {
+    content: "\f492"
+}
+
+.fa-vials:before {
+    content: "\f493"
+}
+
+.fa-viber:before {
+    content: "\f409"
+}
+
+.fa-video:before {
+    content: "\f03d"
+}
+
+.fa-video-slash:before {
+    content: "\f4e2"
+}
+
+.fa-vihara:before {
+    content: "\f6a7"
+}
+
+.fa-vimeo:before {
+    content: "\f40a"
+}
+
+.fa-vimeo-square:before {
+    content: "\f194"
+}
+
+.fa-vimeo-v:before {
+    content: "\f27d"
+}
+
+.fa-vine:before {
+    content: "\f1ca"
+}
+
+.fa-virus:before {
+    content: "\e074"
+}
+
+.fa-virus-slash:before {
+    content: "\e075"
+}
+
+.fa-viruses:before {
+    content: "\e076"
+}
+
+.fa-vk:before {
+    content: "\f189"
+}
+
+.fa-vnv:before {
+    content: "\f40b"
+}
+
+.fa-voicemail:before {
+    content: "\f897"
+}
+
+.fa-volleyball-ball:before {
+    content: "\f45f"
+}
+
+.fa-volume-down:before {
+    content: "\f027"
+}
+
+.fa-volume-mute:before {
+    content: "\f6a9"
+}
+
+.fa-volume-off:before {
+    content: "\f026"
+}
+
+.fa-volume-up:before {
+    content: "\f028"
+}
+
+.fa-vote-yea:before {
+    content: "\f772"
+}
+
+.fa-vr-cardboard:before {
+    content: "\f729"
+}
+
+.fa-vuejs:before {
+    content: "\f41f"
+}
+
+.fa-walking:before {
+    content: "\f554"
+}
+
+.fa-wallet:before {
+    content: "\f555"
+}
+
+.fa-warehouse:before {
+    content: "\f494"
+}
+
+.fa-watchman-monitoring:before {
+    content: "\e087"
+}
+
+.fa-water:before {
+    content: "\f773"
+}
+
+.fa-wave-square:before {
+    content: "\f83e"
+}
+
+.fa-waze:before {
+    content: "\f83f"
+}
+
+.fa-weebly:before {
+    content: "\f5cc"
+}
+
+.fa-weibo:before {
+    content: "\f18a"
+}
+
+.fa-weight:before {
+    content: "\f496"
+}
+
+.fa-weight-hanging:before {
+    content: "\f5cd"
+}
+
+.fa-weixin:before {
+    content: "\f1d7"
+}
+
+.fa-whatsapp:before {
+    content: "\f232"
+}
+
+.fa-whatsapp-square:before {
+    content: "\f40c"
+}
+
+.fa-wheelchair:before {
+    content: "\f193"
+}
+
+.fa-whmcs:before {
+    content: "\f40d"
+}
+
+.fa-wifi:before {
+    content: "\f1eb"
+}
+
+.fa-wikipedia-w:before {
+    content: "\f266"
+}
+
+.fa-wind:before {
+    content: "\f72e"
+}
+
+.fa-window-close:before {
+    content: "\f410"
+}
+
+.fa-window-maximize:before {
+    content: "\f2d0"
+}
+
+.fa-window-minimize:before {
+    content: "\f2d1"
+}
+
+.fa-window-restore:before {
+    content: "\f2d2"
+}
+
+.fa-windows:before {
+    content: "\f17a"
+}
+
+.fa-wine-bottle:before {
+    content: "\f72f"
+}
+
+.fa-wine-glass:before {
+    content: "\f4e3"
+}
+
+.fa-wine-glass-alt:before {
+    content: "\f5ce"
+}
+
+.fa-wix:before {
+    content: "\f5cf"
+}
+
+.fa-wizards-of-the-coast:before {
+    content: "\f730"
+}
+
+.fa-wodu:before {
+    content: "\e088"
+}
+
+.fa-wolf-pack-battalion:before {
+    content: "\f514"
+}
+
+.fa-won-sign:before {
+    content: "\f159"
+}
+
+.fa-wordpress:before {
+    content: "\f19a"
+}
+
+.fa-wordpress-simple:before {
+    content: "\f411"
+}
+
+.fa-wpbeginner:before {
+    content: "\f297"
+}
+
+.fa-wpexplorer:before {
+    content: "\f2de"
+}
+
+.fa-wpforms:before {
+    content: "\f298"
+}
+
+.fa-wpressr:before {
+    content: "\f3e4"
+}
+
+.fa-wrench:before {
+    content: "\f0ad"
+}
+
+.fa-x-ray:before {
+    content: "\f497"
+}
+
+.fa-xbox:before {
+    content: "\f412"
+}
+
+.fa-xing:before {
+    content: "\f168"
+}
+
+.fa-xing-square:before {
+    content: "\f169"
+}
+
+.fa-y-combinator:before {
+    content: "\f23b"
+}
+
+.fa-yahoo:before {
+    content: "\f19e"
+}
+
+.fa-yammer:before {
+    content: "\f840"
+}
+
+.fa-yandex:before {
+    content: "\f413"
+}
+
+.fa-yandex-international:before {
+    content: "\f414"
+}
+
+.fa-yarn:before {
+    content: "\f7e3"
+}
+
+.fa-yelp:before {
+    content: "\f1e9"
+}
+
+.fa-yen-sign:before {
+    content: "\f157"
+}
+
+.fa-yin-yang:before {
+    content: "\f6ad"
+}
+
+.fa-yoast:before {
+    content: "\f2b1"
+}
+
+.fa-youtube:before {
+    content: "\f167"
+}
+
+.fa-youtube-square:before {
+    content: "\f431"
+}
+
+.fa-zhihu:before {
+    content: "\f63f"
+}
+
+.sr-only {
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+
+@font-face {
+    font-display: block;
+    font-family: Font Awesome\ 5 Brands;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../webfonts/fa-brands-400.eot);
+    src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+.fab {
+    font-family: Font Awesome\ 5 Brands
+}
+
+@font-face {
+    font-display: block;
+    font-family: Font Awesome\ 5 Free;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../webfonts/fa-regular-400.eot);
+    src: url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}
+
+.fab,
+.far {
+    font-weight: 400
+}
+
+@font-face {
+    font-display: block;
+    font-family: Font Awesome\ 5 Free;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../webfonts/fa-solid-900.eot);
+    src: url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.woff) format("woff"), url(../webfonts/fa-solid-900.ttf) format("truetype"), url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}
+
+.fa,
+.far,
+.fas {
+    font-family: Font Awesome\ 5 Free
+}
+
+.fa,
+.fas {
+    font-weight: 900
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url(/misc/fonts/SuisseIntl-Regular.otf)
+}
+
+@font-face {
+    font-family: SuisseIntl-SemiBold;
+    src: url(/misc/fonts/SuisseIntl-SemiBold.otf)
+}
+
+.account-settings .p-0 {
+    padding: 0 !important
+}
+
+.account-settings .avatar-upload-wrapper .fa-arrow-up {
+    background-color: #695cc2;
+    border-radius: 50%;
+    bottom: -10px;
+    color: #fff;
+    font-size: 1.5em;
+    height: 36px;
+    left: 65px;
+    line-height: 20px;
+    padding: 8px;
+    position: absolute;
+    width: 36px
+}
+
+.account-settings .avatar-upload-wrapper .fa-arrow-up:hover {
+    background-color: #9a81ff
+}
+
+.account-settings .avatar-upload-wrapper .img-wrapper {
+    position: relative
+}
+
+.account-settings .avatar-upload-wrapper .img-wrapper img {
+    border: 2px solid #0049c6;
+    max-height: 95px;
+    padding: 5px
+}
+
+.account-settings .password-input,
+.account-settings .text--input {
+    max-width: 276px
+}
+
+.account-settings .password-input.text--input,
+.account-settings .text--input.text--input {
+    max-width: 210px
+}
+
+.account-settings .password-input.text--input .v-input__icon .v-icon,
+.account-settings .text--input.text--input .v-input__icon .v-icon {
+    color: #fff !important;
+    font-size: 14px
+}
+
+.account-settings .password-input .v-input__slot:after,
+.account-settings .password-input .v-input__slot:before,
+.account-settings .text--input .v-input__slot:after,
+.account-settings .text--input .v-input__slot:before {
+    display: none !important
+}
+
+.account-settings .password-input .v-input__icon .v-icon,
+.account-settings .text--input .v-input__icon .v-icon {
+    color: #5b5b6a !important;
+    font-size: 14px
+}
+
+.tags-input {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tags-input input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    flex: 1;
+    min-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.tags-input input::-moz-placeholder {
+    color: #9697a2
+}
+
+.tags-input input::placeholder {
+    color: #9697a2
+}
+
+.tags-input input:focus {
+    outline: none
+}
+
+.tags-input input[type=text] {
+    color: #fff
+}
+
+.tags-input-wrapper-default {
+    background: #393747;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    min-height: 45px;
+    padding: 0 12px
+}
+
+.tags-input-wrapper-default.active {
+    border: 1px solid #8bbafe;
+    box-shadow: 0 0 0 .2em rgba(13, 110, 253, .25);
+    outline: 0 none
+}
+
+.tags-input span {
+    align-items: center;
+    display: flex;
+    margin-right: .3em
+}
+
+.tags-input-remove {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: .5em;
+    position: absolute;
+    right: .3em;
+    top: .3em
+}
+
+.tags-input-remove:focus {
+    outline: none
+}
+
+.tags-input-remove:after,
+.tags-input-remove:before {
+    background: #fff;
+    content: "";
+    height: 2px;
+    left: .15em;
+    margin-top: 1px;
+    position: absolute;
+    width: 75%
+}
+
+.tags-input-remove:hover:after,
+.tags-input-remove:hover:before {
+    background: #8e7ef5
+}
+
+.tags-input-remove:before {
+    transform: rotate(45deg)
+}
+
+.tags-input-remove:after {
+    transform: rotate(-45deg)
+}
+
+.tags-input-badge {
+    border-radius: .25em;
+    display: inline-block;
+    line-height: inherit;
+    min-height: 24px;
+    overflow: hidden;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+    white-space: nowrap
+}
+
+.tags-input-badge-pill {
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding-left: .6em;
+    padding-right: 1.25em
+}
+
+.tags-input-badge-pill.disabled {
+    padding-right: .6em
+}
+
+.tags-input-badge-selected-default {
+    background-color: #443f64;
+    color: #fff
+}
+
+.typeahead-hide-btn {
+    color: #999 !important;
+    font-style: italic
+}
+
+.typeahead-badges>span {
+    margin-top: .5em
+}
+
+p.typeahead-badges {
+    margin-bottom: 0 !important
+}
+
+.typeahead-badges>span {
+    cursor: pointer;
+    margin-right: .3em
+}
+
+.typeahead-dropdown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1000
+}
+
+.typeahead-dropdown li {
+    cursor: pointer;
+    padding: .25em 1em
+}
+
+.tags-input-typeahead-item-default {
+    background-color: #343a40;
+    color: #fff;
+    padding: .4em
+}
+
+.tags-input-typeahead-item-highlighted-default {
+    background-color: #443f64 !important;
+    color: #fff;
+    padding: .4em
+}
+
+html {
+    background-color: #333
+}
+
+[v-cloak] {
+    display: none !important
+}
+
+body.main-app-wrapper {
+    background: #000;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+
+body.main-app-wrapper [v-cloak] {
+    display: none !important
+}
+
+body.main-app-wrapper .text-center {
+    text-align: center
+}
+
+body.main-app-wrapper .p-relative {
+    position: relative
+}
+
+body.main-app-wrapper .v-application {
+    background: url(/img/background2.svg) top no-repeat;
+    background-size: cover
+}
+
+body.main-app-wrapper .justify-content-center {
+    justify-content: center !important
+}
+
+body.main-app-wrapper .align-items-center {
+    align-items: center !important
+}
+
+body.main-app-wrapper .img-fluid {
+    height: auto;
+    max-width: 100%
+}
+
+body.main-app-wrapper .p-0 {
+    padding: 0 !important
+}
+
+body.main-app-wrapper img,
+body.main-app-wrapper svg {
+    vertical-align: middle
+}
+
+body.main-app-wrapper .v-application .custom-purple,
+body.main-app-wrapper .v-application .purple {
+    background-color: #6c5dd3 !important;
+    border-color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .v-application .custom-grey {
+    background-color: #303340 !important;
+    border-color: #303340 !important
+}
+
+body.main-app-wrapper .v-application .blue.lighten-2 {
+    background-color: #e1ebf4 !important;
+    border-color: #e1ebf4 !important
+}
+
+body.main-app-wrapper .v-application .theme--dark.v-slider .v-slider__thumb,
+body.main-app-wrapper .v-application .theme--dark.v-slider .v-slider__track-background,
+body.main-app-wrapper .v-application .theme--dark.v-slider .v-slider__track-fill {
+    background: #c4c4c4
+}
+
+body.main-app-wrapper .v-btn--outlined .v-btn__content {
+    color: #fff;
+    font-weight: 700
+}
+
+body.main-app-wrapper .upgrade {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55) !important;
+    color: #161a28 !important
+}
+
+body.main-app-wrapper .v-slider--horizontal .v-slider__track-container {
+    height: 3px
+}
+
+body.main-app-wrapper .btn-plain {
+    background: none !important;
+    box-shadow: none !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    min-height: -moz-fit-content !important;
+    min-height: fit-content !important;
+    min-width: -moz-fit-content !important;
+    min-width: fit-content !important;
+    padding: 0 !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important
+}
+
+body.main-app-wrapper .btn-plain.v-btn--disabled.v-btn--has-bg,
+body.main-app-wrapper .btn-plain.v-btn--has-bg,
+body.main-app-wrapper .btn-plain.v-btn--loading.v-btn--has-bg {
+    background: none !important
+}
+
+body.main-app-wrapper .btn-plain:hover:before {
+    opacity: 0 !important
+}
+
+body.main-app-wrapper .btn-purple {
+    background: #6c5dd3 !important;
+    border-radius: 15px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 9px 18px;
+    text-decoration: none
+}
+
+body.main-app-wrapper .btn-purple.active,
+body.main-app-wrapper .btn-purple.router-link-exact-active {
+    background: #6c5dd3 !important
+}
+
+body.main-app-wrapper .v-application .green.lighten-2 {
+    background: #def3e3 !important;
+    border-color: #def3e3 !important
+}
+
+body.main-app-wrapper .v-application .orange.lighten-2 {
+    background-color: #f4ebda !important;
+    border-color: #f4ebda !important
+}
+
+body.main-app-wrapper .v-application .orange.lighten-2 .v-alert__border {
+    border-bottom-left-radius: 15px;
+    border-color: #f0a92d;
+    border-top-left-radius: 15px;
+    border-width: 10px;
+    left: -20px;
+    opacity: 1
+}
+
+body.main-app-wrapper .menu-item-wrapper .btn-link.router-link-active {
+    background: #6c5dd3
+}
+
+body.main-app-wrapper .menu-item-wrapper .btn-link:not(.router-link-active):hover {
+    background: #000
+}
+
+body.main-app-wrapper .btn-purple:hover,
+body.main-app-wrapper .menu-item-wrapper .btn-link.router-link-active:hover {
+    background: #9a81ff !important
+}
+
+body.main-app-wrapper .theme--light.v-progress-linear {
+    top: 30px
+}
+
+body.main-app-wrapper .v-application .v-progress-linear .primary {
+    background-color: #6c5dd3 !important;
+    border-color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .v-application .v-progress-linear .v-progress-linear__buffer {
+    background-color: #1e1b3e !important;
+    border-color: #1e1b3e !important
+}
+
+body.main-app-wrapper .v-input--switch--inset .v-input--switch__track {
+    opacity: 1 !important
+}
+
+body.main-app-wrapper .v-input--switch .v-label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px
+}
+
+body.main-app-wrapper .theme--dark.v-input--switch .v-input__slot:hover .v-input--switch__track,
+body.main-app-wrapper .theme--light.v-input--switch .v-input__slot:hover .v-input--switch__track {
+    color: #393282 !important
+}
+
+body.main-app-wrapper .theme--dark.v-input--switch .v-input__slot:hover .v-input--switch__track.purple-custom--text,
+body.main-app-wrapper .theme--light.v-input--switch .v-input__slot:hover .v-input--switch__track.purple-custom--text {
+    color: #9a81ff !important
+}
+
+body.main-app-wrapper .cursor-pointer {
+    cursor: pointer !important
+}
+
+body.main-app-wrapper .v-application .theme--light.purple--text {
+    caret-color: #6c5dd3 !important;
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .btn-green {
+    background: #45797e
+}
+
+body.main-app-wrapper .btn-red {
+    background: #ea5f5f
+}
+
+body.main-app-wrapper .btn-secondary {
+    background: #555267;
+    border-color: #555267;
+    border-radius: 15px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 9px 18px;
+    text-decoration: none
+}
+
+body.main-app-wrapper .btn-secondary:hover {
+    background: #474456
+}
+
+body.main-app-wrapper .btn-outline-light {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff !important
+}
+
+body.main-app-wrapper .v-application .purple--text {
+    caret-color: #6c5dd3 !important;
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper input:-webkit-autofill,
+body.main-app-wrapper input:-webkit-autofill:active,
+body.main-app-wrapper input:-webkit-autofill:focus,
+body.main-app-wrapper input:-webkit-autofill:hover {
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s
+}
+
+body.main-app-wrapper input:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important
+}
+
+body.main-app-wrapper .container-fluid>.row {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone {
+    align-items: center;
+    background: hsla(0, 0%, 89%, .05);
+    border: 2px dashed rgba(240, 243, 246, .1);
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px 30px;
+    transition: background-color .2s
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone .upload-file-wrapper {
+    text-align: center
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone .upload-file-wrapper p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone .upload-file-wrapper p.small {
+    color: #b0aeb8;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 30px
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone .upload-file-wrapper .cta {
+    background: #3f8cff;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 20px;
+    padding: 18px 20px;
+    text-align: center;
+    text-transform: none
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone div.input-container {
+    min-width: 100%
+}
+
+body.main-app-wrapper .filedrop-wrapper .dropzone input.filebtn {
+    display: none
+}
+
+body.main-app-wrapper .dropzone.disabled {
+    pointer-events: none
+}
+
+body.main-app-wrapper .dropzone .theme--light.v-icon,
+body.main-app-wrapper .dropzone .theme--light.v-input {
+    color: #fff
+}
+
+body.main-app-wrapper .dropzone .dz-preview {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: auto
+}
+
+body.main-app-wrapper .dropzone .dz-preview .dz-remove {
+    pointer-events: all
+}
+
+body.main-app-wrapper .dropzone .dz-preview .dz-progress {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 200px
+}
+
+body.main-app-wrapper .dropzone .dz-preview .dz-progress .dz-upload {
+    background: #6c5dd3
+}
+
+body.main-app-wrapper .dropzone .dz-default.dz-message {
+    display: none
+}
+
+body.main-app-wrapper .dropzone .dz-details {
+    text-align: center
+}
+
+body.main-app-wrapper .dropzone .dz-error-mark {
+    bottom: 30px;
+    height: 18px;
+    margin-left: -9px;
+    top: unset;
+    width: 18px
+}
+
+body.main-app-wrapper .dropzone .dz-error-mark svg {
+    height: 18px;
+    width: 18px
+}
+
+body.main-app-wrapper .theme--light.v-btn:focus:before {
+    opacity: 0 !important
+}
+
+body.main-app-wrapper .modal-close-button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEyLjUgMTUuMTYyLTkuMzE2IDkuMzE1Yy0uMzQ4LjM0OS0uNzkyLjUyMy0xLjMzLjUyMy0uNTM5IDAtLjk4My0uMTc0LTEuMzMxLS41MjNDLjE3NCAyNC4xMyAwIDIzLjY4NSAwIDIzLjE0N2MwLS41NC4xNzQtLjk4My41MjMtMS4zMzFMOS44MzggMTIuNS41MjMgMy4xODRDLjE3NCAyLjgzNiAwIDIuMzkyIDAgMS44NTQgMCAxLjMxNS4xNzQuODcuNTIzLjUyMy44Ny4xNzQgMS4zMTUgMCAxLjg1MyAwYy41NCAwIC45ODMuMTc0IDEuMzMxLjUyM0wxMi41IDkuODM4IDIxLjgxNi41MjNjLjM0OC0uMzQ5Ljc5Mi0uNTIzIDEuMzMtLjUyMy41MzkgMCAuOTgzLjE3NCAxLjMzMS41MjMuMzQ5LjM0OC41MjMuNzkyLjUyMyAxLjMzIDAgLjU0LS4xNzQuOTgzLS41MjMgMS4zMzFMMTUuMTYyIDEyLjVsOS4zMTUgOS4zMTZjLjM0OS4zNDguNTIzLjc5Mi41MjMgMS4zMyAwIC41MzktLjE3NC45ODMtLjUyMyAxLjMzMS0uMzQ4LjM0OS0uNzkyLjUyMy0xLjMzLjUyMy0uNTQgMC0uOTgzLS4xNzQtMS4zMzEtLjUyM0wxMi41IDE1LjE2MloiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
+    background-position: 50%;
+    background-size: 20px;
+    border-radius: 50%;
+    cursor: default;
+    height: 30px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    transition: all .15s ease-in-out;
+    width: 30px
+}
+
+body.main-app-wrapper .modal-close-button:hover {
+    background-color: #292835;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjUgMTIuNzM2IDIuNjc1IDIwLjU2Yy0uMjkzLjI5My0uNjY1LjQzOS0xLjExOC40MzktLjQ1MiAwLS44MjUtLjE0Ni0xLjExOC0uNDRDLjE0NiAyMC4yNjkgMCAxOS44OTYgMCAxOS40NDRjMC0uNDUzLjE0Ni0uODI1LjQ0LTEuMTE4TDguMjYzIDEwLjUuNDQgMi42NzVDLjE0NiAyLjM4MiAwIDIuMDEgMCAxLjU1NyAwIDEuMTA1LjE0Ni43MzIuNDQuNDM5LjczMS4xNDYgMS4xMDQgMCAxLjU1NiAwYy40NTMgMCAuODI1LjE0NiAxLjExOC40NEwxMC41IDguMjYzIDE4LjMyNS40NEMxOC42MTguMTQ2IDE4Ljk5MSAwIDE5LjQ0MyAwYy40NTIgMCAuODI1LjE0NiAxLjExOC40NC4yOTMuMjkyLjQzOS42NjUuNDM5IDEuMTE3IDAgLjQ1My0uMTQ2LjgyNS0uNDQgMS4xMThMMTIuNzM3IDEwLjVsNy44MjUgNy44MjVjLjI5My4yOTMuNDM5LjY2Ni40MzkgMS4xMTggMCAuNDUyLS4xNDYuODI1LS40NCAxLjExOC0uMjkyLjI5My0uNjY1LjQzOS0xLjExNy40MzktLjQ1MyAwLS44MjUtLjE0Ni0xLjExOC0uNDRMMTAuNSAxMi43MzdaIiBmaWxsPSIjNkM1REQzIi8+PC9zdmc+");
+    background-size: 17px;
+    border-radius: 50%
+}
+
+body.main-app-wrapper .v-dialog {
+    background: #000;
+    border-radius: 24px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4)
+}
+
+body.main-app-wrapper .upgrade-wrapper {
+    background-image: url(/img/upgrade-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 35px
+}
+
+body.main-app-wrapper .package-details-wrapper .package-outer-wrapper,
+body.main-app-wrapper .upgrade-wrapper .package-outer-wrapper {
+    position: relative
+}
+
+body.main-app-wrapper .package-details-wrapper .package-outer-wrapper .package-wrapper,
+body.main-app-wrapper .upgrade-wrapper .package-outer-wrapper .package-wrapper {
+    position: absolute;
+    top: -80px
+}
+
+@media screen and (max-width:1350px) {
+    body.main-app-wrapper .package-details-wrapper .package-outer-wrapper .package-wrapper,
+    body.main-app-wrapper .upgrade-wrapper .package-outer-wrapper .package-wrapper {
+        top: -50px
+    }
+}
+
+body.main-app-wrapper .package-details-wrapper .feature-wrapper,
+body.main-app-wrapper .upgrade-wrapper .feature-wrapper {
+    margin-bottom: 35px
+}
+
+body.main-app-wrapper .package-details-wrapper .feature-wrapper h3,
+body.main-app-wrapper .upgrade-wrapper .feature-wrapper h3 {
+    color: #6c5dd3;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 5px
+}
+
+body.main-app-wrapper .package-details-wrapper .feature-wrapper p,
+body.main-app-wrapper .upgrade-wrapper .feature-wrapper p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0
+}
+
+body.main-app-wrapper .package-details-wrapper .demo-wrapper,
+body.main-app-wrapper .package-details-wrapper .premium-wrapper,
+body.main-app-wrapper .package-details-wrapper .value-wrapper,
+body.main-app-wrapper .upgrade-wrapper .demo-wrapper,
+body.main-app-wrapper .upgrade-wrapper .premium-wrapper,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper {
+    font-size: 24px;
+    font-weight: 700;
+    height: 82px;
+    line-height: 32px;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    position: relative
+}
+
+body.main-app-wrapper .package-details-wrapper .demo-wrapper,
+body.main-app-wrapper .package-details-wrapper .value-wrapper,
+body.main-app-wrapper .upgrade-wrapper .demo-wrapper,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper {
+    background: #dbd6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    color: #212121
+}
+
+body.main-app-wrapper .package-details-wrapper .value-wrapper .price-wrapper,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper .price-wrapper {
+    margin-right: 62px
+}
+
+body.main-app-wrapper .package-details-wrapper .value-wrapper .small,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper .small {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    left: 7px;
+    line-height: 21px;
+    opacity: .7;
+    position: relative;
+    top: -5px
+}
+
+body.main-app-wrapper .package-details-wrapper .value-wrapper img,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper img {
+    position: absolute;
+    right: -25px;
+    top: -58px
+}
+
+body.main-app-wrapper .package-details-wrapper .premium-wrapper:hover,
+body.main-app-wrapper .upgrade-wrapper .premium-wrapper:hover {
+    background: #4a3e9b
+}
+
+body.main-app-wrapper .package-details-wrapper .premium-wrapper,
+body.main-app-wrapper .upgrade-wrapper .premium-wrapper {
+    background: #6c5dd3;
+    border-radius: 10px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4)
+}
+
+body.main-app-wrapper .package-details-wrapper .premium-wrapper .small,
+body.main-app-wrapper .upgrade-wrapper .premium-wrapper .small {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: .7;
+    position: relative;
+    top: -47px
+}
+
+body.main-app-wrapper .package-details-wrapper .premium-wrapper .popular-wrapper,
+body.main-app-wrapper .upgrade-wrapper .premium-wrapper .popular-wrapper {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    border-radius: 10px;
+    color: #171a25;
+    font-size: 20px;
+    font-weight: 700;
+    left: -13px;
+    line-height: 24px;
+    padding: 10px 29px;
+    position: absolute;
+    text-align: center;
+    top: -25px
+}
+
+body.main-app-wrapper .package-details-wrapper .demo-wrapper .small,
+body.main-app-wrapper .upgrade-wrapper .demo-wrapper .small {
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: .7;
+    position: relative;
+    top: -8px
+}
+
+body.main-app-wrapper .package-details-wrapper .demo-wrapper:hover,
+body.main-app-wrapper .package-details-wrapper .value-wrapper:hover,
+body.main-app-wrapper .upgrade-wrapper .demo-wrapper:hover,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper:hover {
+    background: #4a3e9b;
+    color: #fff
+}
+
+body.main-app-wrapper .package-details-wrapper .demo-wrapper:hover .small,
+body.main-app-wrapper .package-details-wrapper .value-wrapper:hover .small,
+body.main-app-wrapper .upgrade-wrapper .demo-wrapper:hover .small,
+body.main-app-wrapper .upgrade-wrapper .value-wrapper:hover .small {
+    color: #fff
+}
+
+body.main-app-wrapper .package-details-wrapper .heads-wrapper,
+body.main-app-wrapper .upgrade-wrapper .heads-wrapper {
+    left: 15px;
+    position: relative;
+    top: 20px
+}
+
+@media screen and (max-width:1300px) {
+    body.main-app-wrapper .package-details-wrapper .heads-wrapper,
+    body.main-app-wrapper .upgrade-wrapper .heads-wrapper {
+        left: 8px;
+        top: 15px
+    }
+}
+
+body.main-app-wrapper .package-details-wrapper .img-back,
+body.main-app-wrapper .upgrade-wrapper .img-back {
+    color: #6d6f82;
+    margin-bottom: 60px;
+    max-height: 20px
+}
+
+body.main-app-wrapper .v-tooltip__content {
+    background: linear-gradient(1turn, rgba(25, 24, 31, .956), rgba(50, 46, 83, .95) 95.75%);
+    border-radius: 24px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 22px 19px
+}
+
+body.main-app-wrapper .v-tooltip__content strong {
+    font-weight: 700
+}
+
+body.main-app-wrapper .v-tooltip__content.menuable__content__active {
+    opacity: 1
+}
+
+body.main-app-wrapper .navbar-outer-wrapper {
+    max-width: 300px;
+    min-width: 250px
+}
+
+body.main-app-wrapper .switch-wrapper {
+    max-width: 230px
+}
+
+body.main-app-wrapper .nav-switch-wrapper {
+    max-width: 250px;
+    min-width: 250px
+}
+
+body.main-app-wrapper .v-input--selection-controls {
+    margin-top: 12px
+}
+
+body.main-app-wrapper .v-alert {
+    border-radius: 0 !important;
+    bottom: 10%;
+    position: fixed;
+    right: 0;
+    z-index: 20
+}
+
+body.main-app-wrapper .v-alert .row {
+    padding: 13px
+}
+
+body.main-app-wrapper .v-alert h3 {
+    color: #47426a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .v-alert span {
+    color: #47426a;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px
+}
+
+body.main-app-wrapper ._top-left-alert {
+    background: #650e0ee3 !important;
+    border: 3px solid red;
+    border-radius: 12px !important;
+    bottom: unset;
+    left: 30px;
+    right: unset;
+    top: 20px
+}
+
+body.main-app-wrapper ._top-left-alert a {
+    color: #fff !important
+}
+
+body.main-app-wrapper .contact-wrapper .v-alert,
+body.main-app-wrapper .v-alert.sub {
+    border-radius: 15px !important;
+    position: relative;
+    z-index: 1
+}
+
+body.main-app-wrapper .v-snack .v-snack__wrapper {
+    border-radius: 15px
+}
+
+body.main-app-wrapper .v-snack .green.lighten-2 {
+    border-left: 17px solid #8dc640 !important
+}
+
+body.main-app-wrapper .v-snack .orange.lighten-2 {
+    border-left: 17px solid #f0a92d !important
+}
+
+body.main-app-wrapper .v-snack .blue.lighten-2 {
+    border-left: 17px solid #1689fc !important
+}
+
+body.main-app-wrapper .v-snack .row {
+    padding: 13px
+}
+
+body.main-app-wrapper .v-snack img {
+    margin-right: 35px
+}
+
+body.main-app-wrapper .v-snack .message-wrapper {
+    margin-left: 15px
+}
+
+body.main-app-wrapper .v-snack h3 {
+    color: #47426a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .v-snack span {
+    color: #47426a;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px
+}
+
+body.main-app-wrapper .theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled)>.v-input__control>.v-input__slot:hover fieldset {
+    color: #6c5dd3
+}
+
+body.main-app-wrapper .theme--light.v-list {
+    background: #302e38;
+    border: 1px solid #4e4b5a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #c4c4c4;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px
+}
+
+body.main-app-wrapper .v-menu__content {
+    margin-top: 3px
+}
+
+body.main-app-wrapper .v-text-field--outlined.v-input--has-state fieldset,
+body.main-app-wrapper .v-text-field--outlined.v-input--is-focused fieldset {
+    border: 1px solid
+}
+
+body.main-app-wrapper .v-list-item--link:before {
+    background: #6c5dd3 !important
+}
+
+body.main-app-wrapper .theme--light.v-list-item--active:focus:before,
+body.main-app-wrapper .theme--light.v-list-item.v-list-item--highlighted:before {
+    opacity: .2
+}
+
+body.main-app-wrapper .theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: #c4c4c4
+}
+
+body.main-app-wrapper .v-select__selection--comma {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px
+}
+
+body.main-app-wrapper .voice-component-wrapper.hovering .voice-wrapper:not(.selected) .img-wrapper .v-image {
+    box-shadow: 0 0 0 2px #3e7de9
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper).hovering .voice-wrapper:not(.selected) .img-wrapper .v-image {
+    box-shadow: 0 0 0 2px #3e7de9;
+    outline: 0
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper).hovering .voice-wrapper:not(.selected) .use-wrapper {
+    color: #fff
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper).hovering.add-wrapper-outer .voice-wrapper .img-wrapper img {
+    background: #9a81ff !important
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper {
+    background: rgba(23, 26, 37, .9);
+    border-radius: 24px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    padding: 0 15px
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper {
+    position: relative
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper .fa-heart {
+    position: absolute;
+    right: 0
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper h3 {
+    font-size: 24px;
+    line-height: 32px
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper h4 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 80px
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper .img-wrapper img {
+    background: #47426a;
+    border: 4px solid #2a2742;
+    box-shadow: 0 0 0 2px #0049c6;
+    margin-bottom: 23px;
+    margin-top: 12px;
+    max-height: 90px
+}
+
+body.main-app-wrapper .voice-popup-outer-wrapper .voice-popup-wrapper button {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 35px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: 140px;
+    width: 140px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .has-background.voice-wrapper {
+    background: rgba(132, 124, 209, .15)
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper {
+    border-radius: 20px;
+    margin: 0 0 1rem;
+    min-height: 185px;
+    padding-top: 15px;
+    position: relative
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .small-status {
+    font-size: 11px;
+    font-weight: 500
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .fa-trash {
+    position: absolute;
+    right: 10px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .fa-pencil-alt {
+    left: 10px;
+    position: absolute
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .img-wrapper {
+    margin-bottom: 12px;
+    position: relative
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .img-wrapper .v-image {
+    background: #47426a;
+    border: 4px solid #2a2742;
+    box-shadow: 0 0 0 2px #0049c6
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper .add-wrapper h3 {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.vote {
+    min-height: 185px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.demo .demo-wrapper {
+    background: #22b07d;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 7px;
+    font-weight: 600;
+    left: 43px;
+    line-height: 18px;
+    padding: 0 13px;
+    position: absolute;
+    top: 77px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.premium .premium-wrapper {
+    position: relative;
+    top: -3px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.premium .premium-wrapper img {
+    height: 32px;
+    left: 6px;
+    position: absolute
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.training {
+    min-height: 185px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.training .img-wrapper {
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.training .release-date-wrapper {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 10px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .voice-wrapper.training .release-date-wrapper p {
+    color: #6c5dd3;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 3px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .name-wrapper .create-voice {
+    font-size: 15px;
+    line-height: 22px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .name-wrapper .small {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 7px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .name-wrapper .name {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 120px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .use-wrapper {
+    color: #9594a2;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 15px;
+    text-align: center
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .vote-icon-wrapper img {
+    background-color: #0d0d12;
+    border: 2px solid #0d0d12;
+    border-radius: 35px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .vote-icon-wrapper .v-progress-circular,
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) .vote-icon-wrapper img {
+    position: relative;
+    top: -21px
+}
+
+body.main-app-wrapper .voice-component-wrapper:not(.compact-wrapper) hr {
+    background: #555;
+    border: 0;
+    height: 1px;
+    margin: 10px 0;
+    position: relative
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper {
+    display: inline-block;
+    margin-bottom: 15px;
+    max-width: 75px;
+    width: 75px
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper {
+    border-radius: 20px;
+    height: 75px;
+    padding-top: 10px;
+    position: relative
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper .img-wrapper {
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper .img-wrapper .v-image {
+    background: #47426a;
+    border: 4px solid #2a2742;
+    box-shadow: 0 0 0 2px #0049c6
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper.demo .demo-wrapper {
+    background: #22b07d;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 7px;
+    font-weight: 600;
+    left: 15px;
+    line-height: 18px;
+    padding: 0 13px;
+    position: absolute;
+    top: 77px
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper.premium .premium-wrapper {
+    left: -15px;
+    position: relative;
+    top: -45px
+}
+
+body.main-app-wrapper .voice-component-wrapper.compact-wrapper .voice-wrapper.premium .premium-wrapper img {
+    height: 32px;
+    position: absolute
+}
+
+body.main-app-wrapper .voice-component-wrapper .selected.voice-wrapper .img-wrapper>.v-image {
+    box-shadow: 0 0 0 3px #f9cf59 !important
+}
+
+body.main-app-wrapper .rounded-16 {
+    border-radius: 16px
+}
+
+body.main-app-wrapper .rounded-25 {
+    border-radius: 25px
+}
+
+body.main-app-wrapper .settings-wrapper {
+    background: linear-gradient(180deg, #141127, #000);
+    border-radius: 24px;
+    margin: 30px;
+    padding: 25px 60px
+}
+
+body.main-app-wrapper .settings-wrapper .v-input--switch .v-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px
+}
+
+body.main-app-wrapper .settings-wrapper h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+body.main-app-wrapper .settings-wrapper .col-11 {
+    margin-bottom: 16px
+}
+
+body.main-app-wrapper .settings-wrapper .shortcut-wrapper {
+    display: inline-block;
+    float: right
+}
+
+body.main-app-wrapper .settings-wrapper .shortcut-wrapper .btn-purple {
+    opacity: .7;
+    padding-bottom: 4px;
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 4px;
+    width: 181px
+}
+
+body.main-app-wrapper .__bar-is-vertical {
+    cursor: default !important
+}
+
+body.main-app-wrapper .__bar-is-vertical:active,
+body.main-app-wrapper .__bar-is-vertical:hover {
+    background: #9a81ff !important
+}
+
+body.main-app-wrapper h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 28px
+}
+
+body.main-app-wrapper h3.decorated {
+    margin-left: 30px;
+    text-decoration: underline;
+    text-decoration-color: #6c5dd3;
+    text-decoration-thickness: 4px
+}
+
+body.main-app-wrapper .vh-100 {
+    min-height: 100vh
+}
+
+body.main-app-wrapper .voice-universe-wrapper {
+    background: linear-gradient(180deg, #141127, #000);
+    border-radius: 24px;
+    margin: 0 30px;
+    min-height: 500px;
+    padding: 28px 11px 0 28px
+}
+
+body.main-app-wrapper .voice-universe-wrapper .scrollable {
+    max-height: calc(100vh - 195px)
+}
+
+body.main-app-wrapper .voice-universe-wrapper .hidden {
+    visibility: hidden
+}
+
+body.main-app-wrapper .voice-universe-wrapper .input-wrapper {
+    margin-top: 40px
+}
+
+body.main-app-wrapper .voice-universe-wrapper .input-wrapper label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    opacity: .7
+}
+
+body.main-app-wrapper .voice-universe-wrapper .input-wrapper label span {
+    float: right
+}
+
+body.main-app-wrapper .voice-universe-wrapper hr {
+    margin: 10px 0
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper {
+    font-weight: 600
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper .affiliate-checkbox a {
+    display: contents
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper label {
+    color: #fff
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper .v-input {
+    border-radius: 8px
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper .v-input ::-moz-placeholder {
+    color: #393939
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper .v-input ::placeholder {
+    color: #393939
+}
+
+body.main-app-wrapper .voice-universe-wrapper .affiliate-form-wrapper .social-profile-fields .row+.row {
+    margin-top: 0
+}
+
+body.main-app-wrapper .link-copy-box {
+    background: rgba(43, 40, 84, .5);
+    border: 1px solid rgba(108, 93, 211, .5);
+    border-radius: 20px;
+    color: #fff;
+    display: inline-flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+    vertical-align: middle
+}
+
+body.main-app-wrapper .link-copy-box .fa-link {
+    margin-right: 7px
+}
+
+body.main-app-wrapper .auth-box {
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    background: rgba(82, 69, 173, .69);
+    border-radius: 30px;
+    max-width: 577px;
+    min-height: 700px;
+    padding: 2.5vh 55px
+}
+
+body.main-app-wrapper .auth-box .logo-small {
+    margin-bottom: 1vh
+}
+
+body.main-app-wrapper .auth-box a {
+    color: #fff !important
+}
+
+body.main-app-wrapper .auth-box .intro-text {
+    color: #ada1ff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 19.991px;
+    margin-bottom: 0
+}
+
+@media screen and (max-width:1600px) {
+    body.main-app-wrapper .auth-box .intro-text {
+        font-size: .7rem;
+        line-height: 17px
+    }
+}
+
+body.main-app-wrapper .auth-box h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+    margin-bottom: 0
+}
+
+@media screen and (max-width:1600px) {
+    body.main-app-wrapper .auth-box h3 {
+        font-size: 2.8rem;
+        line-height: 2.2rem
+    }
+}
+
+body.main-app-wrapper .auth-box .v-text-field.v-text-field--enclosed .v-text-field__details {
+    margin-bottom: 6px
+}
+
+body.main-app-wrapper .auth-box .social-login {
+    color: #151515;
+    font-size: .938rem;
+    font-weight: 700
+}
+
+body.main-app-wrapper .auth-box .social-login .fa-discord {
+    color: #5865f2
+}
+
+body.main-app-wrapper .auth-box .social-login .fa-twitch {
+    color: #9146ff
+}
+
+body.main-app-wrapper .auth-box .v-input--checkbox .v-icon {
+    font-size: 15px
+}
+
+body.main-app-wrapper .auth-box .v-input--checkbox .v-input__slot {
+    margin-bottom: 4px
+}
+
+body.main-app-wrapper .auth-box .v-input--checkbox .tos-text {
+    font-size: 12px;
+    font-weight: 400
+}
+
+body.main-app-wrapper .auth-box hr {
+    border: 0;
+    border-top: 1px solid #6c5dd3;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0
+}
+
+body.main-app-wrapper .auth-box .or {
+    font-size: .875rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 29px;
+    margin-bottom: 0
+}
+
+body.main-app-wrapper .auth-box .v-text-field--solo>.v-input__control>.v-input__slot {
+    background: transparent;
+    margin-bottom: 2px
+}
+
+body.main-app-wrapper .auth-box .v-text-field.v-text-field--enclosed .v-text-field__details,
+body.main-app-wrapper .auth-box .v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot {
+    padding: 0 1rem
+}
+
+body.main-app-wrapper .auth-box .v-text-field--enclosed .v-input__prepend-inner {
+    margin-bottom: auto;
+    margin-top: auto
+}
+
+body.main-app-wrapper .auth-box .v-text-field .v-input__prepend-inner {
+    padding-right: 0
+}
+
+body.main-app-wrapper .auth-box .v-input__prepend-inner:after {
+    border: .5px solid;
+    content: "";
+    flex-shrink: 0;
+    height: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    transform: rotate(90deg);
+    width: 32px
+}
+
+body.main-app-wrapper .auth-box .v-text-field--outlined .v-label {
+    top: auto
+}
+
+body.main-app-wrapper .auth-box .v-otp-input .v-text-field--filled>.v-input__control>.v-input__slot,
+body.main-app-wrapper .auth-box .v-otp-input .v-text-field--full-width>.v-input__control>.v-input__slot,
+body.main-app-wrapper .auth-box .v-otp-input .v-text-field--outlined>.v-input__control>.v-input__slot {
+    min-height: 70px
+}
+
+body.main-app-wrapper .auth-box .v-otp-input input {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500
+}
+
+body.main-app-wrapper .auth-box input[type=submit] .v-btn__content {
+    font-size: 18px;
+    font-weight: 700
+}
+
+body.main-app-wrapper .login-page-wrapper {
+    background-image: url(/img/auth-bg.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh
+}
+
+body.main-app-wrapper .login-page-wrapper .login-text-wrapper {
+    max-width: 490px
+}
+
+body.main-app-wrapper .login-page-wrapper .login-text-wrapper.web-only {
+    max-width: 700px
+}
+
+body.main-app-wrapper .login-page-wrapper .details-wrapper .box {
+    height: 600px;
+    min-height: 600px
+}
+
+body.main-app-wrapper .login-page-wrapper .v-otp-input {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--dark.v-otp-input .v-input .v-input__control .v-input__slot {
+    background: transparent
+}
+
+body.main-app-wrapper .login-page-wrapper .btn-link {
+    color: #6c5dd3 !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px
+}
+
+body.main-app-wrapper .login-page-wrapper .btn-link:focus {
+    box-shadow: unset
+}
+
+body.main-app-wrapper .login-page-wrapper .forgot-wrapper {
+    color: #808191;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 20px;
+    margin-top: 15px
+}
+
+body.main-app-wrapper .login-page-wrapper .forgot-wrapper a {
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .login-page-wrapper h1 {
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 97px;
+    margin-bottom: 45px;
+    margin-top: 45px
+}
+
+body.main-app-wrapper .login-page-wrapper h1.web-only {
+    font-size: 90px
+}
+
+body.main-app-wrapper .login-page-wrapper .purple--text {
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .login-page-wrapper ul {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px
+}
+
+body.main-app-wrapper .login-page-wrapper ul strong {
+    font-weight: 500
+}
+
+body.main-app-wrapper .login-page-wrapper ul li::marker {
+    color: #6c5dd3
+}
+
+body.main-app-wrapper .login-page-wrapper h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 60px
+}
+
+body.main-app-wrapper .login-page-wrapper .box {
+    background: #171a25;
+    border-radius: 40px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    max-width: 464px;
+    padding: 48px
+}
+
+body.main-app-wrapper .login-page-wrapper .register-wrapper {
+    color: #808191;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 42px
+}
+
+body.main-app-wrapper .login-page-wrapper .register-wrapper a {
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .login-page-wrapper label:not(.v-label) {
+    color: #808191;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 16px
+}
+
+body.main-app-wrapper .login-page-wrapper .btn-purple {
+    border-radius: 16px;
+    margin-top: 15px;
+    width: 100%
+}
+
+body.main-app-wrapper ._custom_social_email_error,
+body.main-app-wrapper ._custom_social_email_error a {
+    color: #ff5252 !important
+}
+
+body.main-app-wrapper .top-navbar-wrapper {
+    margin-top: 20px !important
+}
+
+body.main-app-wrapper .top-navbar-wrapper .v-btn:focus:before,
+body.main-app-wrapper .top-navbar-wrapper .v-btn:hover:before {
+    opacity: 0 !important
+}
+
+body.main-app-wrapper .top-navbar-wrapper .user-icon-wrapper {
+    background: linear-gradient(102.44deg, #6c5dd3 7.65%, #513ed6 82.55%);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative
+}
+
+body.main-app-wrapper .top-navbar-wrapper .user-icon-wrapper .avatar {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #dfdfdf;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    height: 100%;
+    line-height: 39px;
+    margin: 0;
+    max-height: 39px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 39px
+}
+
+body.main-app-wrapper .top-navbar-menu-button .v-btn__content {
+    background-image: url(/img/header/settings-gear.svg);
+    background-position: 50%;
+    background-size: contain;
+    height: 36px;
+    width: 36px
+}
+
+body.main-app-wrapper .loading-screen {
+    position: absolute;
+    top: 40%
+}
+
+body.main-app-wrapper .loading-screen .img-fluid {
+    max-width: 100%
+}
+
+body.main-app-wrapper .confetti {
+    left: 50%;
+    position: absolute
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper {
+    background: hsla(0, 4%, 5%, .98);
+    border-radius: 24px;
+    box-shadow: 2px 2px 8px 1px hsla(0, 4%, 5%, .98);
+    padding-left: 0
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .v-list {
+    padding-top: 0
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .user-icon-wrapper {
+    background: linear-gradient(102.44deg, #6c5dd3 7.65%, #513ed6 82.55%);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .user-icon-wrapper .avatar {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #dfdfdf;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    height: 100%;
+    line-height: 39px;
+    margin: 0;
+    max-height: 39px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 39px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-wrapper {
+    color: #fff;
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 65px;
+    position: relative;
+    top: 7px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-wrapper .fas {
+    margin: 0 20px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .user-details-wrapper {
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 10px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-wrapper.dropdown-toggle:after {
+    display: none
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .dropdown-item {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 0;
+    text-decoration: none
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .dropdown-item:focus,
+body.main-app-wrapper .v-menu-top-navbar-wrapper .dropdown-item:hover {
+    background: unset;
+    color: #fff
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .dropdown-divider {
+    border-top: 1px solid #e4e4e4
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-item-wrapper {
+    padding-left: 30px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-item-wrapper .img {
+    margin-right: 20px
+}
+
+body.main-app-wrapper .v-menu-top-navbar-wrapper .menu-item-wrapper .fa-chevron-right {
+    margin-left: 70px
+}
+
+body.main-app-wrapper .custom-voice-modal .img-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+body.main-app-wrapper .custom-voice-modal .img-wrapper .fa-arrow-up {
+    background-color: #695cc2;
+    border-radius: 50%;
+    bottom: -10px;
+    color: #fff;
+    height: 36px;
+    left: 65px;
+    line-height: 20px;
+    padding: 8px;
+    position: absolute;
+    width: 36px
+}
+
+body.main-app-wrapper .custom-voice-modal .img-wrapper .fa-arrow-up:hover {
+    background-color: #9a81ff
+}
+
+body.main-app-wrapper .custom-voice-modal .scrollable {
+    max-height: calc(100vh - 225px)
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .custom-voice-modal .scrollable {
+        max-height: calc(100vh - 380px);
+        overflow: scroll
+    }
+}
+
+body.main-app-wrapper .custom-voice-modal .audios-wrapper {
+    background-color: #1f1f30;
+    border-radius: 8px;
+    padding: 30px 25px
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper {
+        background-color: unset;
+        padding: 20px 0
+    }
+}
+
+body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-row {
+    background: hsla(0, 0%, 76%, .1);
+    border-radius: 16px;
+    padding: 0 20px
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-row {
+        padding: 0 10px
+    }
+}
+
+body.main-app-wrapper .custom-voice-modal .audios-wrapper .row+.row {
+    margin-top: 30px
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-player-wrapper .fa-pause,
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-player-wrapper .fa-play {
+        font-size: 1em
+    }
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-player-wrapper .player-button-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center
+    }
+    body.main-app-wrapper .custom-voice-modal .audios-wrapper .audio-player-wrapper .player-progress-wrapper {
+        padding-left: 3px;
+        padding-right: 3px
+    }
+}
+
+body.main-app-wrapper .custom-voice-modal .dz-error-mark,
+body.main-app-wrapper .custom-voice-modal .dz-success-mark {
+    height: 18px;
+    margin-left: -9px;
+    top: 46px;
+    width: 18px
+}
+
+body.main-app-wrapper .custom-voice-modal .dz-error-mark svg,
+body.main-app-wrapper .custom-voice-modal .dz-success-mark svg {
+    height: 18px;
+    width: 18px
+}
+
+body.main-app-wrapper .custom-voice-modal .dz-remove {
+    margin-top: 10px
+}
+
+body.main-app-wrapper .custom-voice-modal .v-btn-toggle {
+    border-radius: 10px
+}
+
+body.main-app-wrapper .custom-voice-modal .v-btn-toggle .btn-purple {
+    border: unset
+}
+
+body.main-app-wrapper .custom-voice-modal .actions-wrapper {
+    margin-top: 3px
+}
+
+body.main-app-wrapper .custom-voice-modal .actions-wrapper .disabled {
+    cursor: not-allowed !important
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .custom-voice-modal .actions-wrapper .fa-trash-alt {
+        font-size: 1.2em
+    }
+}
+
+body.main-app-wrapper .custom-voice-modal .fa-times {
+    position: absolute;
+    right: 20px;
+    top: 15px
+}
+
+body.main-app-wrapper .custom-voice-modal .fa-times:hover {
+    color: #9a81ff
+}
+
+body.main-app-wrapper .custom-voice-modal p.build-info {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px
+}
+
+body.main-app-wrapper .avatar-cropper .cropper-bg {
+    background-repeat: repeat
+}
+
+body.main-app-wrapper .avatar-cropper .v-card {
+    padding: 20px 5px
+}
+
+@media screen and (max-width:760px) {
+    body.main-app-wrapper .btn-purple {
+        font-size: 12px;
+        line-height: 24px;
+        padding: 4px 15px
+    }
+    body.main-app-wrapper .img-logo {
+        margin-top: 15px;
+        max-width: 106px
+    }
+    body.main-app-wrapper .top-navbar-wrapper {
+        margin-top: 0 !important;
+        padding: 0 0 0 12px
+    }
+    body.main-app-wrapper .top-navbar-wrapper .menu-wrapper {
+        margin-right: 0
+    }
+    body.main-app-wrapper .top-navbar-wrapper .menu-item-wrapper {
+        border-top: 1px solid rgba(85, 85, 85, .6)
+    }
+    body.main-app-wrapper .top-navbar-wrapper .user-icon-wrapper {
+        margin-right: 0
+    }
+    body.main-app-wrapper .top-navbar-wrapper .user-details-wrapper {
+        margin-left: 9px
+    }
+    body.main-app-wrapper h3.decorated {
+        margin-left: 0
+    }
+    body.main-app-wrapper .voice-universe-wrapper {
+        margin: 0 0 20px
+    }
+    body.main-app-wrapper .voice-universe-wrapper .voice-component-wrapper:not(.compact-wrapper) {
+        margin-left: 0;
+        margin-right: 10px
+    }
+    body.main-app-wrapper .voice-universe-wrapper .scrollable {
+        max-height: calc(100vh - 260px);
+        overflow: scroll
+    }
+    body.main-app-wrapper .voice-universe-wrapper h3 {
+        color: hsla(0, 0%, 100%, .8);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 32px
+    }
+    body.main-app-wrapper .login-page-wrapper h1 {
+        font-size: 50px;
+        line-height: 75px;
+        margin-bottom: 25px;
+        margin-top: 15px
+    }
+    body.main-app-wrapper .login-page-wrapper ul {
+        font-size: 16px;
+        line-height: 24px
+    }
+    body.main-app-wrapper .login-page-wrapper h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 6px
+    }
+    body.main-app-wrapper .login-page-wrapper .register-wrapper {
+        margin-bottom: 34px
+    }
+    body.main-app-wrapper .login-page-wrapper label {
+        margin-bottom: 6px
+    }
+    body.main-app-wrapper .login-page-wrapper .v-text-field {
+        margin-bottom: 10px
+    }
+    body.main-app-wrapper .login-page-wrapper .btn-purple {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 12px 15px
+    }
+    body.main-app-wrapper .login-page-wrapper .v-form .tos {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px
+    }
+    body.main-app-wrapper .login-page-wrapper .v-form .tos a {
+        color: #6c5dd3 !important
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card {
+        padding: 33px 7px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card h3 {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 7px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .img-wrapper {
+        margin-bottom: 20px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .img-wrapper .fa-arrow-up {
+        right: 20px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .img-wrapper .fa-arrow-up:before {
+        margin-left: 0
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .avatar-upload-wrapper {
+        padding: 0
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .avatar-upload-wrapper p {
+        margin-bottom: 0
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .voice-properties-wrapper {
+        padding: 0 10px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .voice-properties-wrapper .v-select .v-input__control {
+        width: 140px
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .upload-file-wrapper p {
+        font-size: 18px;
+        line-height: 30px
+    }
+}
+
+body.main-app-wrapper .audio-player-wrapper {
+    margin-bottom: auto;
+    margin-top: auto;
+    padding: 12px 0
+}
+
+body.main-app-wrapper .audio-player-wrapper .audio-player-wrapper {
+    color: #c4c4c4
+}
+
+body.main-app-wrapper .audio-player-wrapper .text-wrapper {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: auto
+}
+
+body.main-app-wrapper .lottie-logo {
+    height: 130px;
+    width: 500px
+}
+
+body.main-app-wrapper .lottie-logo.web-only {
+    height: 91px;
+    width: 350px
+}
+
+body.main-app-wrapper .lottie-logo img {
+    margin-top: 64px
+}
+
+body.main-app-wrapper .lottie-logo div {
+    margin-top: 80px
+}
+
+@media screen and (max-width:959px) {
+    body.main-app-wrapper .lottie-logo,
+    body.main-app-wrapper .lottie-logo.web-only {
+        height: auto;
+        width: auto
+    }
+}
+
+body.main-app-wrapper .voices-columns-wrapper {
+    margin: 0 12px
+}
+
+body.main-app-wrapper .voices-wrapper {
+    background: linear-gradient(180deg, #19181f, rgba(50, 46, 83, 0));
+    border-radius: 24px;
+    padding: 20px 30px
+}
+
+body.main-app-wrapper .voices-wrapper hr {
+    background: #f0f3f6;
+    border: 0;
+    height: 2px;
+    margin: 32px 27px;
+    position: relative
+}
+
+body.main-app-wrapper .custom-voices-wrapper {
+    background: linear-gradient(89.97deg, rgba(107, 111, 228, .5) .02%, rgba(192, 155, 173, .5) 99.96%);
+    border-radius: 20px;
+    padding-top: 10px
+}
+
+body.main-app-wrapper .v-input--switch {
+    margin-right: 30px
+}
+
+body.main-app-wrapper .theme--light.v-label {
+    color: #fff !important
+}
+
+body.main-app-wrapper .purple-custom--text {
+    caret-color: #fff !important
+}
+
+body.main-app-wrapper .theme--dark.v-input--switch .v-input--switch__thumb,
+body.main-app-wrapper .theme--dark.v-input--switch.v-input--is-disabled:not(.v-input--is-dirty) .v-input--switch__thumb,
+body.main-app-wrapper .theme--light.v-input--switch .v-input--switch__thumb,
+body.main-app-wrapper .theme--light.v-input--switch.v-input--is-disabled:not(.v-input--is-dirty) .v-input--switch__thumb {
+    color: #7264d4 !important
+}
+
+body.main-app-wrapper .theme--light.v-input--switch .v-input--switch__thumb.purple-custom--text {
+    color: #fff !important
+}
+
+body.main-app-wrapper .theme--dark.v-input--switch .v-input--switch__track,
+body.main-app-wrapper .theme--light.v-input--switch .v-input--switch__track {
+    color: #1e1b3e !important
+}
+
+body.main-app-wrapper .theme--light.v-input--switch .v-input--switch__track.purple-custom--text {
+    color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--light.v-input input,
+body.main-app-wrapper .login-page-wrapper .theme--light.v-input textarea,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-input input,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-input textarea {
+    color: #fff !important
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--light.v-input input::-moz-placeholder,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-input input::-moz-placeholder {
+    color: #fff !important
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--light.v-input input::placeholder,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-input input::placeholder {
+    color: #fff !important
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--light.v-icon,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-icon {
+    color: #fff !important
+}
+
+body.main-app-wrapper .login-page-wrapper .theme--light.v-text-field--solo>.v-input__control>.v-input__slot,
+body.main-app-wrapper .voice-universe-wrapper .theme--light.v-text-field--solo>.v-input__control>.v-input__slot {
+    background: hsla(0, 0%, 89%, .1);
+    border-radius: 16px
+}
+
+body.main-app-wrapper .audio-settings .top-navbar-wrapper .btn-purple,
+body.main-app-wrapper .voice-universe-wrapper .btn-purple {
+    background: transparent !important;
+    border: 1px solid #6c5dd3;
+    margin-bottom: 5px;
+    margin-right: 7px
+}
+
+body.main-app-wrapper .audio-settings .top-navbar-wrapper .btn-purple.active,
+body.main-app-wrapper .audio-settings .top-navbar-wrapper .btn-purple.router-link-exact-active,
+body.main-app-wrapper .audio-settings .top-navbar-wrapper .btn-purple:hover,
+body.main-app-wrapper .voice-universe-wrapper .btn-purple.active,
+body.main-app-wrapper .voice-universe-wrapper .btn-purple.router-link-exact-active,
+body.main-app-wrapper .voice-universe-wrapper .btn-purple:hover {
+    background: #6c5dd3 !important;
+    color: #fff !important
+}
+
+body.main-app-wrapper .btn-upgrade {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    border-radius: 16px;
+    color: #161a28 !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 8px 20px;
+    text-align: center
+}
+
+body.main-app-wrapper .v-input--checkbox {
+    margin-top: 0 !important;
+    padding-top: 0 !important
+}
+
+body.main-app-wrapper .v-overlay--active .v-overlay__scrim {
+    background-image: radial-gradient(86.06% 86.06% at 100% 0, #413a70 0, #18171d 100%)
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal {
+    background: #050404;
+    border-radius: 24px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    overscroll-behavior: none
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2vh 2.5vw
+}
+
+@media screen and (max-width:600px) {
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper {
+        padding: 2vh 0
+    }
+    body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper .row {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper .img-wrapper img {
+    border: 2px solid #0049c6;
+    height: 95px;
+    margin-top: 15px;
+    max-height: 95px;
+    padding: 5px;
+    width: 95px
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper .voice-properties-wrapper p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper .voice-properties-wrapper .v-btn-toggle .btn-purple {
+    background-color: hsla(0, 0%, 100%, .12) !important;
+    color: hsla(0, 0%, 100%, .3) !important
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper .voice-properties-wrapper .v-btn-toggle .btn-purple.active {
+    background: #6c5dd3 !important;
+    color: #fff !important
+}
+
+body.main-app-wrapper .v-dialog__content .custom-voice-modal .v-card .info-wrapper h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-card {
+    background: url(/img/username-bg.png), linear-gradient(180deg, #181541, #2f2962);
+    background-repeat: no-repeat;
+    padding: 30px 0
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-card h4 {
+    color: #c1c1c8;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+@media screen and (max-width:959px) {
+    body.main-app-wrapper .v-dialog__content .set-username-modal .v-card h4 {
+        font-size: 16px
+    }
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-card h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    text-align: center
+}
+
+@media screen and (max-width:959px) {
+    body.main-app-wrapper .v-dialog__content .set-username-modal .v-card h3 {
+        font-size: 35px
+    }
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-btn {
+    width: 100%
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .username-label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-input .v-input__slot {
+    background: #362d81
+}
+
+body.main-app-wrapper .v-dialog__content .set-username-modal .v-input input {
+    font-size: 14px;
+    padding-left: 10px
+}
+
+body.main-app-wrapper .theme--dark.v-card {
+    background: linear-gradient(180deg, #19181f, #322e53);
+    color: #c4c4c4
+}
+
+body.main-app-wrapper .v-application .v-progress-linear {
+    border-radius: 4px
+}
+
+body.main-app-wrapper .v-application .v-progress-linear .purple {
+    background-color: #6c5dd3 !important;
+    border-color: #6c5dd3 !important
+}
+
+body.main-app-wrapper .v-application .v-progress-linear .v-progress-linear__buffer {
+    border-radius: 4px
+}
+
+body.main-app-wrapper .menu-item-wrapper .btn-upgrade {
+    justify-content: left
+}
+
+body.main-app-wrapper .public-navbar {
+    position: relative !important
+}
+
+body.main-app-wrapper .menu-cta {
+    background: hsla(0, 0%, 100%, .075);
+    border-radius: 16px;
+    bottom: 60px;
+    padding: 16px 20px 20px;
+    position: absolute;
+    width: 94%
+}
+
+body.main-app-wrapper .menu-cta p {
+    font-size: 12px;
+    opacity: .8
+}
+
+body.main-app-wrapper .purple-text {
+    color: #6c5dd3
+}
+
+body.main-app-wrapper .theme--light.v-btn:hover:before {
+    opacity: .2 !important
+}
+
+body.main-app-wrapper .confirm-modal .v-card {
+    padding: 30px 0
+}
+
+body.main-app-wrapper .confirm-modal span {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 30px
+}
+
+body.main-app-wrapper .confirm-modal .btn {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 9px 41px;
+    text-transform: uppercase
+}
+
+body.main-app-wrapper .rating-wrapper {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate {
+    direction: rtl;
+    display: inline-block;
+    height: 1.2rem;
+    max-width: 20rem;
+    text-align: center;
+    unicode-bidi: bidi-override
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate>span {
+    background-image: url(/img/rating/star.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 1.2rem;
+    position: relative;
+    width: 1.2rem
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate>span:before {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 1.2rem;
+    left: 0;
+    position: absolute;
+    width: 1.2rem
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled>span {
+    cursor: default
+}
+
+body.main-app-wrapper .voice-rating-holder .size-small.voice-rating-rate {
+    height: .9rem
+}
+
+body.main-app-wrapper .voice-rating-holder .size-small.voice-rating-rate>span,
+body.main-app-wrapper .voice-rating-holder .size-small.voice-rating-rate>span:before {
+    height: .9rem;
+    width: .9rem
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover)>span.selected-half-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover)>span.selected-half-avg~span.selected-half-avg:before {
+    background-image: url(/img/rating/star-gold__half.svg);
+    opacity: .5
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover)>span.selected-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover)>span.selected-avg~span.selected-avg:before {
+    background-image: url(/img/rating/star-gold.svg);
+    opacity: .5
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover).user-selected>span.selected-half-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate:not(:hover).user-selected>span.selected-half-avg~span.selected-half-avg:before {
+    opacity: 1
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled:hover>span.selected-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled:hover>span.selected-half-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled:hover>span.selected-half-avg~span.selected-half-avg:before {
+    background-image: url(/img/rating/star-gold.svg);
+    opacity: 1
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled:hover>span.selected-avg:before,
+body.main-app-wrapper .voice-rating-holder .voice-rating-rate.disabled:hover>span.selected-avg~span.selected-avg:before {
+    background-image: url(/img/rating/star-gold.svg) !important;
+    opacity: 1
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-details {
+    font-size: .8rem
+}
+
+body.main-app-wrapper .voice-rating-holder .voice-rating-details.size-small {
+    color: #ccc;
+    font-size: .7rem
+}
+
+body.main-app-wrapper .voice-rating-rate:not(.disabled)>span:hover:before,
+body.main-app-wrapper .voice-rating-rate:not(.disabled)>span:hover~span:before,
+body.main-app-wrapper .voice-rating-rate:not(:hover).user-selected>span:not(.selected-by-user):before,
+body.main-app-wrapper .voice-rating-rate:not(:hover).user-selected>span:not(.selected-by-user)~span:not(.selected-by-user):before {
+    background-image: none !important;
+    opacity: 1
+}
+
+body.main-app-wrapper .voice-rating-rate:not(.disabled)>span:hover:before,
+body.main-app-wrapper .voice-rating-rate:not(.disabled)>span:hover~span:before,
+body.main-app-wrapper .voice-rating-rate:not(:hover).user-selected>span.selected-by-user:before,
+body.main-app-wrapper .voice-rating-rate:not(:hover).user-selected>span.selected-by-user~span.selected-by-user:before {
+    background-image: url(/img/rating/star-selected-user.svg) !important;
+    opacity: 1
+}
+
+body.main-app-wrapper .token-count {
+    background: rgba(43, 40, 84, .5);
+    border: 1px solid rgba(108, 93, 211, .5);
+    border-radius: 20px;
+    color: #dfdbff;
+    display: inline-flex;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px;
+    vertical-align: middle
+}
+
+body.main-app-wrapper .token-count:hover {
+    background: rgba(108, 93, 211, .2)
+}
+
+body.main-app-wrapper .token-count span {
+    margin-left: 5px;
+    margin-right: 8px;
+    min-width: 59px;
+    text-align: left;
+    vertical-align: middle
+}
+
+body.main-app-wrapper .token-count .fa-plus {
+    background: rgba(108, 93, 211, .5);
+    border: 1px solid rgba(108, 93, 211, .5);
+    border-radius: 50%;
+    color: #dfdbff !important;
+    height: 30px;
+    text-align: center;
+    width: 30px
+}
+
+body.main-app-wrapper .token-count .fa-plus:hover {
+    background: #6c5dd3;
+    border: 1px solid #6c5dd3
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper>.col {
+    padding: 17px
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .promo-text-wrapper {
+    background: #715fe6;
+    border-radius: 60px
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .promo-text-wrapper .bonus-times-wrapper {
+    align-items: center;
+    background: #fabe2c;
+    border-radius: 50%;
+    color: #2c2758;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    height: 82px;
+    justify-content: center;
+    left: -28px;
+    line-height: 48px;
+    position: absolute;
+    text-align: center;
+    top: -11px;
+    width: 82px
+}
+
+@media screen and (min-width:520px) {
+    body.main-app-wrapper .get-tokens-modal .promo-wrapper .promo-text-wrapper .bonus-times-wrapper {
+        left: -40px;
+        top: -12px
+    }
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 40px
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .opacitybg {
+    background: linear-gradient(143.53deg, rgba(147, 136, 223, .6) -5.59%, rgba(45, 31, 141, .6) 107.58%);
+    border: 1.5px solid;
+    border-radius: 20px;
+    box-shadow: inset 2px 3px 7px rgba(0, 0, 0, .25)
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .countdown-wrapper {
+    color: #bdb8de;
+    font-family: Poppins;
+    font-weight: 500;
+    height: 95px;
+    line-height: 21px
+}
+
+@media screen and (min-width:959px) {
+    body.main-app-wrapper .get-tokens-modal .promo-wrapper .countdown-wrapper {
+        position: absolute;
+        top: -20px
+    }
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .countdown-wrapper .text-wrapper {
+    margin-top: 30px
+}
+
+body.main-app-wrapper .get-tokens-modal .promo-wrapper .countdown-wrapper .text-wrapper .counter {
+    font-size: 50px;
+    margin-bottom: 7px !important
+}
+
+body.main-app-wrapper .get-tokens-modal h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px
+}
+
+body.main-app-wrapper .get-tokens-modal .btn-green {
+    background: linear-gradient(4.33deg, #1f8862 -11.07%, #1db17c 96.62%);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list {
+    color: #fff;
+    text-align: center
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper {
+    background: #171a25;
+    border: 1px solid #6c5dd3;
+    border-radius: 15px;
+    box-shadow: 0 4px 35px rgba(108, 93, 211, .25);
+    position: relative
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .best-tag,
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .discount-tag {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    left: -10px;
+    line-height: 33px;
+    position: relative;
+    width: 121px;
+    z-index: 4
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .best-tag:before,
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .discount-tag:before {
+    background-image: url(/img/greenbadge.svg);
+    content: "";
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    width: 121px;
+    z-index: -1
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .best-tag {
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 600;
+    left: -15px;
+    width: 146px
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .best-tag:before {
+    background-image: url(/img/orangebadge.svg);
+    left: 3px;
+    width: 146px
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .popular-tag {
+    color: #171a25;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    line-height: 27px;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    z-index: 4
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .package-wrapper .popular-tag:before {
+    background-image: url(/img/popularbadge.svg);
+    content: "";
+    height: 40px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    top: -14px;
+    width: 128px;
+    z-index: -1
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .token-amount {
+    background: #6c5dd3;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 85px;
+    line-height: 24px;
+    text-shadow: -5px -1px 12px rgba(108, 93, 211, .35)
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .token-amount h2 {
+    font-weight: 800
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .token-amount strike {
+    color: #aaa1f3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-shadow: -5px -1px 12px rgba(108, 93, 211, .35)
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .get-button {
+    background: linear-gradient(180deg, #8c86d7, #5749d7);
+    font-size: 30px;
+    text-transform: uppercase
+}
+
+body.main-app-wrapper .get-tokens-modal .modal-token-list .price-tag {
+    display: grid;
+    font-size: 30px;
+    font-weight: 700;
+    min-height: 82px
+}
+
+body.main-app-wrapper .paywall-modal .v-card {
+    background: linear-gradient(180deg, #181541, #2f2962);
+    padding: 15px
+}
+
+body.main-app-wrapper .v-overlay__scrim.custom-pw-bg {
+    background-color: #262529 !important;
+    background-image: unset !important
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.black-bg {
+    border: 1px solid #7f7e81;
+    border-radius: 6px;
+    box-shadow: unset;
+    padding: 0 1rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.black-bg .v-card {
+    background: #000
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.black-bg .modal-close-button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MyA0NCI+PHBhdGggZD0iTTMuNDU2IDQyIDM5LjU0NSAyTTEuNSAzLjk1Nmw0MCAzNi4wODkiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIG9wYWNpdHk9Ii42Ii8+PC9zdmc+");
+    background-size: 40px;
+    height: 40px;
+    right: 0;
+    top: 16px;
+    width: 40px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.black-bg .modal-close-button:hover {
+    background-size: 45px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .asterisk {
+    color: #757575;
+    font-family: SuisseIntl-Regular;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.011rem;
+    line-height: 1.5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .info-wrapper h3 {
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .info-wrapper p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 29px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .info-wrapper strong {
+    color: #ff1c52
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle ._plan-card ._price ._value,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle ._plan-card ._price-2 ._value {
+    font-size: 12px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle ._plan-card ._price ._period,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle ._price-2 ._period {
+    font-size: 14px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle ._plan-card ._title {
+    font-size: 20px !important
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .text--red {
+    color: #ff1c52 !important;
+    font-size: 1.125rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper {
+    background: rgba(41, 40, 45, .69);
+    border: 1px solid #7f7e81;
+    border-radius: 6px;
+    margin: 0 .8rem;
+    position: relative
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper:hover {
+    background: #43434a
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper .v-btn.lightgrey:hover {
+    background-color: #fff !important;
+    border-color: #fff !important
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper .info-title {
+    background: #4c4c4c;
+    border-radius: .25rem;
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
+    left: 0;
+    line-height: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .25rem 1.1875rem;
+    position: absolute;
+    right: 0;
+    top: -17px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper .info-title.pro {
+    background: #7000ff
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper h3 {
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -.066rem;
+    line-height: 4.5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper p {
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper .bold {
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper.pro {
+    border-color: #7000ff
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper.pro:hover {
+    background: #7000ff;
+    border-color: #fff
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .text--black {
+    color: #000;
+    font-family: SuisseIntl-Regular;
+    font-weight: 600;
+    line-height: 1.5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .v-btn:not(.v-btn--round).v-size--x-large {
+    padding: 1.19rem 2.63rem !important
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .features-wrapper {
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.0285rem;
+    line-height: 2.25rem;
+    margin-bottom: auto !important;
+    margin-left: 4rem;
+    margin-top: auto !important
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .features-wrapper svg {
+    margin-bottom: auto;
+    margin-right: 1.67rem;
+    margin-top: auto
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing.black-bg {
+    background: rgba(41, 40, 45, .69);
+    border: 1px solid #7f7e81;
+    border-radius: 6px;
+    margin-bottom: 1.44rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing.green {
+    background: rgba(38, 36, 57, .5);
+    border: 2px solid #22b07d;
+    border-radius: 30px;
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing {
+    color: #fff;
+    display: flex;
+    padding: 2rem 3rem;
+    position: relative
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing .big {
+    font-family: SuisseIntl-Regular;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -.055rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing .price {
+    color: #fff;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.033rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing .price-info-wrapper {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .box-wrapper-pricing .price-info-wrapper .price-info {
+    color: hsla(0, 0%, 100%, .51);
+    font-family: SuisseIntl-Regular;
+    font-size: 1rem;
+    letter-spacing: -.022rem;
+    text-align: right
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .bundle-wrapper {
+    background-color: #fff
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .bundle-wrapper .big {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .bundle-wrapper .price-info-wrapper .price {
+    color: #f1001f
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle .bundle-wrapper .price-info-wrapper .price-info {
+    color: rgba(0, 0, 0, .51) !important;
+    text-align: right
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 {
+    border-radius: 1.25rem;
+    font-family: SuisseIntl-Regular;
+    margin-top: 110px;
+    overflow: visible
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .v-card,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .v-card,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .v-card {
+    background: linear-gradient(184deg, #43388d, #060515);
+    border-radius: 1.25rem;
+    color: #fff;
+    padding: 0
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bundle-outer-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bundle-outer-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bundle-outer-wrapper {
+    position: relative
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bundle-outer-wrapper .row,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bundle-outer-wrapper .row,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bundle-outer-wrapper .row {
+    margin-top: -10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bundle-outer-wrapper .outer-title,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bundle-outer-wrapper .outer-title,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bundle-outer-wrapper .outer-title {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -6rem;
+    width: 100%
+}
+
+@media screen and (max-width:750px) {
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bundle-outer-wrapper .outer-title,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bundle-outer-wrapper .outer-title,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bundle-outer-wrapper .outer-title {
+        top: -7rem
+    }
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .pw-title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .pw-title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .pw-title-wrapper {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 112.5%;
+    margin-bottom: .2rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .subtitle,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .subtitle,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .subtitle {
+    font-size: 1rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .modal-close-button,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .modal-close-button,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .modal-close-button {
+    right: 15px;
+    top: 10px;
+    z-index: 66
+}
+
+@media screen and (max-width:1100px) {
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .modal-close-button,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .modal-close-button,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .modal-close-button {
+        right: 4px;
+        top: 4px
+    }
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .title-wrapper {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -.02375rem;
+    line-height: 127.5%;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: right
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .most-popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .most-popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .most-popular {
+    background: #6c5dd3;
+    border-radius: 20px 20px 0 0;
+    font-size: .875rem;
+    font-weight: 600;
+    padding: .3rem 0
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .most-popular .svg-holder,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .most-popular .svg-holder,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .most-popular .svg-holder {
+    background: #5b4db9;
+    border-radius: .71981rem;
+    display: inline-flex;
+    margin-left: .44rem;
+    padding: .23rem .25rem;
+    vertical-align: middle
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .pack-title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .pack-title-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .pack-title-wrapper {
+    color: #38ffb8;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .feature-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .feature-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .feature-wrapper {
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .feature-1-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .feature-1-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .feature-1-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 0
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .feature-2-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .feature-2-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .feature-2-wrapper {
+    align-items: center;
+    display: inline-flex;
+    font-size: 1.375rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bp-feature,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bp-feature,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bp-feature {
+    color: #c3c3c3;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: -.01663rem;
+    line-height: 150%;
+    margin-bottom: .6rem;
+    text-align: right
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bp-feature svg,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bp-feature svg,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bp-feature svg {
+    margin-bottom: .2rem;
+    margin-right: .3rem
+}
+
+@media screen and (max-width:750px) {
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .bp-feature,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .bp-feature,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .bp-feature {
+        font-size: .5rem;
+        margin-bottom: 0
+    }
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .btn-purple,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .btn-purple,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .btn-purple {
+    border-radius: 5.35px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.01825rem;
+    line-height: 150%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .cost,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .cost,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .cost {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -.03325rem;
+    line-height: 150%;
+    margin-bottom: auto;
+    margin-top: auto
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .asterisk,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .asterisk,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .asterisk {
+    color: #c3c3c3;
+    font-size: .75rem;
+    letter-spacing: -.00825rem;
+    line-height: 150%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .get-now-btn,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .get-now-btn,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .get-now-btn {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .popular.popular-start,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular.popular-start,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular.popular-start {
+    border-bottom: unset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: calc(100% + 20px);
+    left: 0;
+    position: absolute;
+    top: -20px;
+    width: 100%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular {
+    background: #2f2866;
+    border: 1.536px solid #6c5dd3;
+    border-bottom: unset;
+    border-radius: 0;
+    border-top: unset;
+    position: relative
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .popular.popular-last,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular.popular-last,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular.popular-last {
+    border-bottom: 1.536px solid #6c5dd3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: unset;
+    height: calc(100% + 20px);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .popular.popular-last .get-now-btn,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular.popular-last .get-now-btn,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular.popular-last .get-now-btn {
+    margin-top: 10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 hr,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 hr,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 hr {
+    background-image: linear-gradient(90deg, transparent, #b5b3c3, transparent);
+    border: 0;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 12px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-107 .modal-close-button,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .modal-close-button,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .modal-close-button {
+    right: -35px;
+    top: -10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 {
+    overflow-y: auto
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .v-card,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .v-card {
+    padding: 1.2rem 3rem 2rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .modal-close-button,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .modal-close-button {
+    right: 10px;
+    top: 10px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper {
+    background: #1b1242;
+    border: .15rem solid #69618e;
+    border-radius: 20px;
+    padding: 1.54rem 2rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .feature-1-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-1-wrapper {
+    font-size: 2rem;
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .feature-1-wrapper svg,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-1-wrapper svg {
+    margin-bottom: .125rem;
+    margin-right: 1rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper hr,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper hr {
+    margin-bottom: 1rem;
+    margin-top: 1rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .feature-2-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-2-wrapper {
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: -.02138rem;
+    line-height: 127.5%;
+    margin-bottom: 0
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .feature-2-wrapper svg,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-2-wrapper svg {
+    margin-bottom: .125rem;
+    margin-right: 1rem;
+    min-width: 25px
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .feature-3-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-3-wrapper {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -.02375rem;
+    line-height: 150%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .bp-feature,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .bp-feature {
+    text-align: left
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .bp-feature svg,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .bp-feature svg {
+    margin-right: .94rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .old-price,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .old-price {
+    background: #2b2156;
+    border-radius: .5rem;
+    color: #d3d1d1;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: -.01663rem;
+    line-height: 112.2%;
+    margin-right: .77rem;
+    padding: .37rem .39rem;
+    text-align: center
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .savings-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .savings-wrapper {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.019rem;
+    line-height: 150%;
+    position: absolute;
+    right: -.5rem;
+    top: .9rem;
+    z-index: 2
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper #savings,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper #savings {
+    position: absolute;
+    right: -1.8rem;
+    top: .5rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .month-wrapper,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .month-wrapper {
+    background: #22b07d;
+    border-radius: .30263rem;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: -.01663rem;
+    line-height: 150%;
+    margin-left: .6rem;
+    padding: .10088rem .60525rem;
+    white-space: nowrap
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .cost,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .cost {
+    font-size: 1.625rem;
+    letter-spacing: -.03088rem
+}
+
+@media screen and (max-width:1050px) {
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .pack-title-wrapper,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .pack-title-wrapper {
+        min-height: 3rem
+    }
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .savings-wrapper,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .savings-wrapper {
+        top: 2.9rem
+    }
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper #savings,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper #savings {
+        top: 2.5rem
+    }
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .package-wrapper .month-wrapper,
+    body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .month-wrapper {
+        margin-left: .3rem
+    }
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular {
+    border-color: #6c5dd3;
+    position: relative
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-108 .popular .most-popular,
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .popular .most-popular {
+    border-radius: 1.25rem;
+    padding: .3rem 1.3rem;
+    position: absolute;
+    top: -1rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .pack-title-wrapper {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .savings-outer-wrapper {
+    color: #38ffb8;
+    font-size: 2.125rem;
+    font-weight: 600
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .savings-outer-wrapper svg {
+    margin-right: .6rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .feature-1-wrapper {
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: -.02138rem;
+    line-height: 150%
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .old-price-wrapper {
+    color: #9f9da7;
+    font-size: .84819rem;
+    font-weight: 600;
+    letter-spacing: -.01613rem;
+    line-height: 1.2rem;
+    margin-bottom: 0;
+    text-align: right;
+    text-decoration-line: line-through
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .cost {
+    line-height: 1.625rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .price-outer-wrapper {
+    vertical-align: bottom;
+    width: 3rem
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .get-now-btn {
+    width: calc(100% - 3.5rem)
+}
+
+body.main-app-wrapper .paywall-modal.paywall-modal-bundle.pw-110 .package-wrapper .most-popular {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+@media screen and (max-height:569px) {
+    body.main-app-wrapper .new-onboarding-modal .v-responsive,
+    body.main-app-wrapper .paywall-modal .v-responsive {
+        display: none !important
+    }
+}
+
+@media screen and (min-height:801px) {
+    body.main-app-wrapper .new-onboarding-modal .v-responsive,
+    body.main-app-wrapper .paywall-modal .v-responsive {
+        max-height: 500px !important
+    }
+}
+
+body.main-app-wrapper .new-onboarding-modal video,
+body.main-app-wrapper .paywall-modal video {
+    border-radius: 20px;
+    max-height: 100%;
+    overflow: hidden;
+    width: 80%
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-toggle,
+body.main-app-wrapper .paywall-modal .plan-toggle {
+    background: #1c1846;
+    border-radius: 23px;
+    box-shadow: 0 0 0 1.5px #7066b6;
+    color: #64608b
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-toggle .v-btn,
+body.main-app-wrapper .paywall-modal .plan-toggle .v-btn {
+    border-radius: 23px;
+    cursor: pointer !important;
+    padding: 0 30px
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-toggle .v-item--active,
+body.main-app-wrapper .paywall-modal .plan-toggle .v-item--active {
+    background: #7066b6;
+    box-shadow: 0 0 0 1px #fff;
+    color: #fff
+}
+
+body.main-app-wrapper .new-onboarding-modal .paywall-video-new .v-responsive,
+body.main-app-wrapper .paywall-modal .paywall-video-new .v-responsive {
+    right: 50px
+}
+
+body.main-app-wrapper .new-onboarding-modal .paywall-video-new video,
+body.main-app-wrapper .paywall-modal .paywall-video-new video {
+    border-radius: 12px;
+    width: 95%
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-price,
+body.main-app-wrapper .paywall-modal .plan-price {
+    background: linear-gradient(51.5deg, #b9b2ed -.03%, #9a8def 22.75%, #6c5dd3 70.6%, #5446b5 99.31%);
+    border-radius: 18px;
+    box-shadow: 0 0 0 1.83085px #fff;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    position: relative
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-price .popular-tag,
+body.main-app-wrapper .paywall-modal .plan-price .popular-tag {
+    background: #ffc107;
+    border-radius: 11px;
+    color: #272349;
+    font-family: Inter;
+    font-size: 13.1834px;
+    font-weight: 700;
+    left: 5px;
+    line-height: 16px;
+    padding: 0 15px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 5px
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-price .discount-tag,
+body.main-app-wrapper .paywall-modal .plan-price .discount-tag {
+    background: #fff;
+    border: 1.81839px solid #fff;
+    border-radius: 18.3085px;
+    bottom: 0;
+    color: #6c5dd3;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    position: absolute;
+    width: 100%
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-price .small,
+body.main-app-wrapper .paywall-modal .plan-price .small {
+    font-size: 12px;
+    left: -5px;
+    line-height: 15px;
+    position: relative
+}
+
+body.main-app-wrapper .new-onboarding-modal .plan-price p,
+body.main-app-wrapper .paywall-modal .plan-price p {
+    color: #e8e8e8 !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 11px !important
+}
+
+body.main-app-wrapper .new-onboarding-modal .savings,
+body.main-app-wrapper .paywall-modal .savings {
+    font-size: 24px !important
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new,
+body.main-app-wrapper .paywall-modal ._plan-card-new {
+    background: #28235b;
+    border-radius: 20px;
+    left: 50px;
+    max-width: 450px;
+    min-height: 200px;
+    padding: 0 55px 15px 10px;
+    position: relative;
+    width: 100%
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle {
+    background: #1c1846;
+    border-radius: 22.6752px;
+    box-shadow: 0 0 0 1.5px #64608b;
+    position: absolute;
+    top: -20px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle .v-btn,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle .v-btn {
+    border-radius: 22.6752px;
+    cursor: pointer !important
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle .v-item--active,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle .v-item--active {
+    background: #262439;
+    box-shadow: 0 0 0 1.5px #22b07d
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle .v-item--active ._title,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle .v-item--active ._title {
+    color: #22b07d
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle ._title,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle ._title {
+    color: #64608b;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 45px;
+    padding: 0 10px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new .tier-toggle ._title svg,
+body.main-app-wrapper .paywall-modal ._plan-card-new .tier-toggle ._title svg {
+    height: 17px;
+    width: 17px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new ul,
+body.main-app-wrapper .paywall-modal ._plan-card-new ul {
+    margin-top: 30px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new ul li,
+body.main-app-wrapper .paywall-modal ._plan-card-new ul li {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    list-style-type: none
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card-new ul li svg,
+body.main-app-wrapper .paywall-modal ._plan-card-new ul li svg {
+    color: #22b041;
+    height: 26px;
+    margin-right: 20px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card,
+body.main-app-wrapper .paywall-modal ._plan-card {
+    align-items: center;
+    background: rgba(38, 36, 57, .5);
+    border: 2px solid #22b07d;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 1vh;
+    max-width: 549px;
+    padding: 0 15px 15px;
+    position: relative;
+    width: 100%
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price,
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price-2,
+body.main-app-wrapper .paywall-modal ._plan-card ._price,
+body.main-app-wrapper .paywall-modal ._plan-card ._price-2 {
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 7px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price ._value,
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price-2 ._value,
+body.main-app-wrapper .paywall-modal ._plan-card ._price ._value,
+body.main-app-wrapper .paywall-modal ._plan-card ._price-2 ._value {
+    font-size: 9px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price ._period,
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price-2 ._period,
+body.main-app-wrapper .paywall-modal ._plan-card ._price ._period,
+body.main-app-wrapper .paywall-modal ._plan-card ._price-2 ._period {
+    font-size: 12px
+}
+
+@media screen and (max-width:1500px) {
+    body.main-app-wrapper .new-onboarding-modal ._plan-card ._price,
+    body.main-app-wrapper .new-onboarding-modal ._plan-card ._price-2,
+    body.main-app-wrapper .paywall-modal ._plan-card ._price,
+    body.main-app-wrapper .paywall-modal ._plan-card ._price-2 {
+        right: 5px;
+        top: 28px
+    }
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._price-2,
+body.main-app-wrapper .paywall-modal ._plan-card ._price-2 {
+    right: 20px;
+    top: 21px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._title,
+body.main-app-wrapper .paywall-modal ._plan-card ._title {
+    background: #262439;
+    border: 2px solid #22b07d;
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .25);
+    color: #22b07d;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 3px 14px;
+    transform: translateY(-50%)
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ._title svg,
+body.main-app-wrapper .paywall-modal ._plan-card ._title svg {
+    height: 30px;
+    width: 30px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ul,
+body.main-app-wrapper .paywall-modal ._plan-card ul {
+    margin-top: -10px
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ul li,
+body.main-app-wrapper .paywall-modal ._plan-card ul li {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    list-style-type: none
+}
+
+body.main-app-wrapper .new-onboarding-modal ._plan-card ul li svg,
+body.main-app-wrapper .paywall-modal ._plan-card ul li svg {
+    color: #22b041;
+    height: 26px;
+    margin-right: 20px
+}
+
+body.main-app-wrapper .new-onboarding-modal .text-big,
+body.main-app-wrapper .paywall-modal .text-big {
+    color: #fff;
+    font-size: 2.125rem !important;
+    font-weight: 400;
+    line-height: 2.5rem
+}
+
+body.main-app-wrapper .w-max-content {
+    width: -moz-max-content;
+    width: max-content
+}
+
+.play-wrapper {
+    display: inline;
+    right: 6px;
+    top: 0;
+    z-index: 1
+}
+
+.play-wrapper .fas {
+    background: #fff;
+    border: 1px solid #6c5dd3;
+    border-radius: 50%;
+    color: #6c5dd3;
+    padding: .9rem
+}
+
+.play-wrapper .fas:hover {
+    background: #6c5dd3;
+    border: 1px solid #fff;
+    color: #fff !important
+}
+
+.play-wrapper._custom-sample .fas {
+    border: 1px solid #1db17c;
+    color: #1db17c
+}
+
+.play-wrapper._custom-sample .fas:hover {
+    background: #1db17c
+}
+
+.side-buttons-wrapper {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+    z-index: 2
+}
+
+.side-buttons-wrapper .v-btn {
+    border-radius: 5px 5px 0 0;
+    height: 35px !important
+}
+
+.side-buttons-wrapper .discord-button {
+    min-width: unset !important;
+    width: 30px
+}
+
+.side-buttons-wrapper .discord-button .v-btn__content {
+    transform: rotate(90deg)
+}
+
+.side-buttons-wrapper .report-button {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px
+}
+
+.side-buttons-wrapper .report-button .fa-exclamation-circle {
+    margin-left: 5px;
+    padding-top: 16px;
+    transform: rotate(90deg)
+}
+
+.download-installer {
+    background: #000;
+    height: 100dvh;
+    min-height: 100dvh !important;
+    padding-left: 90px;
+    position: fixed;
+    width: 100%
+}
+
+.download-installer .circle-animation {
+    margin-left: 190px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1
+}
+
+.download-installer a {
+    text-decoration: none
+}
+
+.download-installer h1 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 39px;
+    line-height: 50px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25)
+}
+
+.download-installer h2 {
+    color: #cecece;
+    font-family: Segoe UI;
+    font-size: 22px;
+    line-height: 30px
+}
+
+.download-installer p {
+    color: #cecece;
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+._auth-spin-animation {
+    margin-left: -100px;
+    margin-top: -100px
+}
+
+.app-authentication-container {
+    align-items: center;
+    background-image: url(/img/sound-waves.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center
+}
+
+.app-authentication-container .app-authentication-wrapper {
+    align-items: center;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    background: rgba(23, 26, 37, .69);
+    border: 3px solid #4e08db;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1090px;
+    padding: 130px 230px
+}
+
+.app-authentication-container .app-authentication-wrapper .v-image {
+    margin-bottom: 40px
+}
+
+.app-authentication-container .app-authentication-wrapper h1._title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+
+.app-authentication-container .app-authentication-wrapper hr {
+    margin: 30px 0;
+    opacity: .2;
+    width: 100%
+}
+
+.app-authentication-container .app-authentication-wrapper button {
+    min-width: 290px !important;
+    padding: 24px 36px !important
+}
+
+.app-authentication-container .app-authentication-wrapper .btn-outline {
+    background: transparent !important;
+    border: 1px solid #515151;
+    border-radius: 15px
+}
+
+.tf-v1-popup {
+    background: #000 !important
+}
+
+.tf-v1-popup .tf-v1-close {
+    font-size: 80px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    right: -32px !important;
+    width: 38px !important
+}
+
+/*# sourceMappingURL=app.css.map*/

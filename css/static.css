@@ -1,0 +1,3790 @@
+@charset "UTF-8";
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url(/misc/fonts/SuisseIntl-Regular.otf)
+}
+
+@font-face {
+    font-family: SuisseIntl-SemiBold;
+    src: url(/misc/fonts/SuisseIntl-SemiBold.otf)
+}
+
+.static-app .theme--dark.v-application {
+    background: #000;
+    color: #fff
+}
+
+@media (min-width:960px) {
+    .ml-md-25 {
+        margin-left: 100px !important
+    }
+}
+
+.p-relative {
+    position: relative
+}
+
+.subscribe-dialog {
+    background-color: #000 !important;
+    background-image: url(../img/static/subscribe-bg-small.png?v=3) !important;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Inter;
+    overflow: hidden;
+    padding: 30px 50px 0
+}
+
+.subscribe-dialog .subscribe-logo {
+    margin-top: 100px
+}
+
+.subscribe-dialog .subscribe-logo img {
+    height: 29.4px;
+    width: 114px
+}
+
+@media (min-width:600px) {
+    .subscribe-dialog .subscribe-logo {
+        margin-top: 0
+    }
+    .subscribe-dialog .subscribe-logo img {
+        height: 49.4px;
+        width: 190px
+    }
+}
+
+@media (min-width:956px) {
+    .subscribe-dialog {
+        background-image: url(../img/static/subscribe-bg.png?v=1) !important
+    }
+    .subscribe-dialog.discord {
+        background-image: url(../img/static/subscribe-discord.png) !important
+    }
+}
+
+.subscribe-dialog .email-field {
+    border-radius: 10px;
+    margin-right: 70px !important
+}
+
+@media (max-width:956px) {
+    .subscribe-dialog .email-field {
+        margin-right: 0 !important
+    }
+}
+
+.subscribe-dialog .fa-check-circle {
+    color: #8dc640 !important;
+    margin-bottom: auto !important;
+    margin-top: auto !important
+}
+
+.subscribe-dialog .fa-exclamation-triangle {
+    color: #ffb400 !important;
+    margin-bottom: auto !important;
+    margin-top: auto !important
+}
+
+.subscribe-dialog .v-alert.sub.error,
+.subscribe-dialog .v-alert.sub.success {
+    background-color: transparent !important;
+    border: 1.5px solid #6c5dd3 !important;
+    border-radius: 10px !important;
+    line-height: 19px;
+    padding: 5px 15px
+}
+
+.subscribe-dialog .v-alert.sub.error .v-alert__content,
+.subscribe-dialog .v-alert.sub.success .v-alert__content {
+    word-break: break-word
+}
+
+.subscribe-dialog.v-card.v-sheet {
+    border-radius: 10px
+}
+
+.subscribe-dialog .v-input__append-inner {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.subscribe-dialog h3.box-title {
+    color: #999;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-shadow: -7px 2px 13px rgba(33, 27, 73, .5)
+}
+
+.subscribe-dialog .box-subtitle {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: -7px 2px 13px rgba(33, 27, 73, .5)
+}
+
+@media (max-width:956px) {
+    .subscribe-dialog .box-subtitle {
+        font-size: 30px
+    }
+}
+
+.subscribe-dialog .box-information {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 25px
+}
+
+@media (max-width:956px) {
+    .subscribe-dialog .box-information {
+        font-size: 15px
+    }
+}
+
+.subscribe-dialog .box-information.discord {
+    font-size: 23px;
+    margin-bottom: 0
+}
+
+.subscribe-dialog .v-input__slot {
+    background: #2b2b4a !important
+}
+
+.subscribe-dialog .v-input__slot input {
+    color: #999 !important
+}
+
+.subscribe-dialog .v-input__slot ::-moz-placeholder {
+    color: #999 !important;
+    opacity: 1
+}
+
+.subscribe-dialog .v-input__slot ::placeholder {
+    color: #999 !important
+}
+
+.subscribe-dialog fieldset {
+    background: rgba(141, 135, 187, .2);
+    border: none !important
+}
+
+.subscribe-dialog button.skewed {
+    background: linear-gradient(93.16deg, #7d6fde 2.68%, #6c5dd3 97.44%);
+    border: none;
+    border-radius: 10px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+    margin-right: -20px;
+    padding: 20px !important;
+    text-transform: none
+}
+
+@media (max-width:600px) {
+    .subscribe-dialog button.skewed {
+        font-size: 12px;
+        height: 38px;
+        margin-right: -10px;
+        margin-top: 2px;
+        padding: 10px !important
+    }
+}
+
+.subscribe-dialog .design-element {
+    position: relative
+}
+
+.subscribe-dialog .design-element .v-image {
+    position: absolute;
+    z-index: 1
+}
+
+.subscribe-dialog .design-element .v-image.img-subscribe-discord,
+.subscribe-dialog .design-element .v-image.img-subscribe-pc {
+    bottom: 30px;
+    left: -50px
+}
+
+.subscribe-beta-dialog {
+    background-color: #000 !important;
+    background-image: url(../img/static/bg-waves.jpg) !important;
+    background-position: 0 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 50px
+}
+
+.subscribe-beta-dialog .purple-text {
+    color: #6c5dd3 !important
+}
+
+.subscribe-beta-dialog .v-input__append-inner {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.subscribe-beta-dialog h3.box-title {
+    color: #6c5dd3 !important;
+    font-size: 36px !important;
+    font-weight: 700 !important
+}
+
+.subscribe-beta-dialog .box-subtitle {
+    color: #fff;
+    font-size: 28px !important;
+    font-weight: 700;
+    margin-top: 15px;
+    text-decoration: none
+}
+
+.subscribe-beta-dialog .box-information {
+    color: #fff;
+    margin-top: 25px
+}
+
+.subscribe-beta-dialog .v-input__slot {
+    background: #2b2b4a
+}
+
+.subscribe-beta-dialog .v-input__slot input {
+    color: #9285ec !important
+}
+
+.subscribe-beta-dialog .v-input__slot ::-moz-placeholder {
+    color: #9285ec !important;
+    opacity: 1
+}
+
+.subscribe-beta-dialog .v-input__slot ::placeholder {
+    color: #9285ec !important
+}
+
+.subscribe-beta-dialog fieldset {
+    background: rgba(141, 135, 187, .2);
+    border: none !important
+}
+
+.subscribe-beta-dialog button {
+    background: linear-gradient(93.16deg, #7d6fde 2.68%, #6c5dd3 97.44%);
+    border: none;
+    color: #fff !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 25px
+}
+
+.subscribe-beta-dialog button.skewed {
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 0 !important;
+    height: 56px !important;
+    margin-bottom: 0 !important;
+    margin-right: -10px;
+    margin-top: -4px;
+    padding: 28px !important
+}
+
+.subscribe-beta-dialog .design-element {
+    position: relative
+}
+
+.subscribe-beta-dialog .design-element:after {
+    background: linear-gradient(113.55deg, #7d6cef -2.84%, #5344bb 87.57%);
+    bottom: -38px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: -100px;
+    top: -45px;
+    transform: skew(.312rad)
+}
+
+.subscribe-beta-dialog .design-element .v-image {
+    margin-left: 35px;
+    z-index: 1
+}
+
+.section {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1400px !important;
+    padding: 50px 100px
+}
+
+@media (max-width:1150px) {
+    .section {
+        padding: 30px
+    }
+}
+
+.list-unstyled {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0
+}
+
+.app-nav a {
+    color: #fff !important;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none
+}
+
+.app-nav a:first-child {
+    margin-left: 0
+}
+
+.app-nav a:last-child {
+    margin-right: 0
+}
+
+.app-nav-on-scroll {
+    font-size: 1.3rem
+}
+
+.app-nav-on-scroll .v-toolbar__content {
+    align-items: center
+}
+
+.app-nav-on-scroll .btn-download {
+    animation: btn_pulse 5s infinite;
+    animation-timing-function: ease-in-out;
+    background: #7461ff !important;
+    border-radius: 15px
+}
+
+header .v-toolbar__content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1400px !important;
+    padding: 4px 100px
+}
+
+@media (max-width:1150px) {
+    header .v-toolbar__content {
+        padding: 30px
+    }
+}
+
+.static-app .v-footer .section,
+.v-footer .section {
+    border-bottom: 1px solid #101015;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1400px !important;
+    padding: 30px 86px
+}
+
+.static-app .v-footer .section .footer-download,
+.v-footer .section .footer-download {
+    background: linear-gradient(90deg, #22b07d, #1db17c);
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 25px 23px
+}
+
+.static-app .v-footer .section .footer-discord,
+.v-footer .section .footer-discord {
+    height: 53px;
+    width: 234px
+}
+
+.static-app .v-footer .section h4,
+.v-footer .section h4 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.static-app .v-footer .section .v-btn.v-btn--plain,
+.v-footer .section .v-btn.v-btn--plain {
+    padding: 0
+}
+
+.static-app .v-footer .section .column-wrapper h4,
+.v-footer .section .column-wrapper h4 {
+    margin-bottom: 20px
+}
+
+.static-app .v-footer .section .column-wrapper .v-btn,
+.v-footer .section .column-wrapper .v-btn {
+    display: block;
+    text-transform: none
+}
+
+@media (max-width:1150px) {
+    .static-app .v-footer .section,
+    .v-footer .section {
+        padding: 30px
+    }
+}
+
+.static-app {
+    background: #000;
+    color: #fff
+}
+
+.static-app h1.title {
+    font-size: 80px !important;
+    font-weight: 700;
+    line-height: 110px !important;
+    margin-bottom: 40px;
+    text-transform: capitalize
+}
+
+@media (max-width:1150px) {
+    .static-app h1.title {
+        font-size: 60px !important;
+        line-height: 80px !important
+    }
+}
+
+@media (max-width:550px) {
+    .static-app h1.title {
+        font-size: 36px !important;
+        line-height: 50px !important
+    }
+}
+
+.static-app h1.title span {
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 40%, #22b07d 0);
+    border-radius: 20px
+}
+
+.static-app .v-btn.cta {
+    border-radius: 16px;
+    font-weight: 700;
+    padding: 25px !important;
+    text-transform: uppercase
+}
+
+@media (max-width:1150px) {
+    .static-app .v-btn.cta {
+        font-size: 14px
+    }
+}
+
+@media (max-width:550px) {
+    .static-app .v-btn.cta {
+        font-size: 10px
+    }
+}
+
+.static-app .v-btn.cta.yellow {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    color: #1e1c29
+}
+
+.static-app .v-btn.cta.green {
+    background: linear-gradient(90deg, #22b07d, #1db17c);
+    color: #fff
+}
+
+.static-app .v-btn.cta.purple-linear {
+    background: radial-gradient(178% 2496.75% at 0 -67.33%, #972dc9 0, #633899 48.96%, #6c5dd3 100%);
+    color: #fff
+}
+
+.static-app .v-btn.cta.yellow-linear {
+    background: linear-gradient(91.38deg, #ffc107 -3.65%, #f8cd57 48.04%, #ffc107 109.12%);
+    color: #fff
+}
+
+.static-app .highlight {
+    color: #6c5dd3
+}
+
+.static-app .highlight-green {
+    color: #2ecc93
+}
+
+.static-app .home .voice-universe-bg {
+    background-image: url(../img/static/voices22.png);
+    background-position: 0;
+    background-size: 70%;
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+@media (max-width:959px) {
+    .static-app .home .voice-universe-bg {
+        background-size: cover;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .heading-bg {
+    background: #514a82;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 5px
+}
+
+.static-app .home .bg-waves {
+    background-image: url(../img/static/bg-waves.jpg);
+    background-position: 0 225px;
+    background-repeat: no-repeat
+}
+
+.static-app .home .section-wrapper.who-section-wrapper {
+    background-image: url(../img/static/bg-waves.jpg);
+    background-position: 0 55px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.static-app .home p.description {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.static-app .home p.description .highlight {
+    font-weight: 700
+}
+
+.static-app .home p.description-big {
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%
+}
+
+.static-app .home p.description-small {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.5%
+}
+
+.static-app .home .team-members .member-box {
+    background: #fff;
+    border-radius: 49px;
+    box-shadow: 14px 41px 100px rgba(49, 89, 211, .12), 0 50px 3px -35px rgba(49, 89, 211, .08);
+    color: #171717;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 20px 40px
+}
+
+.static-app .home .team-members .member-box h1 {
+    color: #6c5dd3;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px
+}
+
+.static-app .home .team-members .member-box h2 {
+    color: #3e3e3e;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px
+}
+
+.static-app .home .team-members .member-box .member-social {
+    margin-top: 15px
+}
+
+.static-app .home .team-members .member-box .member-social i {
+    color: #6c5dd3;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.static-app .home .team-members .member-box .less,
+.static-app .home .team-members .member-box .more {
+    color: #171717;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding-left: 0
+}
+
+.static-app .home .team-members .member-box .less i,
+.static-app .home .team-members .member-box .more i {
+    padding-left: 5px
+}
+
+.static-app .home .hero {
+    background-position: 0;
+    background-size: cover;
+    padding: 70px 0
+}
+
+.static-app .home .hero .v-badge__wrapper .v-badge__badge {
+    font-size: 22px;
+    font-weight: 700;
+    height: 46px;
+    inset: auto calc(100% - 68px) calc(100% - 20px) auto !important;
+    padding: 14px 16px;
+    transform: rotate(-12deg)
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero .v-badge__wrapper .v-badge__badge {
+        font-size: 14px;
+        height: 24px;
+        inset: auto calc(100% - 46px) calc(100% - 10px) auto !important;
+        padding: 6px 12px
+    }
+}
+
+@media screen and (min-width:959px) {
+    .static-app .home .hero .description {
+        max-width: 500px
+    }
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero .description {
+        font-size: 14px
+    }
+}
+
+.static-app .home .hero.waves {
+    background-image: linear-gradient(0deg, transparent 0, transparent 59%, rgba(0, 0, 0, .65)), url(../img/static/soundwaves4.png);
+    overflow: hidden
+}
+
+.static-app .home .hero.waves.howto {
+    padding-top: 0
+}
+
+.static-app .home.voice-universe .hero {
+    background-image: linear-gradient(0deg, transparent 0, transparent 59%, rgba(0, 0, 0, .65)), url(../img/static/voice-universe-hero.jpg);
+    background-position: 50%;
+    height: 100vh;
+    position: relative;
+    width: 100vw
+}
+
+.static-app .home.voice-universe .hero h1.title {
+    font-size: 60px !important;
+    line-height: 60px !important
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home.voice-universe .hero h1.title {
+        font-size: 110px !important;
+        line-height: 90px !important
+    }
+}
+
+.static-app .home.voice-universe .hero h2.sub-title {
+    font-family: Inter;
+    font-size: 35px !important;
+    font-weight: 700
+}
+
+.static-app .home.voice-universe .hero .v-btn {
+    border-radius: 16px;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    padding: 30px 80px;
+    text-transform: none
+}
+
+.static-app .home.voice-universe .hero .headline {
+    margin-top: 15vh;
+    z-index: 1
+}
+
+.static-app .home.voice-universe .hero .btn-wrapper {
+    margin-top: 10vh
+}
+
+.static-app .home.voice-universe .hero .btn-wrapper a {
+    min-width: 246px
+}
+
+.static-app .home.voice-universe .hero .btn-login {
+    background: radial-gradient(178% 2496.75% at 0 -67.33%, #972dc9 0, #633899 48.96%, #6c5dd3 100%)
+}
+
+.static-app .home.voice-universe .hero .btn-demo {
+    background: rgba(11, 11, 44, .7);
+    border: 2px solid #7461ff;
+    border-radius: 15px
+}
+
+.static-app .home.voice-universe .discover {
+    background-image: url(../img/static/voiceicon.png);
+    background-position: 100% 0
+}
+
+@media (max-width:959px) {
+    .static-app .home.voice-universe .discover {
+        background-size: cover
+    }
+}
+
+.static-app .home.voice-universe .discover .discover-item-wrapper {
+    background: radial-gradient(178% 2496.75% at 0 -67.33%, rgba(151, 45, 201, .4) 0, rgba(99, 56, 153, .4) 48.96%, rgba(108, 93, 211, .4) 100%);
+    border-radius: 16px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 20px;
+    vertical-align: middle
+}
+
+.static-app .home.voice-universe .discover .discover-item-wrapper:before {
+    content: url(../img/icons/green-checkmark.svg)
+}
+
+.static-app .home.voice-universe .access {
+    background-image: url(../img/static/voice-universe-access.png);
+    background-position: 100%
+}
+
+@media (max-width:959px) {
+    .static-app .home.voice-universe .access {
+        background-size: cover
+    }
+}
+
+.static-app .home.voice-universe .separator {
+    background-image: url(../img/static/line-separator.svg);
+    background-position: 50%
+}
+
+@media (max-width:959px) {
+    .static-app .home.voice-universe .separator {
+        background-size: 100%
+    }
+}
+
+.static-app .home.voice-universe .discord {
+    background-image: url(../img/static/voice-universe-discord.png);
+    background-position: 50%;
+    min-height: 500px
+}
+
+.static-app .home.voice-universe .discord h1 {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px
+}
+
+.static-app .home.voice-universe .discord h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px
+}
+
+@media (max-width:959px) {
+    .static-app .home.voice-universe .discord {
+        background-position: 100%;
+        background-size: cover;
+        min-height: unset
+    }
+    .static-app .home.voice-universe .discord h1 {
+        font-size: 40px;
+        line-height: 43px
+    }
+    .static-app .home.voice-universe .discord h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+}
+
+.static-app .home.voice-universe .creator-box {
+    background: linear-gradient(#0c0d13, #0c0d13) padding-box, linear-gradient(263.17deg, #8893f2 -1.61%, hsla(0, 0%, 100%, .594) 31.25%, rgba(149, 136, 242, .68) 54.05%, rgba(145, 139, 242, .57) 78.43%, #fff 100.16%) border-box;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(108, 93, 211, .25);
+    padding: 30px
+}
+
+.static-app .home.voice-universe .creator-box .creator {
+    background: linear-gradient(#171a25, #171a25) padding-box, linear-gradient(263.17deg, #8893f2 -1.61%, hsla(0, 0%, 100%, .594) 31.25%, rgba(149, 136, 242, .68) 54.05%, rgba(145, 139, 242, .57) 78.43%, #fff 100.16%) border-box;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-weight: 600
+}
+
+.static-app .home.voice-universe .creator-box p {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.static-app .home .hero.about-page {
+    background-image: linear-gradient(0deg, transparent 0, transparent 59%, rgba(0, 0, 0, .65)), url(../img/static/about1.jpg);
+    background-position: 50%;
+    color: #fff
+}
+
+.static-app .home .hero.about-page h1.title {
+    font-size: 60px !important;
+    line-height: 60px !important
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.about-page h1.title {
+        font-size: 110px !important;
+        line-height: 90px !important
+    }
+}
+
+.static-app .home .hero.about-page h2.sub-title {
+    font-family: Inter;
+    font-size: 30px !important
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.about-page h2.sub-title {
+        font-size: 35px !important
+    }
+}
+
+.static-app .home .hero.about-page .headline {
+    margin-bottom: 10vh;
+    margin-top: 10vh
+}
+
+.static-app .home .about-our-mission {
+    background-color: #f6f7fb
+}
+
+.static-app .home .hero.about-growing {
+    background-image: url(../img/static/about3.jpg)
+}
+
+.static-app .home .hero.about-growing .v-btn {
+    border-radius: 15px;
+    box-shadow: 0 4px 30px #5843e7;
+    color: #6c5dd3;
+    font-family: Poppins;
+    padding: 20px 30px
+}
+
+.static-app .home .hero.about-growing h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero.about-growing {
+        background-position: 50%;
+        padding-bottom: 50px;
+        padding-top: 50px
+    }
+    .static-app .home .hero.about-growing h1 {
+        font-size: 35px;
+        line-height: 55px
+    }
+}
+
+.static-app .home .hero.home-page {
+    background-image: linear-gradient(0deg, transparent 0, transparent 59%, rgba(0, 0, 0, .65)), url(../img/static/hp-waves.jpg);
+    background-position: 50%;
+    height: 100vh;
+    position: relative;
+    width: 100vw
+}
+
+.static-app .home .hero.home-page h1.title {
+    font-family: Inter !important;
+    font-size: 60px !important;
+    line-height: 60px !important
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page h1.title {
+        font-size: 90px !important;
+        line-height: 90px !important
+    }
+}
+
+.static-app .home .hero.home-page h2.sub-title {
+    color: #55ffde;
+    font-family: Inter;
+    font-size: 30px !important;
+    font-weight: 500
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page h2.sub-title {
+        font-size: 60px !important
+    }
+}
+
+.static-app .home .hero.home-page .v-btn {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    padding: 30px 50px;
+    text-transform: none
+}
+
+.static-app .home .hero.home-page .headline {
+    margin-top: 15vh;
+    z-index: 1
+}
+
+.static-app .home .hero.home-page .btn-wrapper {
+    margin-top: 10vh
+}
+
+@keyframes btn_pulse {
+    0%,
+    to {
+        transform: scaleX(1)
+    }
+    10%,
+    30%,
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    20%,
+    40%,
+    60% {
+        transform: scaleX(1)
+    }
+}
+
+.static-app .home .hero.home-page .btn-download {
+    animation: btn_pulse 5s infinite;
+    animation-timing-function: ease-in-out;
+    background: #7461ff;
+    border-radius: 15px
+}
+
+.static-app .home .hero.home-page .btn-demo {
+    background: rgba(11, 11, 44, .7);
+    border: 2px solid #7461ff;
+    border-radius: 15px
+}
+
+.static-app .home .hero.home-page .btn-wrapper-launch {
+    margin-top: 10vh
+}
+
+.static-app .home .hero.home-page .btn-wrapper-launch .btn-launch {
+    animation: btn_pulse 5s infinite;
+    animation-timing-function: ease-in-out;
+    background: #55ffde;
+    border-radius: 15px;
+    color: #000
+}
+
+.static-app .home .hero.home-page .btn-wrapper-launch .btn-download {
+    animation: unset
+}
+
+.static-app .home .hero.home-page .waves-wrapper {
+    bottom: 0;
+    height: 350px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page .waves-wrapper {
+        height: 500px
+    }
+}
+
+.static-app .home .hero.home-page .waves-wrapper .green-wave,
+.static-app .home .hero.home-page .waves-wrapper .purple-wave {
+    background-size: contain;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    width: 60%
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page .waves-wrapper .green-wave,
+    .static-app .home .hero.home-page .waves-wrapper .purple-wave {
+        background-size: contain
+    }
+}
+
+.static-app .home .hero.home-page .waves-wrapper .purple-wave {
+    background-image: url(../img/static/purple_wave.png);
+    background-position: 0;
+    left: -60px
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page .waves-wrapper .purple-wave {
+        left: 0
+    }
+}
+
+.static-app .home .hero.home-page .waves-wrapper .green-wave {
+    background-image: url(../img/static/green_wave.png);
+    background-position: 100%;
+    right: -60px
+}
+
+@media screen and (min-width:960px) {
+    .static-app .home .hero.home-page .waves-wrapper .green-wave {
+        right: 0
+    }
+}
+
+.static-app .home .bgshadow {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, .5)
+}
+
+@media (max-width:1150px) {
+    .static-app .home .bgshadow {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, .6)
+    }
+}
+
+@media (min-width:959px) {
+    .static-app .home .amongus .cta,
+    .static-app .home .cloning .cta,
+    .static-app .home .csgo .cta,
+    .static-app .home .discord .cta,
+    .static-app .home .fortnite .cta,
+    .static-app .home .google .cta,
+    .static-app .home .lol .cta,
+    .static-app .home .messenger .cta,
+    .static-app .home .minecraft .cta,
+    .static-app .home .obs .cta,
+    .static-app .home .pc .cta,
+    .static-app .home .pubg .cta,
+    .static-app .home .skype .cta,
+    .static-app .home .steam .cta,
+    .static-app .home .teamspeak .cta,
+    .static-app .home .telegram .cta,
+    .static-app .home .twitch .cta,
+    .static-app .home .valorant .cta,
+    .static-app .home .viber .cta,
+    .static-app .home .voiceuniverse .cta,
+    .static-app .home .whatsapp .cta,
+    .static-app .home .wow .cta,
+    .static-app .home .zoom .cta {
+        color: #1e1c29;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        height: auto;
+        line-height: 27px;
+        padding: 24px 50px !important
+    }
+}
+
+.static-app .home .hero2.voice-changer {
+    background-image: url(../img/static/gecko-landing.png);
+    background-position: 100%
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero2.voice-changer {
+        background-position: 50%
+    }
+}
+
+.static-app .home .hero3.voice-changer {
+    background-image: url(../img/static/gecko-landing2.png);
+    background-position: 0
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero3.voice-changer {
+        background-position: 100%
+    }
+}
+
+.static-app .home .hero4.voice-changer {
+    background-image: url(../img/static/gecko-landing3.png);
+    background-position: 100% 0
+}
+
+.static-app .home .hero5.voice-changer {
+    background-image: url(../img/static/gecko-landing4.png);
+    background-position: 100%
+}
+
+.static-app .home .hero5.voice-changer .box {
+    background: linear-gradient(#171a25, #171a25) padding-box, linear-gradient(263.17deg, #8893f2 -1.61%, hsla(0, 0%, 100%, .594) 31.25%, rgba(149, 136, 242, .68) 54.05%, rgba(145, 139, 242, .57) 78.43%, #fff 100.16%) border-box;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 40px rgba(108, 93, 211, .25)
+}
+
+.static-app .home .hero5.voice-changer .box .box-title {
+    background: #6c5dd3;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: -2px;
+    padding: 2px 15px
+}
+
+.static-app .home .hero5.voice-changer .box .box-description {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 15px
+}
+
+.static-app .home .hero6.voice-changer {
+    background-image: url(../img/static/gecko-landing5.jpg);
+    background-size: cover
+}
+
+.static-app .home .hero6.voice-changer .features-box {
+    background: linear-gradient(#242731, #242731) padding-box, linear-gradient(89.56deg, #fff .41%, hsla(0, 0%, 100%, 0) 50.04%), linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 50%);
+    border: 1px solid transparent
+}
+
+.static-app .home .hero.csgo {
+    background-image: url(../img/static/pexels-rodnae-productions-7915226.png)
+}
+
+.static-app .home .hero2.csgo {
+    background-image: url(../img/static/cs2.png)
+}
+
+.static-app .home .hero2.csgo .section {
+    padding-bottom: 0
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero2.csgo {
+        background-position: top
+    }
+}
+
+.static-app .home .hero3.csgo {
+    background-image: url(../img/static/csgo3.png);
+    background-position: 100%
+}
+
+.static-app .home .hero3.csgo .section {
+    padding-top: 0
+}
+
+.static-app .home .hero4.csgo {
+    background-image: url(../img/static/csgo4.jpg);
+    background-size: cover
+}
+
+.static-app .home .hero.amongus {
+    background-image: url(../img/static/amongus.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero.amongus {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.amongus {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .1) 70%, #000), url(../img/static/amongus2.jpg)
+}
+
+.static-app .home .hero3.amongus {
+    background-image: url(../img/static/amongus3.jpg);
+    background-position: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.amongus {
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero5.amongus {
+    background-image: url(../img/static/amongus5.png);
+    background-position: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero5.amongus {
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero4.amongus {
+    background-image: url(../img/static/amongus4.svg);
+    background-size: cover
+}
+
+.static-app .home .hero.wow {
+    background-image: linear-gradient(180deg, transparent 0, transparent 59%, rgba(0, 0, 0, .65)), url(../img/static/wow1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.wow {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.wow {
+    background-image: url(../img/static/wow2.jpg)
+}
+
+.static-app .home .hero2.wow .voices1 {
+    margin-bottom: -160px;
+    z-index: 1
+}
+
+.static-app .home .hero3.wow {
+    background-image: url(../img/static/wow3.jpg);
+    background-position: 100%
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero3.wow {
+        background-position: top
+    }
+}
+
+.static-app .home .hero.minecraft {
+    background-image: url(../img/static/minecraft1.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.minecraft {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.minecraft {
+    background-image: url(../img/static/minecraft2.jpg)
+}
+
+.static-app .home .hero2.minecraft .voices1 {
+    margin-bottom: -160px;
+    z-index: 1
+}
+
+.static-app .home .hero3.minecraft {
+    background-image: url(../img/static/minecraft3.jpg);
+    background-position: 100%
+}
+
+.static-app .home .hero4.minecraft {
+    background-image: url(../img/static/minecraft4.jpg);
+    background-position: 100%
+}
+
+.static-app .home .hero4.minecraft .section {
+    padding-top: 0
+}
+
+.static-app .home .hero.whatsapp {
+    background-image: url(../img/static/whatsapp1.jpg);
+    background-position: 100%;
+    background-size: auto;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.whatsapp {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.whatsapp {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .1) 10%, rgba(0, 0, 0, .1) 85%, #000), url(../img/static/whatsapp2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.whatsapp {
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.whatsapp {
+    background-image: url(../img/static/whatsapp3.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+.static-app .home .hero.discord {
+    background-image: url(../img/static/discord1.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding-bottom: 0
+}
+
+.static-app .home .hero2.discord {
+    background-image: url(../img/static/discord2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.discord {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.discord {
+    background-image: url(../img/static/discord3.jpg);
+    background-position: 50%;
+    background-size: contain
+}
+
+.static-app .home .hero3.discord .voices1 {
+    margin-bottom: -100px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.discord {
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.skype {
+    background-image: url(../img/static/skype1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.skype {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.skype {
+    background-image: url(../img/static/skype2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.skype {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.skype {
+    background-image: url(../img/static/skype3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.skype {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.google {
+    background-image: url(../img/static/google1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.google {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.google {
+    background-image: url(../img/static/google2.jpg);
+    background-position: 0
+}
+
+.static-app .home .hero2.google .voices1 {
+    margin-bottom: -150px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.google {
+        background-position: 0;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.google {
+    background-image: url(../img/static/google3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.google {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.zoom {
+    background-image: url(../img/static/zoom1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.zoom {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.zoom {
+    background-image: url(../img/static/zoom2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.zoom {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.zoom {
+    background-image: url(../img/static/zoom3.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.zoom {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero.twitch {
+    background-image: url(../img/static/twitch1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.twitch {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.twitch {
+    background-image: url(../img/static/twitch2.jpg);
+    background-position: 0
+}
+
+.static-app .home .hero2.twitch .voices1 {
+    margin-bottom: -150px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.twitch {
+        background-position: 0;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.twitch {
+    background-image: url(../img/static/twitch3.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.twitch {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero4.twitch {
+    background-image: url(../img/static/twitch4.jpg);
+    background-position: 0;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero4.twitch {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.fortnite {
+    background-image: url(../img/static/fortnite1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.fortnite {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.fortnite {
+    background-image: url(../img/static/fortnite2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.fortnite {
+        background-position: 0;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.fortnite {
+    background-image: url(../img/static/fortnite3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+.static-app .home .hero3.fortnite .voices1 {
+    margin-bottom: -150px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.fortnite {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero4.fortnite {
+    background-image: url(../img/static/fortnite4.jpg);
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero4.fortnite {
+        background-position: 0
+    }
+}
+
+.static-app .home .hero.lol {
+    background-image: url(../img/static/lol1.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.lol {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.lol {
+    background-image: url(../img/static/lol2.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 200px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.lol {
+        background-position: 100%;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero3.lol {
+    background-image: url(../img/static/lol3.jpg);
+    background-position: 0;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.lol {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.pubg {
+    background-image: url(../img/static/pubg1.jpg);
+    background-position: 100%;
+    background-size: auto;
+    padding-bottom: 0
+}
+
+.static-app .home .hero.pubg .voices1 {
+    margin-bottom: -150px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.pubg {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.pubg {
+    background-image: url(../img/static/pubg2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.pubg {
+        background-position: 0;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero3.pubg {
+    background-image: url(../img/static/pubg3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.pubg {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero4.pubg {
+    background-image: url(../img/static/pubg4.jpg);
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero4.pubg {
+        background-position: top
+    }
+}
+
+.static-app .home .hero5.pubg {
+    background-image: url(../img/static/pubg5.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero5.pubg {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero.cloning {
+    background-image: url(../img/static/cloning.jpg);
+    background-position: 0;
+    background-size: cover;
+    padding-bottom: 0
+}
+
+.static-app .home .hero.cloning .voices1 {
+    margin-bottom: -120px;
+    z-index: 1
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.cloning {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.cloning {
+    background-image: url(../img/static/cloning2.jpg);
+    background-position: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.cloning {
+        background-position: 0;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.cloning {
+    background-image: url(../img/static/cloning3.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding-top: 50px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.cloning {
+        background-position: 100%;
+        background-size: auto;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero4.cloning {
+    background-image: url(../img/static/cloning4.svg);
+    background-position: 0;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero4.cloning {
+        background-position: bottom;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.pc {
+    background-image: url(../img/static/voicechanger.jpg?v=1);
+    background-position: 0;
+    background-size: cover
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.pc {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero.pc .full-installer {
+    font-size: 12px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.pc {
+        background-image: url(../img/static/voicechangerfilters.png);
+        background-position: 100%;
+        background-size: contain
+    }
+}
+
+.static-app .home .hero3.pc {
+    background-image: url(../img/static/microphone-transparent.jpg);
+    background-position: 0;
+    background-size: auto
+}
+
+.static-app .home .hero4.pc {
+    background-image: url(../img/static/voicechanger4.svg);
+    background-position: 0;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero4.pc {
+        background-position: bottom;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse.svg);
+    background-position: 0;
+    background-size: cover
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.voiceuniverse {
+        background-position: 0;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse2.png)
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.voiceuniverse {
+        background-image: url(../img/static/voiceuniversefilters.png);
+        background-position: 50%;
+        background-size: contain
+    }
+}
+
+.static-app .home .hero3.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse3.png);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.voiceuniverse {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero4.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse4.png);
+    background-position: 0;
+    background-size: auto
+}
+
+.static-app .home .hero5.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse5.png);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero5.voiceuniverse {
+        background-position: 100%;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero6.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse6.png);
+    background-position: 0;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero6.voiceuniverse {
+        background-image: url(../img/static/voiceuniversefilters.png);
+        background-position: 50%;
+        background-size: contain
+    }
+}
+
+.static-app .home .hero7.voiceuniverse {
+    background-image: url(../img/static/voiceuniverse7.svg);
+    background-position: 0;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero7.voiceuniverse {
+        background-position: bottom;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.steam {
+    background-image: url(../img/static/steam1.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.steam {
+        background-position: 100%;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero2.steam {
+    background-image: url(../img/static/steam2.jpg);
+    background-position: 0;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.steam {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.steam {
+    background-image: url(../img/static/steam3.jpg);
+    background-position: 100%;
+    background-size: cover
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.steam {
+        background-position: 100%
+    }
+}
+
+.static-app .home .hero3.steam .section:nth-child(2) h2 {
+    color: #8f8f8f;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700
+}
+
+.static-app .home .hero3.steam .section:nth-child(2) h3 {
+    font-size: 30px;
+    font-weight: 700
+}
+
+.static-app .home .hero.viber {
+    background-image: url(../img/static/viber1.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.viber {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.viber {
+    background-image: url(../img/static/viber2.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.viber {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.viber {
+    background-image: url(../img/static/viber3.jpg);
+    background-size: auto
+}
+
+.static-app .home .mac .v-btn.cta {
+    font-size: 18px;
+    padding: 24px 40px !important
+}
+
+.static-app .home .hero.mac {
+    background-image: url(../img/static/voicechanger.jpg);
+    background-position: 100%;
+    background-size: cover
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.mac {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.mac {
+    background-image: url(../img/static/microphonewave-right.jpg);
+    background-position: 100%;
+    background-size: contain;
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.mac {
+        background-position: top;
+        background-size: auto;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero3.mac {
+    background-image: url(../img/static/microphone-transparent.jpg);
+    background-size: auto
+}
+
+.static-app .home .mac .how-to-box {
+    border-radius: 20px 90px 20px 20px;
+    min-height: auto;
+    padding: 25px
+}
+
+@media (min-width:600px) {
+    .static-app .home .mac .how-to-box {
+        min-height: 250px
+    }
+}
+
+@media (min-width:959px) {
+    .static-app .home .mac .how-to-box {
+        min-height: 150px
+    }
+}
+
+.static-app .home .mac .how-to-box .members-wrapper h3 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 0
+}
+
+.static-app .home .mac .text-wrapper {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0;
+    min-height: 85px
+}
+
+.static-app .home .hero.obs {
+    background-image: url(../img/static/obs1.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.obs {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.obs {
+    background-image: url(../img/static/obs2.jpg);
+    background-size: auto
+}
+
+.static-app .home .hero3.obs {
+    background-image: url(../img/static/obs3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.obs {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero4.obs {
+    background-image: url(../img/static/obs4.jpg);
+    background-size: auto
+}
+
+.static-app .home .hero4.obs .trump {
+    position: absolute;
+    right: 20px;
+    top: 200px
+}
+
+.static-app .home .hero.messenger {
+    background-image: url(../img/static/messenger1.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.messenger {
+        background-position: top;
+        background-size: cover
+    }
+}
+
+.static-app .home .hero2.messenger {
+    background-image: url(../img/static/messenger2.jpg);
+    background-size: auto
+}
+
+.static-app .home .hero3.messenger {
+    background-image: url(../img/static/messenger3.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero3.messenger {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero4.messenger {
+    background-image: url(../img/static/messenger4.jpg);
+    background-size: auto
+}
+
+.static-app .home .hero5.messenger {
+    background-image: url(../img/static/messenger5.jpg);
+    background-position: 100%;
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero5.messenger {
+        background-position: top;
+        background-size: auto
+    }
+}
+
+.static-app .home .hero.teamspeak {
+    background-image: url(../img/static/teamspeak1.jpg);
+    background-position: 100%;
+    background-size: auto;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.teamspeak {
+        background-position: top
+    }
+}
+
+.static-app .home .hero2.teamspeak {
+    background-image: url(../img/static/teamspeak2.jpg);
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.teamspeak {
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.teamspeak {
+    background-image: url(../img/static/teamspeak3.jpg);
+    background-position: 100%;
+    background-size: auto
+}
+
+.static-app .home .hero4.teamspeak {
+    background-image: url(../img/static/teamspeak4.jpg);
+    background-position: 0;
+    background-size: auto
+}
+
+.static-app .home .hero.valorant {
+    background-image: url(../img/static/valorant1.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding-bottom: 0
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.valorant {
+        background-position: top
+    }
+}
+
+.static-app .home .hero2.valorant {
+    background-image: url(../img/static/valorant2.jpg);
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.valorant {
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.valorant {
+    background-image: url(../img/static/valorant3.jpg);
+    background-position: 100%;
+    background-size: auto;
+    padding-bottom: 80px;
+    padding-top: 80px
+}
+
+@media (max-width:600px) {
+    .static-app .home .hero3.valorant {
+        background-position: 0;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero4.valorant {
+    background-image: url(../img/static/valorant4.jpg);
+    background-position: 0;
+    background-size: auto
+}
+
+.static-app .home .hero.telegram {
+    background-image: url(../img/static/telegram1.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding-bottom: 0
+}
+
+.static-app .home .hero2.telegram {
+    background-image: url(../img/static/telegram2.jpg);
+    background-size: contain
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero2.telegram {
+        background-size: auto
+    }
+}
+
+.static-app .home .hero3.telegram {
+    background-image: url(../img/static/telegram3.jpg);
+    background-position: 100%;
+    background-size: auto;
+    padding-bottom: 80px;
+    padding-top: 80px
+}
+
+@media (max-width:600px) {
+    .static-app .home .hero3.telegram {
+        background-position: 0;
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+.static-app .home .hero4.telegram {
+    background-image: url(../img/static/telegram4.jpg);
+    background-position: 0;
+    background-size: auto;
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+
+@media (max-width:600px) {
+    .static-app .home .hero4.telegram {
+        padding-bottom: 0;
+        padding-top: 0
+    }
+}
+
+@media (min-width:959px) {
+    .static-app .home .obscta .cta {
+        color: #1e1c29;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        height: auto;
+        line-height: 27px;
+        padding: 24px 50px !important
+    }
+}
+
+.static-app .home .obs ul {
+    list-style: none;
+    margin-left: 15px
+}
+
+.static-app .home .obs ul li {
+    align-items: center;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px
+}
+
+.static-app .home .obs ul li span {
+    color: #6c5dd3;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    margin-right: 20px
+}
+
+.static-app .home .hero.ethics {
+    background-image: url(../img/static/ethics.png);
+    background-position: top;
+    background-size: cover
+}
+
+.static-app .home .hero.ethics .ethics-wrapper {
+    margin-bottom: 50px
+}
+
+.static-app .home .hero.ethics .ethics-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 30px;
+    text-align: left
+}
+
+.static-app .home .hero.ethics .ethics-wrapper .ethics-box {
+    background: #6c5dd3;
+    border-radius: 30px 120px;
+    font-family: Poppins;
+    padding: 10px 60px
+}
+
+.static-app .home .hero.ethics .ethics-wrapper .ethics-box h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 130%
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.ethics .ethics-wrapper .ethics-box h1 {
+        font-size: 50px
+    }
+}
+
+.static-app .home .hero.ethics .ethics-wrapper .ethics-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 110%
+}
+
+.static-app .home .hero.faq {
+    background-attachment: fixed;
+    background-image: url(../img/static/faq.png);
+    background-position: top;
+    background-size: cover
+}
+
+.static-app .home .hero.faq .search-box .v-input__control {
+    background: #25242d;
+    border-radius: 15px
+}
+
+.static-app .home .hero.faq .search-box .v-input__control .v-input__prepend-inner {
+    margin-left: 15px;
+    padding-right: 15px
+}
+
+.static-app .home .hero.faq h1.title {
+    font-size: 60px !important
+}
+
+@media (max-width:600px) {
+    .static-app .home .hero.faq h1.title {
+        font-size: 50px !important
+    }
+}
+
+.static-app .home .hero.faq h2 {
+    font-family: Poppins
+}
+
+.static-app .home .hero.faq .contact-button {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    border-radius: 16px;
+    color: #1e1c29;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 25px 30px;
+    text-transform: none
+}
+
+.static-app .home .hero.faq .question-wrapper {
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 12px 40px
+}
+
+.static-app .home .hero.faq .question-wrapper pre {
+    white-space: pre-line
+}
+
+.static-app .home .hero.faq .question-wrapper .question-title {
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 12px
+}
+
+@media (max-width:550px) {
+    .static-app .home .hero.faq .question-wrapper .question-title {
+        font-size: 8px
+    }
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend .home-icon,
+.static-app .home .hero.faq .question-wrapper .question-extend .source-code-icon {
+    background: #fff;
+    display: inline-block;
+    height: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+    width: 30px
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend .home-icon:hover,
+.static-app .home .hero.faq .question-wrapper .question-extend .source-code-icon:hover {
+    background: #6c5dd3
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend .home-icon {
+    -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1IDBhMjUgMjUgMCAxIDAgMCA1MCAyNSAyNSAwIDAgMCAwLTUwWm0xNS41NTUgMjEuMDIzYTEuMzc2IDEuMzc2IDAgMCAxLTEuMzI4Ljk3aC0xLjM5MXYxNC4wNTRhNC4yNjMgNC4yNjMgMCAwIDEtNC4yNTggNC4yNThoLTQuMTk1YS44MjcuODI3IDAgMCAxLS44Mi0uODI4di03LjM1MmExLjkxNyAxLjkxNyAwIDAgMC0xLjkxNS0xLjkxNGgtMy4yOTZhMS45MTggMS45MTggMCAwIDAtMS45MTUgMS45MTR2Ny4zNTJhLjgyNy44MjcgMCAwIDEtLjgyLjgyOGgtNC4xOTVhNC4yNjMgNC4yNjMgMCAwIDEtNC4yNTgtNC4yNThWMjEuOTkyaC0xLjM5YTEuMzkyIDEuMzkyIDAgMCAxLS44MTMtMi41MjNsMTIuNTctOC45NzdhNC4yNDggNC4yNDggMCAwIDEgNC45MzggMGwxMi41NyA4Ljk3N2ExLjM4MiAxLjM4MiAwIDAgMSAuNTE2IDEuNTU0WiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==");
+    mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1IDBhMjUgMjUgMCAxIDAgMCA1MCAyNSAyNSAwIDAgMCAwLTUwWm0xNS41NTUgMjEuMDIzYTEuMzc2IDEuMzc2IDAgMCAxLTEuMzI4Ljk3aC0xLjM5MXYxNC4wNTRhNC4yNjMgNC4yNjMgMCAwIDEtNC4yNTggNC4yNThoLTQuMTk1YS44MjcuODI3IDAgMCAxLS44Mi0uODI4di03LjM1MmExLjkxNyAxLjkxNyAwIDAgMC0xLjkxNS0xLjkxNGgtMy4yOTZhMS45MTggMS45MTggMCAwIDAtMS45MTUgMS45MTR2Ny4zNTJhLjgyNy44MjcgMCAwIDEtLjgyLjgyOGgtNC4xOTVhNC4yNjMgNC4yNjMgMCAwIDEtNC4yNTgtNC4yNThWMjEuOTkyaC0xLjM5YTEuMzkyIDEuMzkyIDAgMCAxLS44MTMtMi41MjNsMTIuNTctOC45NzdhNC4yNDggNC4yNDggMCAwIDEgNC45MzggMGwxMi41NyA4Ljk3N2ExLjM4MiAxLjM4MiAwIDAgMSAuNTE2IDEuNTU0WiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==");
+    -webkit-mask-size: cover;
+    mask-size: cover
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend .source-code-icon {
+    -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDYiIGhlaWdodD0iNDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMyA0NmMxMi43MDMgMCAyMy0xMC4yOTcgMjMtMjNTMzUuNzAzIDAgMjMgMCAwIDEwLjI5NyAwIDIzczEwLjI5NyAyMyAyMyAyM1ptLTcuMDYyLTE2LjU5OGExLjkyMiAxLjkyMiAwIDAgMS0yLjcxOSAwbC01LjA0Mi01LjA0M2ExLjkyMiAxLjkyMiAwIDAgMSAwLTIuNzE5bDUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMSAxIDIuNzIgMi43MTlMMTIuMjU1IDIzbDMuNjgyIDMuNjgyYTEuOTIyIDEuOTIyIDAgMCAxIDAgMi43MlptMTQuMTIxIDBhMS45MjIgMS45MjIgMCAwIDAgMi43MiAwbDUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMCAwIDAtMi43MTlsLTUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMSAwLTIuNzIgMi43MTlMMzMuNzQyIDIzbC0zLjY4MiAzLjY4MmExLjkyMiAxLjkyMiAwIDAgMCAwIDIuNzJabS05LjA2NCA1LjkxM2ExLjkyMSAxLjkyMSAwIDAgMS0xLjg5LTIuMjg3bDQuMDA5LTIwLjc4NWExLjkyMiAxLjkyMiAwIDEgMSAzLjc3NC43MjhsLTQuMDA3IDIwLjc4NWExLjkyMiAxLjkyMiAwIDAgMS0xLjg4NiAxLjU1OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
+    mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDYiIGhlaWdodD0iNDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMyA0NmMxMi43MDMgMCAyMy0xMC4yOTcgMjMtMjNTMzUuNzAzIDAgMjMgMCAwIDEwLjI5NyAwIDIzczEwLjI5NyAyMyAyMyAyM1ptLTcuMDYyLTE2LjU5OGExLjkyMiAxLjkyMiAwIDAgMS0yLjcxOSAwbC01LjA0Mi01LjA0M2ExLjkyMiAxLjkyMiAwIDAgMSAwLTIuNzE5bDUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMSAxIDIuNzIgMi43MTlMMTIuMjU1IDIzbDMuNjgyIDMuNjgyYTEuOTIyIDEuOTIyIDAgMCAxIDAgMi43MlptMTQuMTIxIDBhMS45MjIgMS45MjIgMCAwIDAgMi43MiAwbDUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMCAwIDAtMi43MTlsLTUuMDQyLTUuMDQzYTEuOTIyIDEuOTIyIDAgMSAwLTIuNzIgMi43MTlMMzMuNzQyIDIzbC0zLjY4MiAzLjY4MmExLjkyMiAxLjkyMiAwIDAgMCAwIDIuNzJabS05LjA2NCA1LjkxM2ExLjkyMSAxLjkyMSAwIDAgMS0xLjg5LTIuMjg3bDQuMDA5LTIwLjc4NWExLjkyMiAxLjkyMiAwIDEgMSAzLjc3NC43MjhsLTQuMDA3IDIwLjc4NWExLjkyMiAxLjkyMiAwIDAgMS0xLjg4NiAxLjU1OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
+    -webkit-mask-size: cover;
+    mask-size: cover
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend i {
+    font-size: 30px;
+    vertical-align: middle
+}
+
+.static-app .home .hero.faq .question-wrapper .question-extend i:hover {
+    color: #6c5dd3
+}
+
+.static-app .home .hero.faq .question-wrapper.active {
+    border: 1.5px solid #6c5dd3
+}
+
+.static-app .home .hero.faq .question-wrapper.active .question-extend i,
+.static-app .home .hero.faq .question-wrapper.active .question-title h1 {
+    color: #6c5dd3
+}
+
+.static-app .home .hero.supportedapps {
+    background-image: url(../img/static/supportedapps.png);
+    background-position: top;
+    background-size: cover
+}
+
+.static-app .home .supportedapps .app-wrapper {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    margin: 20px 0;
+    text-align: center
+}
+
+.static-app .home .supportedapps .app-wrapper span {
+    color: #fff;
+    display: block;
+    margin-top: 20px
+}
+
+.static-app .home .supportedapps .app-wrapper a {
+    text-decoration: none
+}
+
+.static-app .home .supportedapps .apps-featured .col-12 {
+    align-self: end
+}
+
+.static-app .home .supportedapps .section {
+    padding: 0 50px
+}
+
+.static-app .home .hero.jobs {
+    background-image: url(../img/static/jobs.png);
+    background-position: top;
+    background-size: cover
+}
+
+.static-app .home .jobs .job-wrapper {
+    border-bottom: 3px solid #101015;
+    margin-top: 50px;
+    padding-bottom: 30px
+}
+
+.static-app .home .jobs .job-wrapper h1 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 5px
+}
+
+.static-app .home .jobs .job-wrapper .job-tags {
+    margin-bottom: 20px
+}
+
+.static-app .home .jobs .job-wrapper .job-tags span {
+    background: #38316a;
+    border: 2px solid #6c5dd3;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 6px;
+    white-space: nowrap
+}
+
+@media (max-width:959px) {
+    .static-app .home .jobs .job-wrapper .job-tags h1 {
+        font-size: 40px
+    }
+}
+
+.static-app .home .jobs .job-wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-left: 20px
+}
+
+.static-app .home .jobs .job-wrapper .job-apply {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    border-radius: 16px;
+    color: #1e1c29;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 25px 30px;
+    text-transform: none
+}
+
+.static-app .home .jobs .job-wrapper .read {
+    padding-left: 20px
+}
+
+.static-app .home .jobs .job-wrapper .read .v-btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 0;
+    text-transform: none
+}
+
+.static-app .home .jobs .job-wrapper .read .v-btn.more {
+    color: #6c5dd3
+}
+
+.static-app .home .jobs .job-wrapper .read .v-btn.less {
+    color: #5f5f5f;
+    margin-top: 20px
+}
+
+.static-app .home .jobs .job-wrapper .read h3 {
+    color: #6c5dd3;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+.static-app .home .jobs .job-wrapper .read ul {
+    padding-left: 35px
+}
+
+.static-app .home .jobs .job-wrapper .read li {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.static-app .home .jobs .jobs-form-wrapper {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.static-app .home .jobs .jobs-form-wrapper .job-submit {
+    background: linear-gradient(90deg, #ffdc7b, #f8cc55);
+    border-radius: 16px;
+    color: #1e1c29;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 30px;
+    text-transform: none
+}
+
+.static-app .home .jobs .jobs-form-wrapper .cta.blue {
+    background: #0077b5 !important;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 15px !important
+}
+
+.static-app .home .jobs .jobs-form-wrapper .cta.blue .fa-linkedin-in {
+    padding-right: 10px
+}
+
+.static-app .home .jobs .jobs-form-wrapper .resume-upload {
+    color: #464646
+}
+
+.static-app .home .jobs .jobs-form-wrapper .resume-upload .cta.btn-upload {
+    background: #14131a;
+    border: 1px solid #6c5dd3;
+    border-radius: 5px;
+    color: #6c5dd3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 35px !important;
+    text-transform: none
+}
+
+.static-app .home .jobs .jobs-form-wrapper .resume-upload input.filebtn {
+    display: none
+}
+
+.static-app .home .jobs .jobs-form-wrapper .resume-upload .file-name {
+    overflow-wrap: break-word
+}
+
+.static-app .home .jobs .jobs-form-wrapper h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+.static-app .home .jobs .jobs-form-wrapper label {
+    color: #fff
+}
+
+.static-app .home .jobs .jobs-form-wrapper .v-input {
+    border-radius: 8px;
+    margin-top: 5px
+}
+
+.static-app .home .jobs .jobs-form-wrapper .v-input .v-input__slot {
+    background: #121212
+}
+
+.static-app .home .jobs .jobs-form-wrapper .v-input ::-moz-placeholder {
+    color: #393939
+}
+
+.static-app .home .jobs .jobs-form-wrapper .v-input ::placeholder {
+    color: #393939
+}
+
+.static-app .home .hero.affiliate {
+    background-color: #030919;
+    background-image: url(../img/static/affiliate.jpg);
+    background-position: 100% 0;
+    background-size: auto
+}
+
+@media (max-width:959px) {
+    .static-app .home .hero.affiliate {
+        background-position: 0 0;
+        background-size: contain
+    }
+}
+
+.static-app .home .affiliate .your-content {
+    margin-bottom: 100px;
+    margin-top: 150px
+}
+
+@media (max-width:600px) {
+    .static-app .home .affiliate .your-content {
+        margin-bottom: 50px;
+        margin-top: 50px
+    }
+}
+
+@media (max-width:959px) {
+    .static-app .home .affiliate .your-content {
+        margin-bottom: 50px;
+        margin-top: 50px
+    }
+}
+
+.static-app .home .affiliate .your-content h2 {
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-color: #c0f4ff;
+    background-image: linear-gradient(0deg, #52e0ff, #52e0ff), linear-gradient(0deg, #88eaff, #88eaff), linear-gradient(0deg, #c0f4ff, #c0f4ff), linear-gradient(0deg, #c0f4ff, #c0f4ff), linear-gradient(0deg, #fff, #fff)
+}
+
+.static-app .home .affiliate .your-content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 128%
+}
+
+.static-app .home .affiliate .apply-box-wrapper .apply-box {
+    background: #060f28;
+    border: 2px solid #183987;
+    border-radius: 20px;
+    height: 100%;
+    padding: 40px 30px 30px
+}
+
+.static-app .home .affiliate .apply-box-wrapper .apply-box h1 {
+    color: #52e0ff;
+    font-family: Inter;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px
+}
+
+.static-app .home .affiliate .apply-box-wrapper .apply-box p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 128%
+}
+
+.static-app .home .affiliate .tier-wrapper {
+    background-image: url(../img/static/affiliate-tier-bg.png);
+    background-position: 0
+}
+
+.static-app .home .affiliate .tier-wrapper .vertical-line {
+    -o-border-image: linear-gradient(180deg, rgba(34, 50, 90, 0) 1%, #22325a 50%, rgba(34, 50, 90, 0)) 0 100% 0 100%/0 2px 0 2px stretch;
+    border-image: linear-gradient(180deg, rgba(34, 50, 90, 0) 1%, #22325a 50%, rgba(34, 50, 90, 0)) 0 100% 0 100%/0 2px 0 2px stretch;
+    border-style: solid;
+    border-width: 2px
+}
+
+@media (max-width:1264px) {
+    .static-app .home .affiliate .tier-wrapper .vertical-line {
+        -o-border-image: linear-gradient(270deg, rgba(34, 50, 90, 0) 1%, #22325a 50%, rgba(34, 50, 90, 0)) 100% 0 100% 0/2px 0 2px 0 stretch;
+        border-image: linear-gradient(270deg, rgba(34, 50, 90, 0) 1%, #22325a 50%, rgba(34, 50, 90, 0)) 100% 0 100% 0/2px 0 2px 0 stretch;
+        width: 100%
+    }
+}
+
+.static-app .home .affiliate .tier-wrapper h1 span {
+    color: #52e0ff
+}
+
+.static-app .home .affiliate .tier-wrapper ul {
+    margin-left: 2em;
+    padding-left: 0
+}
+
+.static-app .home .affiliate .tier-wrapper li {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px
+}
+
+.static-app .home .affiliate .tier-wrapper li .fa-check {
+    color: #52e0ff
+}
+
+@media (min-width:1264px) {
+    .static-app .home .affiliate .tier-wrapper .tier-box .benefits-list {
+        height: 148px
+    }
+}
+
+.static-app .home .affiliate .tier-wrapper .tier-box .platform-wrapper {
+    margin-bottom: 20px
+}
+
+.static-app .home .affiliate .tier-wrapper .tier-box .platform-wrapper p {
+    margin-bottom: 10px
+}
+
+.static-app .home .affiliate .tier-wrapper .tier-box .platform-wrapper p span {
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: text-bottom
+}
+
+.static-app .home .affiliate .tier-wrapper .tier-box .platform-wrapper p .fab {
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    font-size: 25px;
+    height: 35px;
+    margin-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+    width: 35px
+}
+
+.static-app .home .affiliate .affiliate-apply {
+    background: #ffc107;
+    border-radius: 15px;
+    color: #050d23;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 25px 60px
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .affiliate-checkbox a {
+    color: #52e0ff;
+    display: contents
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper label {
+    color: #fff
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .v-input {
+    border-radius: 8px;
+    margin-top: 5px
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .v-input .v-input__slot {
+    background: #121212
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .v-input ::-moz-placeholder {
+    color: #393939
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .v-input ::placeholder {
+    color: #393939
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .social-profile-fields .row {
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+@media (max-width:960px) {
+    .static-app .home .affiliate .affiliate-form-wrapper .social-profile-fields .row {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+.static-app .home .affiliate .affiliate-form-wrapper .social-profile-fields .row+.row {
+    margin-top: 0
+}
+
+.static-app .home .hero.branding-guidelines {
+    background-image: url(../img/static/bg-waves.jpg);
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 0
+}
+
+.static-app .home .branding-guidelines a {
+    color: #6c5dd3
+}
+
+.static-app .home .hero2.branding-guidelines {
+    background-image: url(../img/static/branding-usage.svg);
+    background-position: top;
+    background-size: cover
+}
+
+.static-app .home .hero2.branding-guidelines .section:first-child {
+    padding-top: 0
+}
+
+.static-app .home .section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1
+}
+
+@media (max-width:550px) {
+    .static-app .home .section h2 {
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 10px
+    }
+}
+
+.static-app .home .section .mobile-bg-img-container {
+    margin-top: -70px;
+    position: relative;
+    z-index: 0
+}
+
+@media (min-width:1100px) {
+    .static-app .home .section .feature-description {
+        padding: 60px
+    }
+}
+
+.static-app .home .section .feature-description h3 {
+    color: #6c5dd3;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase
+}
+
+@media (max-width:550px) {
+    .static-app .home .section .feature-description h3 {
+        font-size: 18px
+    }
+}
+
+.static-app .home .section .gradient-border {
+    background: linear-gradient(180deg, #9588f2, rgba(149, 136, 242, 0));
+    border-radius: 40px;
+    padding: 1px;
+    position: relative;
+    z-index: 2
+}
+
+.static-app .home .section .gradient-border .steps-box {
+    background: #171a25;
+    border-radius: 40px;
+    box-shadow: 0 4px 100px 0 #6c5dd3;
+    overflow: hidden;
+    padding: 2rem;
+    position: relative
+}
+
+.static-app .home .section .gradient-border .steps-box .list-marker {
+    display: block;
+    font-size: 58px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1
+}
+
+.static-app .home .section .gradient-border .steps-box .list-marker:after {
+    background: #6c5dd3;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    content: "";
+    display: block;
+    height: 42px;
+    left: 0;
+    margin-left: -100%;
+    position: absolute;
+    right: calc(100% - 50px);
+    top: 48px;
+    z-index: -1
+}
+
+.static-app .home .section.who-section .box.left .box-border-gradient-wrapper .box-content-wrapper {
+    background: linear-gradient(90.16deg, #242731 .14%, rgba(36, 39, 49, 0) 98.9%)
+}
+
+.static-app .home .section.who-section .box.right .box-border-gradient-wrapper .box-content-wrapper {
+    background: linear-gradient(90.16deg, rgba(36, 39, 49, 0) .14%, #242731 98.9%)
+}
+
+.static-app .home .section.who-section .box .box-border-gradient-wrapper {
+    border-radius: 40px;
+    padding: 1px
+}
+
+.static-app .home .section.who-section .box .box-border-gradient-wrapper .box-content-wrapper {
+    border-radius: 40px;
+    padding: 20px 35px
+}
+
+.static-app .home .section.who-section .box .box-title {
+    color: #6c5dd3;
+    font-size: 26px;
+    font-weight: 700
+}
+
+.static-app .home .section .features-box {
+    background-color: rgba(36, 39, 49, .7);
+    background-image: url(../img/static/ellipse-2.svg?v=1);
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 27px rgba(13, 16, 24, .5)
+}
+
+.static-app .home .section .features-box .feature-icon {
+    padding: 50px;
+    width: 245px
+}
+
+.static-app .home .section .features-box .feature-icon p {
+    font-size: 20px;
+    margin-top: 15px
+}
+
+.static-app .home .section .supported-apps-list .app-wrapper {
+    padding: 40px;
+    width: 215px
+}
+
+@media (max-width:550px) {
+    .static-app .home .section .supported-apps-list .app-wrapper {
+        padding: 20px;
+        width: 100px
+    }
+}
+
+.static-app .contact,
+.static-app .dmca-policy {
+    background-image: url(../img/static/bg-waves.jpg);
+    background-position: top;
+    background-repeat: no-repeat
+}
+
+.static-app .contact .text-box,
+.static-app .dmca-policy .text-box {
+    background: rgba(23, 26, 37, .9);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 27px rgba(13, 16, 24, .5);
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: .8;
+    padding: 50px;
+    position: relative
+}
+
+.static-app .contact .text-box p,
+.static-app .dmca-policy .text-box p {
+    margin-bottom: 20px
+}
+
+.static-app .contact .text-box:after,
+.static-app .dmca-policy .text-box:after {
+    background: #11121a;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    bottom: -26px;
+    content: "";
+    height: 50px;
+    left: calc(50% - 4px);
+    position: absolute;
+    transform: rotate(45deg);
+    width: 50px;
+    z-index: 4
+}
+
+.static-app .contact .contact-box,
+.static-app .dmca-policy .contact-box {
+    background-color: #131313;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 27px rgba(13, 16, 24, .5);
+    padding: 50px
+}
+
+@media (min-width:959px) {
+    .static-app .contact .contact-box,
+    .static-app .dmca-policy .contact-box {
+        background-image: url(../img/static/contact-arrow-bg.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px
+    }
+}
+
+.static-app .contact .contact-box h3.subtitle,
+.static-app .dmca-policy .contact-box h3.subtitle {
+    color: #6c5dd3;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.static-app .contact .contact-box label,
+.static-app .dmca-policy .contact-box label {
+    color: #fff;
+    margin: 10px 0
+}
+
+.static-app .contact .contact-box .v-input__slot input,
+.static-app .dmca-policy .contact-box .v-input__slot input {
+    color: #fff
+}
+
+.static-app .contact .contact-box .v-input__slot input::-moz-placeholder,
+.static-app .dmca-policy .contact-box .v-input__slot input::-moz-placeholder {
+    color: #a1a0a0
+}
+
+.static-app .contact .contact-box .v-input__slot input::placeholder,
+.static-app .dmca-policy .contact-box .v-input__slot input::placeholder {
+    color: #a1a0a0
+}
+
+.static-app .contact .contact-box .v-input,
+.static-app .dmca-policy .contact-box .v-input {
+    background: #222;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.static-app .contact .contact-box textarea,
+.static-app .dmca-policy .contact-box textarea {
+    color: #fff;
+    font-weight: 700
+}
+
+.static-app .contact .contact-box textarea::-moz-placeholder,
+.static-app .dmca-policy .contact-box textarea::-moz-placeholder {
+    color: #a1a0a0
+}
+
+.static-app .contact .contact-box textarea::placeholder,
+.static-app .dmca-policy .contact-box textarea::placeholder {
+    color: #a1a0a0
+}
+
+.static-app .contact .contact-box fieldset,
+.static-app .dmca-policy .contact-box fieldset {
+    border: none !important
+}
+
+.static-app .dmca-policy .contact-box {
+    background: transparent;
+    background-image: url("../img/static/celebrity voice changer_icon.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: none;
+    opacity: 1
+}
+
+.static-app .theme--light .subscription-box {
+    background-color: #fff;
+    box-shadow: none
+}
+
+.static-app .theme--light .subscription-box .input-container .v-input__slot {
+    background: #f6f7fb
+}
+
+.static-app .subscription-box {
+    background: #171a25;
+    border: 1px solid #9285ec;
+    border-radius: 25px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    padding: 75px
+}
+
+@media (max-width:550px) {
+    .static-app .subscription-box {
+        padding: 20px
+    }
+}
+
+.static-app .subscription-box .box-title {
+    color: #9285ec;
+    font-size: 32px;
+    margin-bottom: 0;
+    padding-top: 13px
+}
+
+.static-app .subscription-box .v-text-field.v-text-field--enclosed .v-text-field__details,
+.static-app .subscription-box .v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot {
+    padding: 0 18px
+}
+
+.static-app .subscription-box .v-text-field .v-input__control,
+.static-app .subscription-box .v-text-field .v-input__slot,
+.static-app .subscription-box .v-text-field fieldset {
+    border-radius: 15px
+}
+
+.static-app .subscription-box .input-container {
+    border-radius: 10px
+}
+
+.static-app .subscription-box .input-container .v-input__slot {
+    background: #2b2b4a
+}
+
+.static-app .subscription-box .input-container .v-input__slot input {
+    color: #9285ec !important
+}
+
+.static-app .subscription-box .input-container .v-input__slot ::-moz-placeholder {
+    color: #9285ec !important;
+    opacity: 1
+}
+
+.static-app .subscription-box .input-container .v-input__slot ::placeholder {
+    color: #9285ec !important
+}
+
+.static-app .subscription-box .input-container fieldset {
+    border: none !important
+}
+
+.static-app .subscription-box .input-container .v-text-field--enclosed .v-input__append-inner {
+    margin-top: 10px !important
+}
+
+.static-app .subscription-box .input-container button {
+    background: linear-gradient(93.16deg, #7d6fde 2.68%, #6c5dd3 97.44%);
+    border: none;
+    color: #fff !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 25px
+}
+
+.static-app .subscription-box .input-container button.hidden-md-and-up {
+    border-radius: 10px;
+    width: 100%
+}
+
+.static-app .platform-icons .v-image {
+    display: inline-flex;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 30px;
+    opacity: .6;
+    width: 60px
+}
+
+.static-app .platform-icons .v-image.active,
+.static-app .platform-icons .v-image:hover {
+    opacity: 1
+}
+
+.static-app .platform-icons p {
+    color: #c4c4c4;
+    font-size: 14px
+}
+
+.fa-play:before {
+    margin-left: 8px
+}
+
+.screen {
+    border: 22px solid #6c5dd3;
+    border-left: unset;
+    border-radius: 50px;
+    border-top: unset
+}
+
+.embed-responsive {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    border: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.embed-responsive-16by9:before {
+    padding-top: 56.25%
+}
+
+.embed-responsive:before {
+    content: "";
+    display: block
+}
+
+.play-button {
+    border: 3px solid #fff;
+    border-radius: 45px;
+    color: #fff;
+    height: 64px;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    padding-left: 5px;
+    padding-top: 5px;
+    position: absolute;
+    top: 50%;
+    width: 64px
+}
+
+.mt-40px {
+    margin-top: 40px !important
+}
+
+.v-alert {
+    border-radius: 15px !important;
+    position: inherit
+}
+
+.cursor-pointer {
+    cursor: pointer !important
+}
+
+.brand-usage .section {
+    padding: 20px 40px
+}
+
+@media (max-width:1150px) {
+    .brand-usage .section {
+        padding: 30px 10px
+    }
+}
+
+.branding-assets h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.branding-assets h4 {
+    color: #939393;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.branding-assets .btn-download {
+    background: #6c5dd3 !important;
+    border-radius: 5px;
+    color: #fff !important;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 9px 18px;
+    text-decoration: none;
+    text-transform: none
+}
+
+.branding-assets .btn-download .arrow-to-bottom {
+    margin-left: 5px
+}
+
+.branding-assets .col-sm-3 {
+    text-align: center
+}
+
+.branding-assets .col-sm-3>span {
+    display: block;
+    min-height: 50px
+}
+
+.branding-assets .col-sm-3 .btn-download {
+    gap: 10px;
+    height: auto !important;
+    margin-top: 10px;
+    padding: 5px 10px !important
+}
+
+.branding-assets video {
+    border-radius: 30px;
+    max-height: 100%;
+    width: 100%
+}
+
+.branding-assets .audio-player-wrapper {
+    background: #171a25;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px
+}
+
+.branding-assets .audio-player-wrapper .btn-download {
+    margin-top: 0;
+    white-space: nowrap
+}
+
+@media (max-width:1200px) {
+    .branding-assets .audio-player-wrapper .btn-download {
+        font-size: 12px;
+        line-height: 24px
+    }
+}
+
+.branding-assets .audio-player-wrapper .fa-play:before {
+    margin-left: 0
+}
+
+.branding-assets .audio-player-wrapper .fas {
+    top: 15px
+}
+
+.branding-assets .audio-player-wrapper .name {
+    margin-right: 5px
+}
+
+.branding-assets .v-select__selections input {
+    cursor: pointer
+}
+
+.branding-assets .v-text-field--enclosed.theme--dark .v-input__append-inner {
+    margin-top: 0 !important
+}
+
+.branding-assets .v-select.v-input--dense .v-select__selection--comma {
+    margin: 0 !important
+}
+
+.section.warning-wrapper {
+    padding: 30px 0
+}
+
+@media (min-width:550px) {
+    .section.warning-wrapper {
+        padding: 20px 60px
+    }
+}
+
+.section.warning-wrapper .branding-box {
+    padding: 30px 20px
+}
+
+@media (min-width:550px) {
+    .section.warning-wrapper .branding-box {
+        padding: 20px 10px
+    }
+}
+
+.section.warning-wrapper .branding-box p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 129.5%;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+@media screen and (max-width:550px) {
+    .section.warning-wrapper .branding-box p {
+        margin-left: 0;
+        margin-top: 0
+    }
+}
+
+.branding-box {
+    background: #171a25;
+    border: 1px solid #9588f2;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(108, 93, 211, .25);
+    min-height: 200px;
+    padding: 50px 30px;
+    position: relative
+}
+
+@media (min-width:550px) {
+    .branding-box {
+        padding: 40px 10px
+    }
+}
+
+.branding-box .brand-usage-list {
+    font-size: 20px;
+    line-height: 129.5%;
+    margin-left: 10px;
+    margin-top: 30px
+}
+
+@media (min-width:959px) {
+    .branding-box .brand-usage-list {
+        margin-left: 130px
+    }
+}
+
+.branding-box .brand-usage-list ul {
+    list-style: none
+}
+
+.branding-box .brand-usage-list ul li:before {
+    color: #6c5dd3;
+    content: "•";
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -1em;
+    width: 1em
+}
+
+.branding-box .brand-usage-list li {
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.branding-box span {
+    color: #6c5dd3;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 700
+}
+
+.branding-box .purple-text {
+    font-size: 30px;
+    font-weight: 700
+}
+
+.branding-box .red-text {
+    color: #f2472c;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.branding-box .usage-wrapper p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 129.5%;
+    margin-bottom: 15px;
+    margin-left: 41px
+}
+
+@media screen and (max-width:550px) {
+    .branding-box .usage-wrapper p {
+        margin-left: 0
+    }
+}
+
+.how-to-box {
+    background: #171a25;
+    border: 1px solid #9588f2;
+    border-radius: 40px;
+    box-shadow: 0 4px 100px rgba(108, 93, 211, .4);
+    min-height: 400px;
+    padding: 40px 50px;
+    position: relative
+}
+
+.how-to-box .chaticons {
+    bottom: -30px;
+    left: -30px
+}
+
+.how-to-box .chaticons,
+.how-to-box .faceicon {
+    position: absolute;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.how-to-box .faceicon {
+    bottom: -110px;
+    right: -160px
+}
+
+.how-to-box h4 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129.5%;
+    margin-bottom: 60px
+}
+
+.how-to-box .steps-wrapper {
+    margin-bottom: 50px
+}
+
+.how-to-box .steps-wrapper p {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.5%;
+    margin-bottom: 15px;
+    margin-left: 41px
+}
+
+@media screen and (max-width:550px) {
+    .how-to-box .steps-wrapper p {
+        margin-left: 0
+    }
+}
+
+.how-to-box .members-wrapper p {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.5%;
+    margin-bottom: 29px
+}
+
+.how-to-box .members-wrapper .text-wrapper {
+    margin-bottom: 100px;
+    min-height: 200px
+}
+
+.how-to-box .members-wrapper .name-wrapper {
+    bottom: 10px;
+    position: absolute;
+    right: 10%;
+    text-align: right
+}
+
+.how-to-box .cta.green,
+.how-to-box .cta.yellow {
+    bottom: -30px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.cloning .apps-featured,
+.pc .apps-featured,
+.voiceuniverse .apps-featured {
+    padding: 50px 80px
+}
+
+@media (max-width:1150px) {
+    .cloning .apps-featured,
+    .pc .apps-featured,
+    .voiceuniverse .apps-featured {
+        padding: 30px
+    }
+}
+
+.cloning .section.apps-featured .supported-apps-list .app-wrapper,
+.pc .section.apps-featured .supported-apps-list .app-wrapper,
+.voiceuniverse .section.apps-featured .supported-apps-list .app-wrapper {
+    width: auto
+}
+
+@media (max-width:550px) {
+    .cloning .section.apps-featured .supported-apps-list .app-wrapper,
+    .pc .section.apps-featured .supported-apps-list .app-wrapper,
+    .voiceuniverse .section.apps-featured .supported-apps-list .app-wrapper {
+        padding: 20px;
+        width: 100px
+    }
+}
+
+.apps-featured p {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    text-align: center
+}
+
+.apps-featured .highlight {
+    font-weight: 600
+}
+
+.apps-featured .highlight a {
+    color: inherit;
+    text-decoration: unset
+}
+
+@media screen and (max-width:1024px) {
+    .static-app .home .hero {
+        padding: 0
+    }
+    .app-nav a {
+        margin-left: 0
+    }
+}
+
+.text-white {
+    color: #fff !important
+}
+
+.text-purple,
+.text-white {
+    text-decoration: none !important
+}
+
+.text-purple {
+    color: #6c5dd3 !important
+}
+
+.yt-video-holder {
+    margin: 50px 0 150px;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%
+}
+
+@media (max-width:959px) {
+    .yt-video-holder {
+        margin: 50px 0
+    }
+}
+
+.yt-video-holder img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+@media (max-width:959px) {
+    .yt-video-holder img {
+        display: none
+    }
+}
+
+.yt-video-holder .yt-vid-faces {
+    right: -18%
+}
+
+.yt-video-holder .yt-vid-mic {
+    left: -25%
+}
+
+.yt-video-iframe {
+    border: 1px solid #6c5dd3;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 28px
+}
+
+.purple-text {
+    color: #6c5dd3
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins, serif
+}
+
+/*# sourceMappingURL=static.css.map*/
